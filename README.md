@@ -21,6 +21,9 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/master/metrics.svg">
 </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/master/github-metrics.svg">
+</p>
 
 
 ---
