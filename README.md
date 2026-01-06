@@ -1,4 +1,6 @@
-## Hi there 👋
+## 📊 GitHub Metrics
+
+![Metrics](https://raw.githubusercontent.com/CISSSCO/CISSSCO/main/github-metrics.svg)
 
 <!--
 **CISSSCO/CISSSCO** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
