@@ -1,18 +1,66 @@
-## 📊 GitHub Metrics
+<h1 align="center">👋 Hi, I'm Cisco Ramon (CISSSCO)</h1>
 
-![Metrics](https://raw.githubusercontent.com/CISSSCO/CISSSCO/main/github-metrics.svg)
+<p align="center">
+  <b>Linux • Tooling • Automation • Open Source</b><br>
+  I love testing, configuring, and building tools around Linux systems and developer workflows.
+</p>
 
-<!--
-**CISSSCO/CISSSCO** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  <a href="https://github.com/CISSSCO">
+    <img src="https://img.shields.io/github/followers/CISSSCO?label=Followers&style=for-the-badge">
+  </a>
+  <a href="https://github.com/CISSSCO?tab=repositories">
+    <img src="https://img.shields.io/github/stars/CISSSCO?affiliations=OWNER&style=for-the-badge">
+  </a>
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📊 GitHub Metrics (Live)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/main/github-metrics.svg" alt="GitHub Metrics"/>
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+| Project | Description |
+|-------|-------------|
+| **cerrfix** | Error detection & fix suggestion tool for developers |
+| **scripts** | Useful Linux & automation scripts |
+| **dotfiles** | Personal Linux & shell configuration |
+| **gitpush** | Simplified Git workflow helper |
+
+👉 More projects: **[View Repositories](https://github.com/CISSSCO?tab=repositories)**
+
+---
+
+## 🛠️ What I Work With
+
+- 🐧 Linux (daily driver)
+- ⚙️ Bash & Shell scripting
+- 🐍 Python
+- 🔧 Dev tools & automation
+- 📦 Open-source tooling
+- 🧪 Testing & configuration
+
+---
+
+## 📈 Activity & Philosophy
+
+- 🔁 I commit frequently and iterate fast
+- 🧠 Prefer simple, inspectable tools
+- 🛠️ Build utilities I personally need
+- 🌱 Always learning internals
+
+---
+
+## 📫 Connect With Me
+
+- GitHub: https://github.com/CISSSCO
+
+<p align="center">
+  <i>“Tools should reduce friction, not add to it.”</i>
+</p>
