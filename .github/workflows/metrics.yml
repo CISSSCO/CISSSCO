@@ -1,47 +1,34 @@
 name: GitHub Metrics
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch:
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate metrics
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-
-          # REQUIRED
           user: CISSSCO
-          config_timezone: Asia/Kolkata
 
-          # IMPORTANT: branch & output
+          # Commit settings
           output_action: commit
-          output_branch: master
-          output_filename: metrics.svg
+          committer_branch: master
+          filename: github-metrics.svg
 
-          # BASE
+          # Base sections
           template: classic
           base: header, activity, community, repositories, metadata
 
-          # PLUGINS
-          plugin_habits: yes
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
-
+          # Useful plugins (VALID)
           plugin_languages: yes
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
-
+          plugin_habits: yes
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
-          plugin_streak: yes
-          plugin_topics: yes
           plugin_projects: yes
+          plugin_topics: yes
 
-          # THEME
-          theme: dark
+          # Config
+          config_timezone: Asia/Kolkata
