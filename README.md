@@ -19,8 +19,9 @@
 ## 📊 GitHub Metrics (Live)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/main/github-metrics.svg" alt="GitHub Metrics"/>
+  <img src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/master/metrics.svg">
 </p>
+
 
 ---
 
