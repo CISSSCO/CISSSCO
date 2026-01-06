@@ -1,30 +1,39 @@
-<h1 align="center">👋 Hi, I'm Cisco Ramon (CISSSCO)</h1>
+<h1 align="center">Hi 👋, I'm Cisco Ramon</h1>
+<h3 align="center">Linux • Tooling • Automation • Open Source</h3>
 
 <p align="center">
-  <b>Linux • Tooling • Automation • Open Source</b><br>
-  I love testing, configuring, and building tools around Linux systems and developer workflows.
+  I enjoy testing, configuring, and building tools around Linux systems and developer workflows.
 </p>
 
 <p align="center">
   <a href="https://github.com/CISSSCO">
-    <img src="https://img.shields.io/github/followers/CISSSCO?label=Followers&style=for-the-badge">
+    <img src="https://img.shields.io/github/followers/CISSSCO?label=Followers&style=flat-square">
   </a>
   <a href="https://github.com/CISSSCO?tab=repositories">
-    <img src="https://img.shields.io/github/stars/CISSSCO?affiliations=OWNER&style=for-the-badge">
+    <img src="https://img.shields.io/github/stars/CISSSCO?affiliations=OWNER&style=flat-square">
   </a>
 </p>
 
 ---
 
-## 📊 GitHub Metrics (Live)
+## 🧠 About Me
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/master/metrics.svg">
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/master/github-metrics.svg">
-</p>
+- 🐧 Linux enthusiast & daily user  
+- ⚙️ Interested in system internals and tooling  
+- 🧪 Love experimenting, breaking, and fixing things  
+- 🌱 Exploring open-source contributions  
 
+---
+
+## 🛠️ Tech & Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-000000?style=flat-square&logo=linux">
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/Open%20Source-3DA639?style=flat-square&logo=open-source-initiative&logoColor=white">
+</p>
 
 ---
 
@@ -32,39 +41,28 @@
 
 | Project | Description |
 |-------|-------------|
-| **cerrfix** | Error detection & fix suggestion tool for developers |
-| **scripts** | Useful Linux & automation scripts |
-| **dotfiles** | Personal Linux & shell configuration |
-| **gitpush** | Simplified Git workflow helper |
+| **cerrfix** | Tool to analyze errors and suggest possible fixes |
+| **gitpush** | Simple helper to automate common git workflows |
+| **dotfiles** | Personal shell & Linux environment configuration |
+| **scripts** | Collection of useful Linux & automation scripts |
 
-👉 More projects: **[View Repositories](https://github.com/CISSSCO?tab=repositories)**
-
----
-
-## 🛠️ What I Work With
-
-- 🐧 Linux (daily driver)
-- ⚙️ Bash & Shell scripting
-- 🐍 Python
-- 🔧 Dev tools & automation
-- 📦 Open-source tooling
-- 🧪 Testing & configuration
+👉 See all projects: **[Repositories](https://github.com/CISSSCO?tab=repositories)**
 
 ---
 
-## 📈 Activity & Philosophy
+## 📈 GitHub Stats
 
-- 🔁 I commit frequently and iterate fast
-- 🧠 Prefer simple, inspectable tools
-- 🛠️ Build utilities I personally need
-- 🌱 Always learning internals
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=CISSSCO&show_icons=true&theme=default" height="150">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CISSSCO&layout=compact" height="150">
+</p>
 
 ---
 
-## 📫 Connect With Me
+## 📫 Contact
 
 - GitHub: https://github.com/CISSSCO
 
 <p align="center">
-  <i>“Tools should reduce friction, not add to it.”</i>
+  <i>“Build simple tools that solve real problems.”</i>
 </p>
