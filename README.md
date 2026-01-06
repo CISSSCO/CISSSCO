@@ -1,3 +1,4 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Cisco%20Ramon&fontSize=40" />
 <h1 align="center">Hi 👋, I'm Cisco Ramon</h1>
 <h3 align="center">Linux • Tooling • Automation • Open Source</h3>
 
@@ -50,11 +51,10 @@
 
 ---
 
-## 📈 GitHub Stats
+## 📊 Contribution Graph
 
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=CISSSCO&show_icons=true&theme=default" height="150">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CISSSCO&layout=compact" height="150">
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CISSSCO&theme=gruvbox" />
 </p>
 
 ---
