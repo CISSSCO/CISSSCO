@@ -59,13 +59,12 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=CISSSCO&theme=gruvbox" />
 </p>
 
-### 📊 GitHub Dashboard
+### 📊 GitHub Streak
 
-![Stats](https://github-readme-stats.vercel.app/api?username=CISSSCO&show_icons=true&hide_border=true)
-![Activity](https://github-readme-activity-graph.vercel.app/graph?username=CISSSCO&hide_border=true)
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=CISSSCO&hide_border=true" />
+</p>
 
-
-![GitHub Streak](https://streak-stats.demolab.com?user=CISSSCO&hide_border=true)
 
 
 ---
