@@ -34,6 +34,8 @@
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/Open%20Source-3DA639?style=flat-square&logo=open-source-initiative&logoColor=white">
+  <img src="https://img.shields.io/badge/C-00599C?logo=c&logoColor=white">
+  <img src="https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white">
 </p>
 
 ---
@@ -56,6 +58,15 @@
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=CISSSCO&theme=gruvbox" />
 </p>
+
+### 📊 GitHub Dashboard
+
+![Stats](https://github-readme-stats.vercel.app/api?username=CISSSCO&show_icons=true&hide_border=true)
+![Activity](https://github-readme-activity-graph.vercel.app/graph?username=CISSSCO&hide_border=true)
+
+
+![GitHub Streak](https://streak-stats.demolab.com?user=CISSSCO&hide_border=true)
+
 
 ---
 
