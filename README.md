@@ -1,6 +1,6 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Cisco%20Ramon&fontSize=40" />
 
-<h1 align="center">Hi 👋, I'm Cisco Ramon (Abhishek Raj)</h1>
+<h1 align="center">Hi 👋, I'm Abhishek Raj</h1>
 <h3 align="center">
 HPC • Linux • Parallel Programming • Scientific & Systems Software
 </h3>
