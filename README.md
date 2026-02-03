@@ -20,7 +20,7 @@ HPC • Linux • Parallel Programming • Scientific & Systems Software
   </a>
 </p>
 
----
+
 
 ## 🧠 About Me
 
@@ -33,7 +33,7 @@ HPC • Linux • Parallel Programming • Scientific & Systems Software
 - 🌍 Open-source believer who enjoys building practical tools
 - 🎮 Gamer who obsesses over performance, latency, and system behavior
 
----
+
 
 ## 🐧 Linux Systems, Applications & Customization
 
@@ -51,7 +51,7 @@ This hands-on experimentation deepens my understanding of **Linux internals,
 package ecosystems, desktop environments, and system behavior**—knowledge that
 directly feeds into my work on clusters, servers, and large-scale systems.
 
----
+
 
 ## 🛠️ Tech & Tools
 
@@ -67,7 +67,7 @@ directly feeds into my work on clusters, servers, and large-scale systems.
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 </p>
 
----
+
 
 ## 🚀 Featured Projects
 
@@ -81,7 +81,7 @@ directly feeds into my work on clusters, servers, and large-scale systems.
 👉 Explore all projects:  
 **https://github.com/CISSSCO?tab=repositories**
 
----
+
 
 ## 🧪 Areas of Interest
 
@@ -95,7 +95,7 @@ directly feeds into my work on clusters, servers, and large-scale systems.
 - Automation, CLI tooling & developer productivity
 - Open-source infrastructure
 
----
+
 
 ## 🌐 Portfolio
 
@@ -104,12 +104,12 @@ minimal, reproducible, and Linux-first.
 
 👉 **https://cisssco.github.io**
 
----
+
 
 ## 📊 Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CISSSCO&theme=gruvbox" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CISSSCO&theme=dracula" />
 </p>
 
 <!-- GitHub contribution heatmap -->
@@ -120,20 +120,7 @@ minimal, reproducible, and Linux-first.
   </a>
 </p>
 
-<!-- GitHub stats cards: summary, top languages, streak -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=CISSSCO&show_icons=true&theme=gruvbox" alt="CISSSCO's GitHub stats" />
-</p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CISSSCO&layout=compact&theme=gruvbox" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CISSSCO&theme=gruvbox" alt="GitHub streak" />
-</p>
-
----
 
 ## 📫 Contact
 
