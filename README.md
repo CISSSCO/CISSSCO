@@ -51,7 +51,10 @@ This hands-on experimentation deepens my understanding of **Linux internals,
 package ecosystems, desktop environments, and system behavior**—knowledge that
 directly feeds into my work on clusters, servers, and large-scale systems.
 
+## 🌐 Portfolio
 
+👉 **https://ciscoramon.pages.dev**
+👉 **https://cisssco.github.io**
 
 ## 🛠️ Tech & Tools
 
@@ -94,16 +97,6 @@ directly feeds into my work on clusters, servers, and large-scale systems.
 - Theming, workflows & reproducible environments
 - Automation, CLI tooling & developer productivity
 - Open-source infrastructure
-
-
-
-## 🌐 Portfolio
-
-I maintain a **terminal-driven personal portfolio** that reflects how I work:
-minimal, reproducible, and Linux-first.
-
-👉 **https://cisssco.github.io**
-
 
 
 ## 📊 Activity
