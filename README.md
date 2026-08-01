@@ -76,6 +76,8 @@ directly feeds into my work on clusters, servers, and large-scale systems.
 
 | Project | Focus |
 |-------|-------|
+| **[HPCCFS](https://github.com/CISSSCO/HPCCFS)** | A practical guide to built an HPC Cluster from scratch |
+| **[Playlisto](https://github.com/CISSSCO/HPCCFS)** | Turn Google Drive into your personal music streaming server |
 | **[cerrfix](https://github.com/CISSSCO/cerrfix)** | Rule-based error analysis & fix suggestions for Linux systems |
 | **[gitpush](https://github.com/CISSSCO/gitpush)** | Minimal CLI tool to automate common Git workflows |
 | **[Portfolio](https://github.com/CISSSCO/CiscoRamon)** | React and threejs based personal website |
@@ -86,6 +88,12 @@ directly feeds into my work on clusters, servers, and large-scale systems.
 **https://github.com/CISSSCO?tab=repositories**
 
 
+## 🚀 Featured Websites
+
+| Project | Focus |
+|-------|-------|
+| **[HPCCFS](https://cisssco.github.io/HPCCFS/)** | A practical guide to built an HPC Cluster from scratch |
+| **[Personal Website](https://ciscoramon.netlify.app/)** | Web portfolio showcasing my skills and projects |
 
 ## 🧪 Areas of Interest
 
