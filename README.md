@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:282a36,50:bd93f9,100:ff79c6&height=190&section=header&text=Abhishek%20Raj&fontSize=48&fontColor=f8f8f2&animation=fadeIn&fontAlignY=38&desc=HPC%20%C2%B7%20Linux%20%C2%B7%20Parallel%20Computing&descAlignY=58&descSize=18&descColor=f8f8f2" alt="Abhishek Raj — HPC, Linux, and Parallel Computing" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=BD93F9&center=true&vCenter=true&width=720&lines=Building+fast%2C+reproducible+scientific+systems.;Turning+complex+infrastructure+into+practical+tools.;Open+source%2C+one+well-tuned+workflow+at+a+time." alt="Animated introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=BD93F9&center=true&vCenter=true&width=820&lines=HPC+Engineer+%C2%B7+Scientific+Programmer+%C2%B7+Linux+Application+Developer.;Parallel+computing%2C+GPU+acceleration%2C+and+reproducible+research+software.;Building+practical+tools+for+complex+compute+environments." alt="Animated professional introduction" />
 </p>
 
 <p align="center">
@@ -23,7 +23,9 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
       <ul>
         <li>Clusters, schedulers, and reproducible compute environments</li>
         <li>MPI, OpenMP, CUDA, and OpenACC applications</li>
-        <li>Automation and developer tooling for Linux workflows</li>
+        <li>Linux applications, automation, and developer tooling</li>
+        <li>Scientific software deployment, porting, and optimization</li>
+        <li>Training material and practical HPC learning environments</li>
       </ul>
     </td>
     <td width="50%" valign="top">
@@ -32,6 +34,8 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
         <li>Scalable scientific and research workloads</li>
         <li>Clear documentation, mentoring, and technical training</li>
         <li>Performance, latency, and thoughtful systems design</li>
+        <li>Reliable, reproducible, and usable Linux environments</li>
+        <li>Open source and accessible high-performance computing</li>
       </ul>
     </td>
   </tr>
@@ -49,6 +53,7 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
   <img src="https://img.shields.io/badge/Linux-282a36?style=for-the-badge&logo=linux&logoColor=ffb86c" alt="Linux" />
   <img src="https://img.shields.io/badge/Bash-282a36?style=for-the-badge&logo=gnubash&logoColor=50fa7b" alt="Bash" />
   <img src="https://img.shields.io/badge/Python-282a36?style=for-the-badge&logo=python&logoColor=8be9fd" alt="Python" />
+  <img src="https://img.shields.io/badge/AI%2FML%20Apps-282a36?style=for-the-badge&logo=scikitlearn&logoColor=ffb86c" alt="AI and ML application development" />
   <img src="https://img.shields.io/badge/C-282a36?style=for-the-badge&logo=c&logoColor=bd93f9" alt="C" />
   <img src="https://img.shields.io/badge/C%2B%2B-282a36?style=for-the-badge&logo=cplusplus&logoColor=bd93f9" alt="C++" />
 </p>
@@ -155,15 +160,15 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://www.iitbhu.ac.in/"><img src="https://img.shields.io/badge/HPC_Application_Engineer-bd93f9?style=for-the-badge&logo=linux&logoColor=282a36" alt="HPC Application Engineer" /></a><br /><br />
+      <a href="https://ciscoramon.netlify.app/experience/iitbhu"><img src="https://img.shields.io/badge/HPC_Application_Engineer-bd93f9?style=for-the-badge&logo=linux&logoColor=282a36" alt="HPC Application Engineer" /></a><br /><br />
       <b>Indian Institute of Technology (BHU), Varanasi</b><br />
-      Feb 2025 — Present<br /><br />
+      Feb 2025 — Aug 2026 &nbsp;|&nbsp; 1.5 years<br /><br />
       Supporting scientific workloads on the PARAM Shivay supercomputing cluster: software environments, job workflows, performance troubleshooting, and Linux/HPC operations.
     </td>
     <td width="50%" valign="top">
-      <a href="https://www.cdac.in/"><img src="https://img.shields.io/badge/Project_Engineer-ff79c6?style=for-the-badge&logo=codeforces&logoColor=282a36" alt="Project Engineer" /></a><br /><br />
+      <a href="https://ciscoramon.netlify.app/experience/cdac"><img src="https://img.shields.io/badge/Project_Engineer-ff79c6?style=for-the-badge&logo=codeforces&logoColor=282a36" alt="Project Engineer" /></a><br /><br />
       <b>Centre for Development of Advanced Computing (C-DAC), India</b><br />
-      Apr 2024 — Present<br /><br />
+      Apr 2024 — Present &nbsp;|&nbsp; 2.5 years<br /><br />
       Contributing to National Supercomputing Mission research, HPC software R&amp;D, parallel-programming education, workshops, and technical mentoring.
     </td>
   </tr>
@@ -196,10 +201,33 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=FFB86C&center=true&vCenter=true&width=460&height=42&lines=interests%5B%5D" alt="interests" />
 </p>
 
-`HPC` · `Linux systems` · `Parallel programming` · `Scientific computing` · `Job scheduling` · `Performance tuning` · `Reproducible environments` · `Open-source infrastructure`
-
 <p align="center">
-  <i>“Build simple tools that make complex systems easier to use.”</i>
+  <img src="https://img.shields.io/badge/Linux-bd93f9?style=for-the-badge&logo=linux&logoColor=282a36" alt="Linux" />
+  <img src="https://img.shields.io/badge/C%20%2F%20C%2B%2B-bd93f9?style=for-the-badge&logo=cplusplus&logoColor=282a36" alt="C and C++" />
+  <img src="https://img.shields.io/badge/Supercomputing-bd93f9?style=for-the-badge&logoColor=282a36" alt="Supercomputing" />
+  <img src="https://img.shields.io/badge/Shell%20Scripting-bd93f9?style=for-the-badge&logo=gnubash&logoColor=282a36" alt="Shell Scripting" />
+  <img src="https://img.shields.io/badge/Scientific%20Computing-bd93f9?style=for-the-badge&logoColor=282a36" alt="Scientific Computing" />
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:282a36,50:bd93f9,100:ff79c6&height=120&section=footer" alt="Dracula gradient footer" />
+<p align="center">
+  <img src="https://img.shields.io/badge/MPI-ff79c6?style=for-the-badge&logoColor=282a36" alt="MPI" />
+  <img src="https://img.shields.io/badge/OpenMP-ff79c6?style=for-the-badge&logoColor=282a36" alt="OpenMP" />
+  <img src="https://img.shields.io/badge/Slurm-ff79c6?style=for-the-badge&logoColor=282a36" alt="Slurm" />
+  <img src="https://img.shields.io/badge/Spack-ff79c6?style=for-the-badge&logoColor=282a36" alt="Spack" />
+  <img src="https://img.shields.io/badge/Cluster%20Administration-ff79c6?style=for-the-badge&logoColor=282a36" alt="Cluster Administration" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Application%20Porting-8be9fd?style=for-the-badge&logoColor=282a36" alt="Application Porting" />
+  <img src="https://img.shields.io/badge/Software%20Deployment-8be9fd?style=for-the-badge&logoColor=282a36" alt="Software Deployment" />
+  <img src="https://img.shields.io/badge/Performance%20Analysis-8be9fd?style=for-the-badge&logoColor=282a36" alt="Performance Analysis" />
+  <img src="https://img.shields.io/badge/Technical%20Documentation-8be9fd?style=for-the-badge&logoColor=282a36" alt="Technical Documentation" />
+  <img src="https://img.shields.io/badge/Training%20%26%20Mentoring-8be9fd?style=for-the-badge&logoColor=282a36" alt="Training and Mentoring" />
+  <img src="https://img.shields.io/badge/AI%2FML-8be9fd?style=for-the-badge&logo=scikitlearn&logoColor=282a36" alt="AI/ML" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3600&pause=1500&color=FF79C6&center=true&vCenter=true&width=760&height=46&lines=%E2%9C%A6+Build+simple+tools+that+make+complex+systems+easier+to+use.+%E2%9C%A6" alt="Build simple tools that make complex systems easier to use" />
+</p>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:282a36,50:bd93f9,100:ff79c6&height=130&section=footer&text=Cisco%20Ramon&fontSize=22&fontColor=f8f8f2&animation=fadeIn&fontAlignY=68" alt="Cisco Ramon" />
