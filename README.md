@@ -14,7 +14,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=FF79C6&center=true&vCenter=true&width=420&height=42&lines=%24+whoami" alt="whoami" />
 </p>
 
-I’m a Linux-focused HPC and systems engineer working where **high-performance computing**, **parallel programming**, and **scientific software** meet. I enjoy turning demanding workloads and distributed environments into systems that are fast, maintainable, and pleasant to use.
+I’m a Linux-focused HPC and systems engineer working where **high-performance computing**, **parallel programming**, and **scientific software** meet. I write code for Linux applications, build and tune parallel programs, and turn demanding distributed workloads into systems that are fast, maintainable, and pleasant to use.
 
 <table>
   <tr>
@@ -60,6 +60,33 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
   <img src="https://img.shields.io/badge/OpenACC-44475a?style=for-the-badge&logoColor=f8f8f2" alt="OpenACC" />
   <img src="https://img.shields.io/badge/Git-44475a?style=for-the-badge&logo=git&logoColor=ff5555" alt="Git" />
 </p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=FFB86C&center=true&vCenter=true&width=460&height=42&lines=capabilities%5B%5D" alt="capabilities" />
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <b>Parallel &amp; scientific computing</b><br /><br />
+      MPI · OpenMP · Pthreads · CUDA · OpenACC · Fortran · performance analysis
+    </td>
+    <td width="50%" valign="top">
+      <b>Linux application development</b><br /><br />
+      C/C++ · Python · Bash · CMake · GNU Make · application porting · software deployment
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <b>HPC platforms &amp; tooling</b><br /><br />
+      Slurm · Spack · Conda · Apptainer · JupyterHub · Intel oneAPI · OpenMPI
+    </td>
+    <td width="50%" valign="top">
+      <b>Systems &amp; community</b><br /><br />
+      Cluster administration · Linux customization · technical documentation · training · mentoring
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=8BE9FD&center=true&vCenter=true&width=460&height=42&lines=~%2Fprojects" alt="projects" />
@@ -118,8 +145,29 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
 
 <p align="center">
   <a href="https://github.com/CISSSCO?tab=repositories"><img src="https://img.shields.io/badge/Explore_all_repositories-6272a4?style=for-the-badge&logo=github&logoColor=f8f8f2" alt="Explore all repositories" /></a>
-  <a href="https://cisssco.github.io"><img src="https://img.shields.io/badge/Project_documentation-6272a4?style=for-the-badge&logo=readthedocs&logoColor=f8f8f2" alt="Project documentation" /></a>
+  <a href="https://cisssco.github.io"><img src="https://img.shields.io/badge/Terminal_Portfolio-6272a4?style=for-the-badge&logo=gnome-terminal&logoColor=f8f8f2" alt="Terminal portfolio" /></a>
 </p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=8BE9FD&center=true&vCenter=true&width=500&height=42&lines=experience.log" alt="experience" />
+</p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://www.iitbhu.ac.in/"><img src="https://img.shields.io/badge/HPC_Application_Engineer-bd93f9?style=for-the-badge&logo=linux&logoColor=282a36" alt="HPC Application Engineer" /></a><br /><br />
+      <b>Indian Institute of Technology (BHU), Varanasi</b><br />
+      Feb 2025 — Present<br /><br />
+      Supporting scientific workloads on the PARAM Shivay supercomputing cluster: software environments, job workflows, performance troubleshooting, and Linux/HPC operations.
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://www.cdac.in/"><img src="https://img.shields.io/badge/Project_Engineer-ff79c6?style=for-the-badge&logo=codeforces&logoColor=282a36" alt="Project Engineer" /></a><br /><br />
+      <b>Centre for Development of Advanced Computing (C-DAC), India</b><br />
+      Apr 2024 — Present<br /><br />
+      Contributing to National Supercomputing Mission research, HPC software R&amp;D, parallel-programming education, workshops, and technical mentoring.
+    </td>
+  </tr>
+</table>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=50FA7B&center=true&vCenter=true&width=520&height=42&lines=%24+system.status%28%29" alt="system status" />
@@ -134,15 +182,6 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
 <p align="center">
   <a href="https://github.com/CISSSCO">
     <img src="https://streak-stats.demolab.com?user=CISSSCO&theme=dracula&hide_border=true" alt="CISSSCO's GitHub contribution streak" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=BD93F9&center=true&vCenter=true&width=500&height=38&lines=Contribution+Map" alt="Contribution Map" />
-</p>
-<p align="center">
-  <a href="https://github.com/CISSSCO">
-    <img src="https://ghchart.rshah.org/bd93f9/CISSSCO" alt="CISSSCO's Dracula-purple GitHub contribution heatmap" />
   </a>
 </p>
 
