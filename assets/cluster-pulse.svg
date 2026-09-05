@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title description">
+  <title id="title">HPC cluster pulse</title>
+  <desc id="description">An animated Dracula-themed visualization of connected compute nodes.</desc>
+  <rect width="900" height="180" rx="18" fill="#282a36"/>
+  <rect x="1" y="1" width="898" height="178" rx="17" fill="none" stroke="#44475a"/>
+  <g stroke="#6272a4" stroke-width="2" opacity=".75">
+    <path d="M170 90H320M410 90H560M650 90H760"/>
+    <path d="M365 55V125M605 55V125"/>
+  </g>
+  <g fill="#44475a" stroke="#bd93f9" stroke-width="2">
+    <rect x="320" y="35" width="90" height="40" rx="8"/>
+    <rect x="320" y="105" width="90" height="40" rx="8"/>
+    <rect x="560" y="35" width="90" height="40" rx="8"/>
+    <rect x="560" y="105" width="90" height="40" rx="8"/>
+  </g>
+  <g font-family="monospace" font-size="13" fill="#f8f8f2" text-anchor="middle">
+    <text x="365" y="60">compute-01</text><text x="365" y="130">compute-02</text>
+    <text x="605" y="60">compute-03</text><text x="605" y="130">compute-04</text>
+  </g>
+  <rect x="55" y="65" width="115" height="50" rx="10" fill="#bd93f9"/>
+  <text x="112" y="95" fill="#282a36" font-family="monospace" font-size="16" font-weight="700" text-anchor="middle">scheduler</text>
+  <rect x="760" y="65" width="95" height="50" rx="10" fill="#ff79c6"/>
+  <text x="807" y="95" fill="#282a36" font-family="monospace" font-size="16" font-weight="700" text-anchor="middle">results</text>
+  <g fill="#50fa7b">
+    <circle r="5"><animateMotion dur="2.6s" repeatCount="indefinite" path="M170 90H320H410H560H650H760"/></circle>
+    <circle r="4"><animateMotion begin=".8s" dur="2.6s" repeatCount="indefinite" path="M170 90H320H410H560H650H760"/></circle>
+    <circle r="3"><animateMotion begin="1.6s" dur="2.6s" repeatCount="indefinite" path="M170 90H320H410H560H650H760"/></circle>
+  </g>
+  <text x="450" y="170" fill="#8be9fd" font-family="monospace" font-size="12" text-anchor="middle">CLUSTER STATUS: NOMINAL  •  JOB QUEUE: FLOWING  •  NODES: ONLINE</text>
+</svg>
