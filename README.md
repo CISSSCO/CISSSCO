@@ -108,18 +108,30 @@ directly feeds into my work on clusters, servers, and large-scale systems.
 - Open-source infrastructure
 
 
-## 📊 Activity
+## 📊 Activity Dashboard
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=CISSSCO&theme=dracula" />
+  <img src="https://img.shields.io/github/followers/CISSSCO?label=Followers&style=for-the-badge&color=bd93f9&labelColor=282a36&logo=github" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/CISSSCO?affiliations=OWNER&label=Stars&style=for-the-badge&color=ff79c6&labelColor=282a36&logo=github" alt="GitHub stars" />
+  <img src="https://komarev.com/ghpvc/?username=CISSSCO&label=Profile%20Views&style=for-the-badge&color=bd93f9" alt="Profile views" />
 </p>
 
-<!-- GitHub contribution heatmap -->
+<p align="center">
+  <a href="https://github.com/CISSSCO">
+    <img src="https://streak-stats.demolab.com?user=CISSSCO&theme=dracula&hide_border=true" alt="CISSSCO's GitHub contribution streak" />
+  </a>
+</p>
+
 <h4 align="center">Contribution Heatmap</h4>
 <p align="center">
   <a href="https://github.com/CISSSCO">
     <img src="https://ghchart.rshah.org/CISSSCO" alt="CISSSCO's GitHub contributions" />
   </a>
+</p>
+
+<h4 align="center">Contribution Stream</h4>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/output/github-contribution-grid-snake.svg" alt="Animated snake travelling across CISSSCO's contribution graph" />
 </p>
 
 
