@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:282a36,50:bd93f9,100:ff79c6&height=190&section=header&text=Abhishek%20Raj&fontSize=48&fontColor=f8f8f2&animation=fadeIn&fontAlignY=38&desc=HPC%20%C2%B7%20Linux%20%C2%B7%20Parallel%20Computing&descAlignY=58&descSize=18&descColor=f8f8f2" alt="Abhishek Raj — HPC, Linux, and Parallel Computing" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=BD93F9&center=true&vCenter=true&width=820&lines=HPC+Engineer+%C2%B7+Scientific+Programmer+%C2%B7+Linux+Application+Developer;  Parallel+computing%2C+GPU+acceleration%2C+and+reproducible+research+software;Building+practical+tools+for+complex+compute+environments" alt="Animated professional introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=BD93F9&center=true&vCenter=true&width=820&lines=HPC+Engineer+%C2%B7+Scientific+Programmer+%C2%B7+Linux+Application+Developer;PPParallel+computing%2C+GPU+acceleration%2C+and+reproducible+research+software;Building+practical+tools+for+complex+compute+environments" alt="Scientific Programmer" />
 </p>
 
 <p align="center">
