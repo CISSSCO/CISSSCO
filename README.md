@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:282a36,50:bd93f9,100:ff79c6&height=190&section=header&text=Abhishek%20Raj&fontSize=48&fontColor=f8f8f2&animation=fadeIn&fontAlignY=38&desc=HPC%20%C2%B7%20Linux%20%C2%B7%20Parallel%20Computing&descAlignY=58&descSize=18&descColor=f8f8f2" alt="Abhishek Raj — HPC, Linux, and Parallel Computing" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=BD93F9&center=true&vCenter=true&width=820&lines=HPC+Engineer+%C2%B7+Scientific+Programmer+%C2%B7+Linux+Application+Developer.;Parallel+computing%2C+GPU+acceleration%2C+reproducible+research+software.;Building+practical+tools+for+complex+compute+environments." alt="Animated professional introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=BD93F9&center=true&vCenter=true&width=820&lines=HPC+Engineer+%C2%B7+Scientific+Programmer+%C2%B7+Linux+Application+Developer.;Parallel+computing+GPU+acceleration+Reproducible+Research+Software;Building+practical+tools+for+complex+compute+environments." alt="Animated professional introduction" />
 </p>
 
 <p align="center">
@@ -73,22 +73,48 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
 <table>
   <tr>
     <td width="50%" valign="top">
+      <img src="https://img.shields.io/badge/%E2%9A%A1_Parallel_%26_Scientific-bd93f9?style=for-the-badge&logo=nvidia&logoColor=282a36" alt="Parallel &amp; Scientific" /><br /><br />
       <b>Parallel &amp; scientific computing</b><br /><br />
-      MPI · OpenMP · Pthreads · CUDA · OpenACC · Fortran · performance analysis
+      <img src="https://img.shields.io/badge/MPI-44475a?style=flat-square" alt="MPI" />
+      <img src="https://img.shields.io/badge/OpenMP-44475a?style=flat-square" alt="OpenMP" />
+      <img src="https://img.shields.io/badge/CUDA-44475a?style=flat-square&logo=nvidia&logoColor=50fa7b" alt="CUDA" />
+      <img src="https://img.shields.io/badge/OpenACC-44475a?style=flat-square" alt="OpenACC" />
+      <img src="https://img.shields.io/badge/Fortran-44475a?style=flat-square" alt="Fortran" />
+      <img src="https://img.shields.io/badge/Pthreads-44475a?style=flat-square" alt="Pthreads" />
+      <img src="https://img.shields.io/badge/Performance_Analysis-44475a?style=flat-square" alt="Performance Analysis" />
     </td>
     <td width="50%" valign="top">
+      <img src="https://img.shields.io/badge/%F0%9F%90%A7_Linux_Development-8be9fd?style=for-the-badge&logo=linux&logoColor=282a36" alt="Linux Development" /><br /><br />
       <b>Linux application development</b><br /><br />
-      C/C++ · Python · Bash · CMake · GNU Make · application porting · software deployment
+      <img src="https://img.shields.io/badge/C%2FC%2B%2B-44475a?style=flat-square&logo=cplusplus&logoColor=bd93f9" alt="C/C++" />
+      <img src="https://img.shields.io/badge/Python-44475a?style=flat-square&logo=python&logoColor=8be9fd" alt="Python" />
+      <img src="https://img.shields.io/badge/Bash-44475a?style=flat-square&logo=gnubash&logoColor=50fa7b" alt="Bash" />
+      <img src="https://img.shields.io/badge/CMake-44475a?style=flat-square&logo=cmake&logoColor=ff5555" alt="CMake" />
+      <img src="https://img.shields.io/badge/GNU_Make-44475a?style=flat-square" alt="GNU Make" />
+      <img src="https://img.shields.io/badge/Porting-44475a?style=flat-square" alt="Porting" />
+      <img src="https://img.shields.io/badge/Deployment-44475a?style=flat-square" alt="Deployment" />
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <img src="https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_HPC_Platforms-50fa7b?style=for-the-badge&logo=gnu-bash&logoColor=282a36" alt="HPC Platforms" /><br /><br />
       <b>HPC platforms &amp; tooling</b><br /><br />
-      Slurm · Spack · Conda · Apptainer · JupyterHub · Intel oneAPI · OpenMPI
+      <img src="https://img.shields.io/badge/Slurm-44475a?style=flat-square" alt="Slurm" />
+      <img src="https://img.shields.io/badge/Spack-44475a?style=flat-square" alt="Spack" />
+      <img src="https://img.shields.io/badge/Conda-44475a?style=flat-square&logo=anaconda&logoColor=50fa7b" alt="Conda" />
+      <img src="https://img.shields.io/badge/Apptainer-44475a?style=flat-square" alt="Apptainer" />
+      <img src="https://img.shields.io/badge/JupyterHub-44475a?style=flat-square&logo=jupyter&logoColor=ffb86c" alt="JupyterHub" />
+      <img src="https://img.shields.io/badge/oneAPI-44475a?style=flat-square&logo=intel&logoColor=8be9fd" alt="oneAPI" />
+      <img src="https://img.shields.io/badge/OpenMPI-44475a?style=flat-square" alt="OpenMPI" />
     </td>
     <td width="50%" valign="top">
+      <img src="https://img.shields.io/badge/%F0%9F%8C%90_Systems_%26_Community-ffb86c?style=for-the-badge&logo=gnome-terminal&logoColor=282a36" alt="Systems &amp; Community" /><br /><br />
       <b>Systems &amp; community</b><br /><br />
-      Cluster administration · Linux customization · technical documentation · training · mentoring
+      <img src="https://img.shields.io/badge/Cluster_Admin-44475a?style=flat-square" alt="Cluster Admin" />
+      <img src="https://img.shields.io/badge/Linux_Customization-44475a?style=flat-square&logo=linux&logoColor=ffb86c" alt="Linux Customization" />
+      <img src="https://img.shields.io/badge/Documentation-44475a?style=flat-square" alt="Documentation" />
+      <img src="https://img.shields.io/badge/Training-44475a?style=flat-square" alt="Training" />
+      <img src="https://img.shields.io/badge/Mentoring-44475a?style=flat-square" alt="Mentoring" />
     </td>
   </tr>
 </table>
