@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:282a36,50:bd93f9,100:ff79c6&height=190&section=header&text=Abhishek%20Raj&fontSize=48&fontColor=f8f8f2&animation=fadeIn&fontAlignY=38&desc=HPC%20%C2%B7%20Linux%20%C2%B7%20Parallel%20Computing&descAlignY=58&descSize=18&descColor=f8f8f2" alt="Abhishek Raj — HPC, Linux, and Parallel Computing" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=BD93F9&center=true&vCenter=true&width=820&lines=HPC+Engineer+%C2%B7+Scientific+Programmer+%C2%B7+Linux+Application+Developer.;Parallel+computing%2C+GPU+acceleration%2C+and+reproducible+research+software.;Building+practical+tools+for+complex+compute+environments." alt="Animated professional introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=BD93F9&center=true&vCenter=true&width=820&lines=HPC+Engineer+%C2%B7+Scientific+Programmer+%C2%B7+Linux+Application+Developer.;Parallel+computing%2C+GPU+acceleration%2C+reproducible+research+software.;Building+practical+tools+for+complex+compute+environments." alt="Animated professional introduction" />
 </p>
 
 <p align="center">
@@ -19,12 +19,24 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <b>⚡ What I build</b><br /><br />
-      Clusters, schedulers, and reproducible compute environments · MPI, OpenMP, CUDA, and OpenACC applications · Linux applications, automation, and developer tooling · Scientific software deployment, porting, and optimization · Training material and practical HPC learning environments
+      <img src="https://img.shields.io/badge/%E2%9A%A1_What_I_Build-bd93f9?style=for-the-badge&logoColor=282a36" alt="⚡ What I build" /><br /><br />
+      <ul>
+        <li>Clusters, schedulers, and reproducible compute environments</li>
+        <li>MPI, OpenMP, CUDA, and OpenACC applications</li>
+        <li>Linux applications, automation, and developer tooling</li>
+        <li>Scientific software deployment, porting, and optimization</li>
+        <li>Training material and practical HPC learning environments</li>
+      </ul>
     </td>
     <td width="50%" valign="top">
-      <b>🔭 What I care about</b><br /><br />
-      Scalable scientific and research workloads · Clear documentation, mentoring, and technical training · Performance, latency, and thoughtful systems design · Reliable, reproducible, and usable Linux environments · Open source and accessible high-performance computing
+      <img src="https://img.shields.io/badge/%F0%9F%94%AD_What_I_Care_About-ff79c6?style=for-the-badge&logoColor=282a36" alt="🔭 What I care about" /><br /><br />
+      <ul>
+        <li>Scalable scientific and research workloads</li>
+        <li>Clear documentation, mentoring, and technical training</li>
+        <li>Performance, latency, and thoughtful systems design</li>
+        <li>Reliable, reproducible, and usable Linux environments</li>
+        <li>Open source and accessible high-performance computing</li>
+      </ul>
     </td>
   </tr>
 </table>
@@ -151,7 +163,7 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
       <a href="https://ciscoramon.netlify.app"><img src="https://img.shields.io/badge/HPC_Application_Engineer-bd93f9?style=for-the-badge&logo=linux&logoColor=282a36" alt="HPC Application Engineer" /></a><br /><br />
       <b>Indian Institute of Technology (BHU), Varanasi</b><br />
       Feb 2025 — Aug 2026 &nbsp;|&nbsp; 1.5 years<br /><br />
-      Supporting scientific workloads on the PARAM Shivay supercomputing cluster: software environments, job workflows, performance troubleshooting, and Linux/HPC operations.
+      Supporting scientific workloads on the PARAM Shivay supercomputing cluster (225+ nodes): software environments, job workflows, performance troubleshooting, and Linux/HPC operations.
     </td>
     <td width="50%" valign="top">
       <a href="https://ciscoramon.netlify.app"><img src="https://img.shields.io/badge/Project_Engineer-ff79c6?style=for-the-badge&logo=codeforces&logoColor=282a36" alt="Project Engineer" /></a><br /><br />
