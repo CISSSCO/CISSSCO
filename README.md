@@ -46,7 +46,7 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
 </p>
 
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/master/assets/cluster-pulse.svg" alt="Animated Dracula-themed HPC cluster pulse" />
+  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/master/assets/cluster-pulse.svg" alt="Animated HPC Supercomputer Architecture — 1,000+ Distributed Node Fabric" />
 </p>
 
 <p align="center">
