@@ -1,30 +1,494 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title description">
-  <title id="title">HPC cluster pulse</title>
-  <desc id="description">An animated Dracula-themed visualization of connected compute nodes.</desc>
-  <rect width="900" height="180" rx="18" fill="#282a36"/>
-  <rect x="1" y="1" width="898" height="178" rx="17" fill="none" stroke="#44475a"/>
-  <g stroke="#6272a4" stroke-width="2" opacity=".75">
-    <path d="M170 90H320M410 90H560M650 90H760"/>
-    <path d="M365 55V125M605 55V125"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 920 300" width="100%" height="100%" role="img" aria-labelledby="clusterTitle clusterDesc">
+  <title id="clusterTitle">HPC Cluster Pulse - PARAM Shivay Supercomputing Architecture</title>
+  <desc id="clusterDesc">High-performance computing cluster architecture visualization featuring Slurm workload scheduler, 400 Gbps InfiniBand fabric, hybrid CPU-GPU compute nodes, Lustre parallel filesystem, and live telemetry pulse in Dracula theme.</desc>
+
+  <defs>
+    <!-- Dracula Gradient Definitions -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#191a21"/>
+      <stop offset="50%" stop-color="#21222c"/>
+      <stop offset="100%" stop-color="#282a36"/>
+    </linearGradient>
+
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#21222c"/>
+      <stop offset="50%" stop-color="#282a36"/>
+      <stop offset="100%" stop-color="#21222c"/>
+    </linearGradient>
+
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#bd93f9"/>
+      <stop offset="100%" stop-color="#ff79c6"/>
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8be9fd"/>
+      <stop offset="100%" stop-color="#50fa7b"/>
+    </linearGradient>
+
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff79c6"/>
+      <stop offset="100%" stop-color="#ffb86c"/>
+    </linearGradient>
+
+    <linearGradient id="loadGreen" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#50fa7b"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowPink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle Tech Grid Pattern -->
+    <pattern id="techGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.7" fill="#44475a" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <!-- Base Card Frame -->
+  <rect width="920" height="300" rx="14" fill="url(#bgGrad)" stroke="#44475a" stroke-width="1.5"/>
+  <rect x="1" y="1" width="918" height="298" rx="13" fill="url(#techGrid)"/>
+
+  <!-- Top Title & Telemetry Header Bar (y: 0 to 38) -->
+  <rect x="0" y="0" width="920" height="38" rx="14" fill="url(#headerGrad)"/>
+  <rect x="0" y="24" width="920" height="14" fill="url(#headerGrad)"/>
+  <line x1="0" y1="38" x2="920" y2="38" stroke="#44475a" stroke-width="1.2"/>
+
+  <!-- macOS / Terminal Window Dots -->
+  <circle cx="22" cy="19" r="4.5" fill="#ff5555"/>
+  <circle cx="37" cy="19" r="4.5" fill="#f1fa8c"/>
+  <circle cx="52" cy="19" r="4.5" fill="#50fa7b"/>
+
+  <!-- Header Title -->
+  <text x="460" y="24" text-anchor="middle" font-family="'Fira Code', 'SF Mono', Monaco, monospace" font-size="11.5" font-weight="700" fill="#f8f8f2" letter-spacing="1.2">
+    HPC CLUSTER TELEMETRY <tspan fill="#bd93f9">::</tspan> PARAM SHIVAY ARCHITECTURE <tspan fill="#8be9fd">::</tspan> HYBRID ACCELERATED
+  </text>
+
+  <!-- Header Status Pills (Right side) -->
+  <g transform="translate(742, 8)">
+    <rect x="0" y="0" width="162" height="22" rx="11" fill="#1e1f29" stroke="#6272a4" stroke-width="0.8"/>
+    <!-- Pulsing Live Dot -->
+    <circle cx="12" cy="11" r="3.8" fill="#50fa7b" filter="url(#glowGreen)">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="22" y="15" font-family="'Fira Code', monospace" font-size="9" font-weight="600" fill="#50fa7b">ONLINE</text>
+    <line x1="62" y1="4" x2="62" y2="18" stroke="#44475a" stroke-width="1"/>
+    <text x="70" y="15" font-family="'Fira Code', monospace" font-size="8.5" fill="#8be9fd">400G InfiniBand</text>
   </g>
-  <g fill="#44475a" stroke="#bd93f9" stroke-width="2">
-    <rect x="320" y="35" width="90" height="40" rx="8"/>
-    <rect x="320" y="105" width="90" height="40" rx="8"/>
-    <rect x="560" y="35" width="90" height="40" rx="8"/>
-    <rect x="560" y="105" width="90" height="40" rx="8"/>
+
+  <!-- ============================================================== -->
+  <!-- LEFT: SLURM WORKLOAD MANAGER / HEAD NODE (x: 18, y: 48, w: 160) -->
+  <!-- ============================================================== -->
+  <g transform="translate(18, 48)">
+    <!-- Chassis Body -->
+    <rect width="162" height="190" rx="9" fill="#282a36" stroke="#bd93f9" stroke-width="1.5"/>
+    
+    <!-- Header Banner -->
+    <rect width="162" height="26" rx="8" fill="url(#purpleGrad)"/>
+    <text x="81" y="17" text-anchor="middle" font-family="'Fira Code', monospace" font-size="10.5" font-weight="800" fill="#1e1f29" letter-spacing="0.5">SLURM CONTROLLER</text>
+    
+    <!-- Subtitle -->
+    <text x="81" y="40" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8.5" fill="#bd93f9">HEAD NODE &amp; SCHEDULER</text>
+    
+    <!-- Queue Metrics Box -->
+    <rect x="10" y="48" width="142" height="74" rx="6" fill="#1e1f29" stroke="#44475a" stroke-width="0.8"/>
+    
+    <text x="18" y="64" font-family="'Fira Code', monospace" font-size="8.5" fill="#f8f8f2">QUEUE: <tspan fill="#50fa7b" font-weight="700">MPI_PROD</tspan></text>
+    <text x="18" y="78" font-family="'Fira Code', monospace" font-size="8.5" fill="#f8f8f2">RANKS: <tspan fill="#8be9fd" font-weight="700">2,048 CORES</tspan></text>
+    <text x="18" y="92" font-family="'Fira Code', monospace" font-size="8.5" fill="#f8f8f2">ACCEL: <tspan fill="#ff79c6" font-weight="700">CUDA / A100</tspan></text>
+    <text x="18" y="106" font-family="'Fira Code', monospace" font-size="8.5" fill="#f8f8f2">POLICY: <tspan fill="#f1fa8c">FAIRSHARE</tspan></text>
+
+    <!-- Workload Progress Gauge -->
+    <text x="12" y="138" font-family="'Fira Code', monospace" font-size="8.5" fill="#6272a4">ALLOCATION LOAD</text>
+    <text x="150" y="138" text-anchor="end" font-family="'Fira Code', monospace" font-size="8.5" font-weight="700" fill="#bd93f9">92%</text>
+    <rect x="10" y="143" width="142" height="7" rx="3.5" fill="#1e1f29"/>
+    <rect x="10" y="143" width="130" height="7" rx="3.5" fill="url(#purpleGrad)"/>
+
+    <!-- Daemon Status Line -->
+    <circle cx="16" cy="168" r="3" fill="#50fa7b">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="25" y="171" font-family="'Fira Code', monospace" font-size="8" fill="#f8f8f2">slurmctld: RUNNING</text>
+
+    <circle cx="100" cy="168" r="3" fill="#8be9fd">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="108" y="171" font-family="'Fira Code', monospace" font-size="8" fill="#f8f8f2">munged: OK</text>
   </g>
-  <g font-family="monospace" font-size="13" fill="#f8f8f2" text-anchor="middle">
-    <text x="365" y="60">compute-01</text><text x="365" y="130">compute-02</text>
-    <text x="605" y="60">compute-03</text><text x="605" y="130">compute-04</text>
+
+  <!-- ============================================================== -->
+  <!-- HIGH-SPEED INTERCONNECT: 400 Gbps InfiniBand SWITCH FABRIC     -->
+  <!-- ============================================================== -->
+  <!-- Ingress Switch (x: 218, y: 124, w: 56, h: 38) -->
+  <g transform="translate(216, 124)">
+    <rect width="58" height="38" rx="6" fill="#21222c" stroke="#8be9fd" stroke-width="1.2" filter="url(#glowCyan)"/>
+    <text x="29" y="16" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8.5" font-weight="700" fill="#8be9fd">IB FABRIC</text>
+    <text x="29" y="28" text-anchor="middle" font-family="'Fira Code', monospace" font-size="7.5" fill="#f8f8f2">400 Gbps</text>
   </g>
-  <rect x="55" y="65" width="115" height="50" rx="10" fill="#bd93f9"/>
-  <text x="112" y="95" fill="#282a36" font-family="monospace" font-size="16" font-weight="700" text-anchor="middle">scheduler</text>
-  <rect x="760" y="65" width="95" height="50" rx="10" fill="#ff79c6"/>
-  <text x="807" y="95" fill="#282a36" font-family="monospace" font-size="16" font-weight="700" text-anchor="middle">results</text>
-  <g fill="#50fa7b">
-    <circle r="5"><animateMotion dur="2.6s" repeatCount="indefinite" path="M170 90H320H410H560H650H760"/></circle>
-    <circle r="4"><animateMotion begin=".8s" dur="2.6s" repeatCount="indefinite" path="M170 90H320H410H560H650H760"/></circle>
-    <circle r="3"><animateMotion begin="1.6s" dur="2.6s" repeatCount="indefinite" path="M170 90H320H410H560H650H760"/></circle>
+
+  <!-- Static Fiber Traces: Head Node to IB Switch -->
+  <path d="M 180 143 L 216 143" fill="none" stroke="#6272a4" stroke-width="2.5" opacity="0.8"/>
+  <path d="M 180 143 L 216 143" fill="none" stroke="#bd93f9" stroke-width="1" stroke-dasharray="4 2"/>
+
+  <!-- Static Fiber Traces: IB Switch Fan-out to 4 Compute Blades -->
+  <!-- Blade 1: y=68 -->
+  <path id="pathIn1" d="M 274 143 C 288 143, 292 68, 310 68" fill="none" stroke="#44475a" stroke-width="2.5"/>
+  <path d="M 274 143 C 288 143, 292 68, 310 68" fill="none" stroke="#8be9fd" stroke-width="1" opacity="0.6"/>
+
+  <!-- Blade 2: y=116 -->
+  <path id="pathIn2" d="M 274 143 C 288 143, 294 116, 310 116" fill="none" stroke="#44475a" stroke-width="2.5"/>
+  <path d="M 274 143 C 288 143, 294 116, 310 116" fill="none" stroke="#50fa7b" stroke-width="1" opacity="0.6"/>
+
+  <!-- Blade 3: y=168 -->
+  <path id="pathIn3" d="M 274 143 C 288 143, 294 168, 310 168" fill="none" stroke="#44475a" stroke-width="2.5"/>
+  <path d="M 274 143 C 288 143, 294 168, 310 168" fill="none" stroke="#bd93f9" stroke-width="1" opacity="0.6"/>
+
+  <!-- Blade 4: y=218 -->
+  <path id="pathIn4" d="M 274 143 C 288 143, 292 218, 310 218" fill="none" stroke="#44475a" stroke-width="2.5"/>
+  <path d="M 274 143 C 288 143, 292 218, 310 218" fill="none" stroke="#ff79c6" stroke-width="1" opacity="0.6"/>
+
+  <!-- ============================================================== -->
+  <!-- CENTER: 4 HYBRID COMPUTE NODES (cn-01 to cn-04)                -->
+  <!-- ============================================================== -->
+
+  <!-- BLADE 1: cn-01 (MPI Primary + 4x A100 GPU) -->
+  <g transform="translate(310, 48)">
+    <rect width="320" height="40" rx="7" fill="#282a36" stroke="#44475a" stroke-width="1.2"/>
+    <!-- Status LED -->
+    <circle cx="14" cy="20" r="3.5" fill="#50fa7b">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Node Label -->
+    <text x="24" y="18" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#f8f8f2">cn-01</text>
+    <text x="24" y="30" font-family="'Fira Code', monospace" font-size="7.5" fill="#6272a4">2x EPYC · 128C</text>
+    
+    <!-- CPU Activity Gauge -->
+    <rect x="110" y="8" width="82" height="24" rx="4" fill="#1e1f29" stroke="#44475a" stroke-width="0.8"/>
+    <text x="116" y="17" font-family="'Fira Code', monospace" font-size="7" fill="#8be9fd">CPU [MPI:98%]</text>
+    <rect x="116" y="21" width="70" height="5" rx="2.5" fill="#44475a"/>
+    <rect x="116" y="21" width="67" height="5" rx="2.5" fill="url(#loadGreen)"/>
+
+    <!-- GPU Accelerator Block -->
+    <rect x="198" y="8" width="78" height="24" rx="4" fill="#1e1f29" stroke="#ff79c6" stroke-width="0.8"/>
+    <text x="204" y="17" font-family="'Fira Code', monospace" font-size="7" font-weight="700" fill="#ff79c6">4x A100 [CUDA]</text>
+    <rect x="204" y="21" width="66" height="5" rx="2.5" fill="#44475a"/>
+    <rect x="204" y="21" width="63" height="5" rx="2.5" fill="url(#pinkGrad)"/>
+
+    <!-- Node Throughput Metric -->
+    <rect x="282" y="10" width="30" height="20" rx="3" fill="#1e1f29"/>
+    <text x="297" y="23" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8" font-weight="700" fill="#50fa7b">98%</text>
   </g>
-  <text x="450" y="170" fill="#8be9fd" font-family="monospace" font-size="12" text-anchor="middle">CLUSTER STATUS: NOMINAL  •  JOB QUEUE: FLOWING  •  NODES: ONLINE</text>
+
+  <!-- BLADE 2: cn-02 (OpenMP Workload + 4x A100 GPU) -->
+  <g transform="translate(310, 98)">
+    <rect width="320" height="40" rx="7" fill="#282a36" stroke="#44475a" stroke-width="1.2"/>
+    <!-- Status LED -->
+    <circle cx="14" cy="20" r="3.5" fill="#50fa7b">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.7s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Node Label -->
+    <text x="24" y="18" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#f8f8f2">cn-02</text>
+    <text x="24" y="30" font-family="'Fira Code', monospace" font-size="7.5" fill="#6272a4">2x Xeon · 112C</text>
+    
+    <!-- CPU Activity Gauge -->
+    <rect x="110" y="8" width="82" height="24" rx="4" fill="#1e1f29" stroke="#44475a" stroke-width="0.8"/>
+    <text x="116" y="17" font-family="'Fira Code', monospace" font-size="7" fill="#8be9fd">CPU [OMP:94%]</text>
+    <rect x="116" y="21" width="70" height="5" rx="2.5" fill="#44475a"/>
+    <rect x="116" y="21" width="63" height="5" rx="2.5" fill="url(#loadGreen)"/>
+
+    <!-- GPU Accelerator Block -->
+    <rect x="198" y="8" width="78" height="24" rx="4" fill="#1e1f29" stroke="#ff79c6" stroke-width="0.8"/>
+    <text x="204" y="17" font-family="'Fira Code', monospace" font-size="7" font-weight="700" fill="#ff79c6">4x A100 [TENSOR]</text>
+    <rect x="204" y="21" width="66" height="5" rx="2.5" fill="#44475a"/>
+    <rect x="204" y="21" width="60" height="5" rx="2.5" fill="url(#pinkGrad)"/>
+
+    <!-- Node Throughput Metric -->
+    <rect x="282" y="10" width="30" height="20" rx="3" fill="#1e1f29"/>
+    <text x="297" y="23" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8" font-weight="700" fill="#50fa7b">95%</text>
+  </g>
+
+  <!-- BLADE 3: cn-03 (PARAM Shivay Core Node + H100) -->
+  <g transform="translate(310, 148)">
+    <rect width="320" height="40" rx="7" fill="#282a36" stroke="#bd93f9" stroke-width="1.2"/>
+    <!-- Status LED -->
+    <circle cx="14" cy="20" r="3.5" fill="#50fa7b">
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.1s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Node Label -->
+    <text x="24" y="18" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#f8f8f2">cn-03</text>
+    <text x="24" y="30" font-family="'Fira Code', monospace" font-size="7.5" fill="#bd93f9">2x EPYC · 128C</text>
+    
+    <!-- CPU Activity Gauge -->
+    <rect x="110" y="8" width="82" height="24" rx="4" fill="#1e1f29" stroke="#44475a" stroke-width="0.8"/>
+    <text x="116" y="17" font-family="'Fira Code', monospace" font-size="7" fill="#8be9fd">CPU [MPI:99%]</text>
+    <rect x="116" y="21" width="70" height="5" rx="2.5" fill="#44475a"/>
+    <rect x="116" y="21" width="69" height="5" rx="2.5" fill="url(#loadGreen)"/>
+
+    <!-- GPU Accelerator Block -->
+    <rect x="198" y="8" width="78" height="24" rx="4" fill="#1e1f29" stroke="#ff79c6" stroke-width="0.8"/>
+    <text x="204" y="17" font-family="'Fira Code', monospace" font-size="7" font-weight="700" fill="#ff79c6">4x H100 [NVLink]</text>
+    <rect x="204" y="21" width="66" height="5" rx="2.5" fill="#44475a"/>
+    <rect x="204" y="21" width="65" height="5" rx="2.5" fill="url(#pinkGrad)"/>
+
+    <!-- Node Throughput Metric -->
+    <rect x="282" y="10" width="30" height="20" rx="3" fill="#1e1f29"/>
+    <text x="297" y="23" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8" font-weight="700" fill="#50fa7b">99%</text>
+  </g>
+
+  <!-- BLADE 4: cn-04 (OpenACC & Scientific Porting Node) -->
+  <g transform="translate(310, 198)">
+    <rect width="320" height="40" rx="7" fill="#282a36" stroke="#44475a" stroke-width="1.2"/>
+    <!-- Status LED -->
+    <circle cx="14" cy="20" r="3.5" fill="#50fa7b">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Node Label -->
+    <text x="24" y="18" font-family="'Fira Code', monospace" font-size="10.5" font-weight="700" fill="#f8f8f2">cn-04</text>
+    <text x="24" y="30" font-family="'Fira Code', monospace" font-size="7.5" fill="#6272a4">2x Xeon · 128C</text>
+    
+    <!-- CPU Activity Gauge -->
+    <rect x="110" y="8" width="82" height="24" rx="4" fill="#1e1f29" stroke="#44475a" stroke-width="0.8"/>
+    <text x="116" y="17" font-family="'Fira Code', monospace" font-size="7" fill="#8be9fd">CPU [ACC:92%]</text>
+    <rect x="116" y="21" width="70" height="5" rx="2.5" fill="#44475a"/>
+    <rect x="116" y="21" width="61" height="5" rx="2.5" fill="url(#loadGreen)"/>
+
+    <!-- GPU Accelerator Block -->
+    <rect x="198" y="8" width="78" height="24" rx="4" fill="#1e1f29" stroke="#ff79c6" stroke-width="0.8"/>
+    <text x="204" y="17" font-family="'Fira Code', monospace" font-size="7" font-weight="700" fill="#ff79c6">4x A100 [OpenACC]</text>
+    <rect x="204" y="21" width="66" height="5" rx="2.5" fill="#44475a"/>
+    <rect x="204" y="21" width="58" height="5" rx="2.5" fill="url(#pinkGrad)"/>
+
+    <!-- Node Throughput Metric -->
+    <rect x="282" y="10" width="30" height="20" rx="3" fill="#1e1f29"/>
+    <text x="297" y="23" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8" font-weight="700" fill="#50fa7b">92%</text>
+  </g>
+
+  <!-- ============================================================== -->
+  <!-- HIGH-SPEED OUTPUT INTERCONNECT & LUSTRE MDS AGGREGATION       -->
+  <!-- ============================================================== -->
+  <!-- Aggregation Switch (x: 664, y: 124, w: 58, h: 38) -->
+  <g transform="translate(664, 124)">
+    <rect width="58" height="38" rx="6" fill="#21222c" stroke="#ffb86c" stroke-width="1.2" filter="url(#glowPink)"/>
+    <text x="29" y="16" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8.5" font-weight="700" fill="#ffb86c">LUSTRE MDS</text>
+    <text x="29" y="28" text-anchor="middle" font-family="'Fira Code', monospace" font-size="7.5" fill="#f8f8f2">I/O Router</text>
+  </g>
+
+  <!-- Static Fiber Traces: 4 Compute Blades to Storage Switch -->
+  <!-- Blade 1 to Storage -->
+  <path id="pathOut1" d="M 630 68 C 648 68, 652 143, 664 143" fill="none" stroke="#44475a" stroke-width="2.5"/>
+  <path d="M 630 68 C 648 68, 652 143, 664 143" fill="none" stroke="#ff79c6" stroke-width="1" opacity="0.6"/>
+
+  <!-- Blade 2 to Storage -->
+  <path id="pathOut2" d="M 630 116 C 648 116, 654 143, 664 143" fill="none" stroke="#44475a" stroke-width="2.5"/>
+  <path d="M 630 116 C 648 116, 654 143, 664 143" fill="none" stroke="#50fa7b" stroke-width="1" opacity="0.6"/>
+
+  <!-- Blade 3 to Storage -->
+  <path id="pathOut3" d="M 630 168 C 648 168, 654 143, 664 143" fill="none" stroke="#44475a" stroke-width="2.5"/>
+  <path d="M 630 168 C 648 168, 654 143, 664 143" fill="none" stroke="#8be9fd" stroke-width="1" opacity="0.6"/>
+
+  <!-- Blade 4 to Storage -->
+  <path id="pathOut4" d="M 630 218 C 648 218, 652 143, 664 143" fill="none" stroke="#44475a" stroke-width="2.5"/>
+  <path d="M 630 218 C 648 218, 652 143, 664 143" fill="none" stroke="#ffb86c" stroke-width="1" opacity="0.6"/>
+
+  <!-- Storage Switch to Lustre Storage Chassis -->
+  <path d="M 722 143 L 742 143" fill="none" stroke="#6272a4" stroke-width="2.5" opacity="0.8"/>
+  <path d="M 722 143 L 742 143" fill="none" stroke="#ff79c6" stroke-width="1" stroke-dasharray="4 2"/>
+
+  <!-- ============================================================== -->
+  <!-- RIGHT: HIGH-PERFORMANCE PARALLEL STORAGE TIER (x: 742, y: 48)  -->
+  <!-- ============================================================== -->
+  <g transform="translate(742, 48)">
+    <!-- Chassis Body -->
+    <rect width="160" height="190" rx="9" fill="#282a36" stroke="#ff79c6" stroke-width="1.5"/>
+    
+    <!-- Header Banner -->
+    <rect width="160" height="26" rx="8" fill="url(#pinkGrad)"/>
+    <text x="80" y="17" text-anchor="middle" font-family="'Fira Code', monospace" font-size="10" font-weight="800" fill="#1e1f29" letter-spacing="0.5">PARALLEL STORAGE</text>
+    
+    <!-- Subtitle -->
+    <text x="80" y="40" text-anchor="middle" font-family="'Fira Code', monospace" font-size="8.5" fill="#ff79c6">LUSTRE / SCRATCH TIER</text>
+
+    <!-- NVMe Drive Array Bays -->
+    <g transform="translate(10, 48)">
+      <!-- Bay 1 -->
+      <rect width="140" height="16" rx="3.5" fill="#1e1f29" stroke="#44475a" stroke-width="0.8"/>
+      <circle cx="8" cy="8" r="2.5" fill="#50fa7b">
+        <animate attributeName="opacity" values="1;0.2;1" dur="0.9s" repeatCount="indefinite"/>
+      </circle>
+      <text x="16" y="11" font-family="'Fira Code', monospace" font-size="7.5" fill="#f8f8f2">OST-01 [NVMe-oF]</text>
+      <text x="132" y="11" text-anchor="end" font-family="'Fira Code', monospace" font-size="7.5" fill="#50fa7b">WRITE</text>
+
+      <!-- Bay 2 -->
+      <rect y="20" width="140" height="16" rx="3.5" fill="#1e1f29" stroke="#44475a" stroke-width="0.8"/>
+      <circle cx="8" cy="28" r="2.5" fill="#8be9fd">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="0.7s" repeatCount="indefinite"/>
+      </circle>
+      <text x="16" y="31" font-family="'Fira Code', monospace" font-size="7.5" fill="#f8f8f2">OST-02 [NVMe-oF]</text>
+      <text x="132" y="31" text-anchor="end" font-family="'Fira Code', monospace" font-size="7.5" fill="#8be9fd">READ</text>
+
+      <!-- Bay 3 -->
+      <rect y="40" width="140" height="16" rx="3.5" fill="#1e1f29" stroke="#44475a" stroke-width="0.8"/>
+      <circle cx="8" cy="48" r="2.5" fill="#50fa7b">
+        <animate attributeName="opacity" values="1;0.4;1" dur="1.3s" repeatCount="indefinite"/>
+      </circle>
+      <text x="16" y="51" font-family="'Fira Code', monospace" font-size="7.5" fill="#f8f8f2">OST-03 [NVMe-oF]</text>
+      <text x="132" y="51" text-anchor="end" font-family="'Fira Code', monospace" font-size="7.5" fill="#50fa7b">SYNC</text>
+
+      <!-- Bay 4 -->
+      <rect y="60" width="140" height="16" rx="3.5" fill="#1e1f29" stroke="#44475a" stroke-width="0.8"/>
+      <circle cx="8" cy="68" r="2.5" fill="#bd93f9">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/>
+      </circle>
+      <text x="16" y="71" font-family="'Fira Code', monospace" font-size="7.5" fill="#f8f8f2">MDT-00 [METADATA]</text>
+      <text x="132" y="71" text-anchor="end" font-family="'Fira Code', monospace" font-size="7.5" fill="#bd93f9">LOCK</text>
+    </g>
+
+    <!-- Storage Telemetry Panel -->
+    <rect x="10" y="132" width="140" height="50" rx="5" fill="#1e1f29" stroke="#44475a" stroke-width="0.8"/>
+    <text x="18" y="146" font-family="'Fira Code', monospace" font-size="8" fill="#8be9fd">I/O: <tspan fill="#f8f8f2" font-weight="700">42.8 GB/s</tspan></text>
+    <text x="18" y="159" font-family="'Fira Code', monospace" font-size="8" fill="#50fa7b">IOPS: <tspan fill="#f8f8f2" font-weight="700">890K / sec</tspan></text>
+    <text x="18" y="172" font-family="'Fira Code', monospace" font-size="8" fill="#ffb86c">CHECKPOINT: <tspan fill="#50fa7b">STABLE</tspan></text>
+  </g>
+
+  <!-- ============================================================== -->
+  <!-- DYNAMIC ANIMATED DATA PACKETS (Continuous Supercomputing Flow) -->
+  <!-- ============================================================== -->
+
+  <!-- Ingress Flow: Scheduler to IB Fabric -->
+  <circle r="4" fill="#bd93f9" filter="url(#glowCyan)">
+    <animateMotion path="M 180 143 L 216 143" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#50fa7b" filter="url(#glowGreen)">
+    <animateMotion path="M 180 143 L 216 143" begin="0.7s" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Packet Stream 1: IB Switch to cn-01 -->
+  <circle r="3.5" fill="#8be9fd" filter="url(#glowCyan)">
+    <animateMotion dur="1.6s" repeatCount="indefinite">
+      <mpath xlink:href="#pathIn1"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Packet Stream 2: IB Switch to cn-02 -->
+  <circle r="3.5" fill="#50fa7b" filter="url(#glowGreen)">
+    <animateMotion begin="0.4s" dur="1.6s" repeatCount="indefinite">
+      <mpath xlink:href="#pathIn2"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Packet Stream 3: IB Switch to cn-03 -->
+  <circle r="3.5" fill="#bd93f9" filter="url(#glowCyan)">
+    <animateMotion begin="0.8s" dur="1.6s" repeatCount="indefinite">
+      <mpath xlink:href="#pathIn3"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Packet Stream 4: IB Switch to cn-04 -->
+  <circle r="3.5" fill="#ff79c6" filter="url(#glowPink)">
+    <animateMotion begin="1.2s" dur="1.6s" repeatCount="indefinite">
+      <mpath xlink:href="#pathIn4"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Packet Stream 5: cn-01 to Storage Switch -->
+  <circle r="3.5" fill="#ff79c6" filter="url(#glowPink)">
+    <animateMotion begin="0.3s" dur="1.6s" repeatCount="indefinite">
+      <mpath xlink:href="#pathOut1"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Packet Stream 6: cn-02 to Storage Switch -->
+  <circle r="3.5" fill="#50fa7b" filter="url(#glowGreen)">
+    <animateMotion begin="0.7s" dur="1.6s" repeatCount="indefinite">
+      <mpath xlink:href="#pathOut2"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Packet Stream 7: cn-03 to Storage Switch -->
+  <circle r="3.5" fill="#8be9fd" filter="url(#glowCyan)">
+    <animateMotion begin="1.1s" dur="1.6s" repeatCount="indefinite">
+      <mpath xlink:href="#pathOut3"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Packet Stream 8: cn-04 to Storage Switch -->
+  <circle r="3.5" fill="#ffb86c" filter="url(#glowPink)">
+    <animateMotion begin="1.5s" dur="1.6s" repeatCount="indefinite">
+      <mpath xlink:href="#pathOut4"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Egress Flow: Storage Switch to Lustre -->
+  <circle r="4" fill="#ff79c6" filter="url(#glowPink)">
+    <animateMotion path="M 722 143 L 742 143" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="3" fill="#50fa7b" filter="url(#glowGreen)">
+    <animateMotion path="M 722 143 L 742 143" begin="0.6s" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- ============================================================== -->
+  <!-- BOTTOM STATUS & OSCILLOSCOPE CONSOLE (y: 248 to 300)          -->
+  <!-- ============================================================== -->
+  <rect x="0" y="248" width="920" height="52" rx="14" fill="url(#headerGrad)"/>
+  <rect x="0" y="248" width="920" height="24" fill="url(#headerGrad)"/>
+  <line x1="0" y1="248" x2="920" y2="248" stroke="#44475a" stroke-width="1.2"/>
+
+  <!-- Left: Shell Command Prompt -->
+  <g transform="translate(20, 268)">
+    <text font-family="'Fira Code', monospace" font-size="9" font-weight="700" fill="#50fa7b">$</text>
+    <text x="12" font-family="'Fira Code', monospace" font-size="8.5" fill="#f8f8f2">squeue --cluster=param-shivay --format=&quot;%.18i %.9P %.8j %.8u %.2t %.10M&quot;</text>
+    <text y="14" font-family="'Fira Code', monospace" font-size="8" fill="#6272a4">NODES: 4/4 ALLOCATED [100%]  •  MPI 4.1  •  CUDA 12.4  •  SLURM 24.05</text>
+  </g>
+
+  <!-- Center-Right: Animated Live Heartbeat / Oscilloscope Wave -->
+  <g transform="translate(480, 262)">
+    <!-- Oscilloscope Background Graticule -->
+    <rect width="210" height="26" rx="4" fill="#191a21" stroke="#44475a" stroke-width="0.8"/>
+    <line x1="0" y1="13" x2="210" y2="13" stroke="#44475a" stroke-width="0.5" stroke-dasharray="2 2"/>
+    
+    <!-- Heartbeat Waveform Path -->
+    <path id="pulseWave" d="M 4 13 L 42 13 L 50 4 L 56 22 L 62 7 L 68 18 L 74 13 L 132 13 L 140 4 L 146 22 L 152 7 L 158 18 L 164 13 L 206 13" 
+          fill="none" stroke="#50fa7b" stroke-width="1.5" stroke-linejoin="round" filter="url(#glowGreen)"/>
+    
+    <!-- Sweeping Pulse Scan Dot -->
+    <circle r="3" fill="#8be9fd" filter="url(#glowCyan)">
+      <animateMotion dur="2.4s" repeatCount="indefinite">
+        <mpath xlink:href="#pulseWave"/>
+      </animateMotion>
+    </circle>
+  </g>
+
+  <!-- Far Right: System Status Capsule -->
+  <g transform="translate(710, 262)">
+    <rect width="194" height="26" rx="6" fill="#191a21" stroke="#50fa7b" stroke-width="0.9"/>
+    <!-- Blinking Pulse Ring -->
+    <circle cx="16" cy="13" r="4" fill="#50fa7b">
+      <animate attributeName="r" values="3;5;3" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="28" y="17" font-family="'Fira Code', monospace" font-size="8.5" font-weight="700" fill="#50fa7b">CLUSTER: NOMINAL</text>
+    <text x="122" y="17" font-family="'Fira Code', monospace" font-size="8" fill="#8be9fd">[0 ERRORS]</text>
+  </g>
 </svg>
