@@ -19,24 +19,12 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ What I build</h3>
-      <ul>
-        <li>Clusters, schedulers, and reproducible compute environments</li>
-        <li>MPI, OpenMP, CUDA, and OpenACC applications</li>
-        <li>Linux applications, automation, and developer tooling</li>
-        <li>Scientific software deployment, porting, and optimization</li>
-        <li>Training material and practical HPC learning environments</li>
-      </ul>
+      <b>⚡ What I build</b><br /><br />
+      Clusters, schedulers, and reproducible compute environments · MPI, OpenMP, CUDA, and OpenACC applications · Linux applications, automation, and developer tooling · Scientific software deployment, porting, and optimization · Training material and practical HPC learning environments
     </td>
     <td width="50%" valign="top">
-      <h3>🔭 What I care about</h3>
-      <ul>
-        <li>Scalable scientific and research workloads</li>
-        <li>Clear documentation, mentoring, and technical training</li>
-        <li>Performance, latency, and thoughtful systems design</li>
-        <li>Reliable, reproducible, and usable Linux environments</li>
-        <li>Open source and accessible high-performance computing</li>
-      </ul>
+      <b>🔭 What I care about</b><br /><br />
+      Scalable scientific and research workloads · Clear documentation, mentoring, and technical training · Performance, latency, and thoughtful systems design · Reliable, reproducible, and usable Linux environments · Open source and accessible high-performance computing
     </td>
   </tr>
 </table>

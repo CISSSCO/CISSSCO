@@ -1,559 +1,214 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 960 340" width="100%" height="100%" role="img" aria-labelledby="clusterTitle clusterDesc">
-  <title id="clusterTitle">HPC Supercomputer Architecture - 1000+ Distributed Node Fabric</title>
-  <desc id="clusterDesc">Massively parallel HPC supercomputer architecture visualization showing Slurm orchestration tier, high-speed 800 Gbps non-blocking interconnect fabric, 1,000+ distributed CPU and GPU compute nodes, and multi-TB/s parallel storage tier.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 190" width="100%" height="100%" role="img" aria-labelledby="title description">
+  <title id="title">How Parallel Programming Works - HPC Supercomputer Flow</title>
+  <desc id="description">A simple, clean visualization of how parallel programming works: master rank scatters data across 1,000+ distributed worker nodes for simultaneous execution, then reduces and gathers results.</desc>
 
   <defs>
-    <!-- Deep Space Obsidian Gradients -->
-    <linearGradient id="bgCanvas" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#060913"/>
-      <stop offset="45%" stop-color="#0a1020"/>
-      <stop offset="100%" stop-color="#070c17"/>
-    </linearGradient>
-
-    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0b1326"/>
-      <stop offset="50%" stop-color="#111c38"/>
-      <stop offset="100%" stop-color="#0b1326"/>
-    </linearGradient>
-
-    <linearGradient id="footerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#080e1c"/>
-      <stop offset="50%" stop-color="#0e172e"/>
-      <stop offset="100%" stop-color="#080e1c"/>
-    </linearGradient>
-
-    <!-- Accent Header Gradients -->
-    <linearGradient id="violetHeader" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#4f46e5"/>
-      <stop offset="100%" stop-color="#7c3aed"/>
-    </linearGradient>
-
-    <linearGradient id="cyanHeader" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0284c7"/>
-      <stop offset="50%" stop-color="#0ea5e9"/>
-      <stop offset="100%" stop-color="#06b6d4"/>
-    </linearGradient>
-
-    <linearGradient id="roseHeader" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#e11d48"/>
-      <stop offset="100%" stop-color="#f43f5e"/>
-    </linearGradient>
-
-    <!-- Border Gradients for Cards -->
-    <linearGradient id="borderViolet" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.2"/>
-    </linearGradient>
-
-    <linearGradient id="borderCyan" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.2"/>
-    </linearGradient>
-
-    <linearGradient id="borderRose" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#fb7185" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#f43f5e" stop-opacity="0.2"/>
-    </linearGradient>
-
-    <linearGradient id="borderCore" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8"/>
-      <stop offset="100%" stop-color="#818cf8"/>
-    </linearGradient>
-
-    <!-- Glowing Filters -->
-    <filter id="glowCyan" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    <!-- Glow Filters -->
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <filter id="glowEmerald" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <filter id="glowRose" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+    <filter id="glowPink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-
-    <filter id="glowViolet" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Subtle Circuit Matrix Dot Grid Pattern -->
-    <pattern id="circuitGrid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.8" fill="#334155" opacity="0.35"/>
-      <path d="M 24 0 L 24 24 M 0 24 L 24 24" fill="none" stroke="#1e293b" stroke-width="0.3" opacity="0.2"/>
-    </pattern>
-
-    <!-- Ambient Aura Radial Gradients -->
-    <radialGradient id="auraLeft" cx="15%" cy="50%" r="35%">
-      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#060913" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="auraCenter" cx="50%" cy="50%" r="40%">
-      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.14"/>
-      <stop offset="100%" stop-color="#060913" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="auraRight" cx="85%" cy="50%" r="35%">
-      <stop offset="0%" stop-color="#e11d48" stop-opacity="0.10"/>
-      <stop offset="100%" stop-color="#060913" stop-opacity="0"/>
-    </radialGradient>
   </defs>
 
   <style>
-    .mono { font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', Monaco, Menlo, Consolas, monospace; }
+    .mono { font-family: 'Fira Code', 'SF Mono', Monaco, Menlo, Consolas, monospace; }
   </style>
 
-  <!-- Outer Frame & Canvas Background -->
-  <rect width="960" height="340" rx="14" fill="url(#bgCanvas)" stroke="#1e293b" stroke-width="1.5"/>
-  <rect width="960" height="340" rx="14" fill="url(#auraLeft)"/>
-  <rect width="960" height="340" rx="14" fill="url(#auraCenter)"/>
-  <rect width="960" height="340" rx="14" fill="url(#auraRight)"/>
-  <rect x="1" y="1" width="958" height="338" rx="13" fill="url(#circuitGrid)"/>
+  <!-- Background Frame (Dracula Theme) -->
+  <rect width="900" height="190" rx="14" fill="#282a36" stroke="#44475a" stroke-width="1.5"/>
+
+  <!-- Top Title Header -->
+  <text x="450" y="24" text-anchor="middle" class="mono" font-size="11" font-weight="700" fill="#f8f8f2" letter-spacing="1">
+    HOW PARALLEL PROGRAMMING WORKS <tspan fill="#bd93f9">::</tspan> DISTRIBUTED HPC EXECUTION
+  </text>
+  <line x1="30" y1="32" x2="870" y2="32" stroke="#44475a" stroke-width="0.8" opacity="0.6"/>
 
   <!-- ============================================================== -->
-  <!-- TOP HEADER BAR (y: 0 to 40)                                     -->
+  <!-- OPTICAL TRACES: SCATTER (MASTER TO WORKERS)                    -->
   <!-- ============================================================== -->
-  <rect x="0" y="0" width="960" height="40" rx="14" fill="url(#headerGrad)"/>
-  <rect x="0" y="24" width="960" height="16" fill="url(#headerGrad)"/>
-  <line x1="0" y1="40" x2="960" y2="40" stroke="#1e293b" stroke-width="1.2"/>
+  <!-- Path In 1 -->
+  <path id="pathIn1" d="M 195 96 C 280 96, 290 50, 370 50" fill="none" stroke="#44475a" stroke-width="2"/>
+  <path d="M 195 96 C 280 96, 290 50, 370 50" fill="none" stroke="#8be9fd" stroke-width="0.8" opacity="0.6"/>
 
-  <!-- Window Control Indicators -->
-  <circle cx="22" cy="20" r="4.5" fill="#ef4444" opacity="0.9"/>
-  <circle cx="37" cy="20" r="4.5" fill="#f59e0b" opacity="0.9"/>
-  <circle cx="52" cy="20" r="4.5" fill="#10b981" opacity="0.9"/>
+  <!-- Path In 2 -->
+  <path id="pathIn2" d="M 195 96 C 280 96, 290 80, 370 80" fill="none" stroke="#44475a" stroke-width="2"/>
+  <path d="M 195 96 C 280 96, 290 80, 370 80" fill="none" stroke="#50fa7b" stroke-width="0.8" opacity="0.6"/>
 
-  <!-- Architecture Header Title (Properly fitted with padding) -->
-  <text x="420" y="24.5" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#f1f5f9" letter-spacing="0.6">
-    HPC SUPERCOMPUTER ARCHITECTURE <tspan fill="#38bdf8">::</tspan> 1,000+ DISTRIBUTED NODES <tspan fill="#818cf8">::</tspan> NON-BLOCKING FABRIC
+  <!-- Path In 3 -->
+  <path id="pathIn3" d="M 195 96 C 280 96, 290 110, 370 110" fill="none" stroke="#44475a" stroke-width="2"/>
+  <path d="M 195 96 C 280 96, 290 110, 370 110" fill="none" stroke="#bd93f9" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- Path In 4 -->
+  <path id="pathIn4" d="M 195 96 C 280 96, 290 140, 370 140" fill="none" stroke="#44475a" stroke-width="2"/>
+  <path d="M 195 96 C 280 96, 290 140, 370 140" fill="none" stroke="#ff79c6" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- ============================================================== -->
+  <!-- OPTICAL TRACES: GATHER / REDUCE (WORKERS TO RESULTS)           -->
+  <!-- ============================================================== -->
+  <!-- Path Out 1 -->
+  <path id="pathOut1" d="M 530 50 C 610 50, 620 96, 705 96" fill="none" stroke="#44475a" stroke-width="2"/>
+  <path d="M 530 50 C 610 50, 620 96, 705 96" fill="none" stroke="#8be9fd" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- Path Out 2 -->
+  <path id="pathOut2" d="M 530 80 C 610 80, 620 96, 705 96" fill="none" stroke="#44475a" stroke-width="2"/>
+  <path d="M 530 80 C 610 80, 620 96, 705 96" fill="none" stroke="#50fa7b" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- Path Out 3 -->
+  <path id="pathOut3" d="M 530 110 C 610 110, 620 96, 705 96" fill="none" stroke="#44475a" stroke-width="2"/>
+  <path d="M 530 110 C 610 110, 620 96, 705 96" fill="none" stroke="#bd93f9" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- Path Out 4 -->
+  <path id="pathOut4" d="M 530 140 C 610 140, 620 96, 705 96" fill="none" stroke="#44475a" stroke-width="2"/>
+  <path d="M 530 140 C 610 140, 620 96, 705 96" fill="none" stroke="#ff79c6" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- ============================================================== -->
+  <!-- LEFT: MASTER PROCESS / RANK 0 (TASK DISPATCH)                 -->
+  <!-- ============================================================== -->
+  <g transform="translate(45, 48)">
+    <rect width="150" height="96" rx="8" fill="#21222c" stroke="#bd93f9" stroke-width="1.4"/>
+    
+    <!-- Title Pill -->
+    <rect x="10" y="10" width="130" height="22" rx="4" fill="#1e1f29"/>
+    <circle cx="20" cy="21" r="3" fill="#bd93f9"/>
+    <text x="30" y="25" class="mono" font-size="9.5" font-weight="700" fill="#bd93f9">MASTER (RANK 0)</text>
+
+    <!-- Details -->
+    <text x="14" y="48" class="mono" font-size="8" fill="#f8f8f2">1. Split &amp; Decompose</text>
+    <text x="14" y="62" class="mono" font-size="7.5" fill="#6272a4">Task partitioning</text>
+    
+    <!-- MPI Action Badge -->
+    <rect x="10" y="70" width="130" height="18" rx="3" fill="#1e1f29" stroke="#bd93f9" stroke-width="0.6"/>
+    <text x="75" y="82.5" text-anchor="middle" class="mono" font-size="7.5" font-weight="700" fill="#8be9fd">MPI_Scatter / Bcast</text>
+  </g>
+
+  <!-- ============================================================== -->
+  <!-- CENTER: 4 PARALLEL COMPUTE WORKERS (1,000+ NODES)              -->
+  <!-- ============================================================== -->
+  <!-- Worker Node 1 -->
+  <g transform="translate(370, 38)">
+    <rect width="160" height="24" rx="5" fill="#21222c" stroke="#44475a" stroke-width="1"/>
+    <circle cx="10" cy="12" r="2.5" fill="#50fa7b"/>
+    <text x="20" y="15.5" class="mono" font-size="8" font-weight="700" fill="#f8f8f2">cn-01 · MPI Rank 1</text>
+    <text x="150" y="15.5" text-anchor="end" class="mono" font-size="7" font-weight="700" fill="#50fa7b">CPU</text>
+  </g>
+
+  <!-- Worker Node 2 -->
+  <g transform="translate(370, 68)">
+    <rect width="160" height="24" rx="5" fill="#21222c" stroke="#44475a" stroke-width="1"/>
+    <circle cx="10" cy="12" r="2.5" fill="#50fa7b"/>
+    <text x="20" y="15.5" class="mono" font-size="8" font-weight="700" fill="#f8f8f2">cn-02 · MPI Rank 2</text>
+    <text x="150" y="15.5" text-anchor="end" class="mono" font-size="7" font-weight="700" fill="#50fa7b">CPU</text>
+  </g>
+
+  <!-- Worker Node 3 (GPU) -->
+  <g transform="translate(370, 98)">
+    <rect width="160" height="24" rx="5" fill="#21222c" stroke="#bd93f9" stroke-width="1"/>
+    <circle cx="10" cy="12" r="2.5" fill="#ff79c6"/>
+    <text x="20" y="15.5" class="mono" font-size="8" font-weight="700" fill="#f8f8f2">cn-03 · GPU Rank 3</text>
+    <text x="150" y="15.5" text-anchor="end" class="mono" font-size="7" font-weight="700" fill="#ff79c6">CUDA</text>
+  </g>
+
+  <!-- Worker Node 4 (GPU) -->
+  <g transform="translate(370, 128)">
+    <rect width="160" height="24" rx="5" fill="#21222c" stroke="#bd93f9" stroke-width="1"/>
+    <circle cx="10" cy="12" r="2.5" fill="#ff79c6"/>
+    <text x="20" y="15.5" class="mono" font-size="8" font-weight="700" fill="#f8f8f2">cn-04 · GPU Rank 4</text>
+    <text x="150" y="15.5" text-anchor="end" class="mono" font-size="7" font-weight="700" fill="#ff79c6">CUDA</text>
+  </g>
+
+  <!-- Scale Indicator Tag -->
+  <text x="450" y="163" text-anchor="middle" class="mono" font-size="7.5" fill="#6272a4">
+    [ 1,000+ Distributed Nodes Computing in Parallel ]
   </text>
 
-  <!-- Status Capsule (Top Right) -->
-  <g transform="translate(768, 9)">
-    <rect width="174" height="22" rx="11" fill="#0b1329" stroke="#334155" stroke-width="0.9"/>
-    <circle cx="12" cy="11" r="3.5" fill="#10b981" filter="url(#glowEmerald)">
-      <animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-    <text x="22" y="15" class="mono" font-size="8.5" font-weight="700" fill="#10b981">FABRIC ONLINE</text>
-    <line x1="94" y1="4" x2="94" y2="18" stroke="#1e293b" stroke-width="1"/>
-    <text x="102" y="15" class="mono" font-size="8" fill="#38bdf8">800G NDR · &lt;600ns</text>
-  </g>
-
   <!-- ============================================================== -->
-  <!-- PILLAR 1: ORCHESTRATION & CONTROL PLANE (x: 18, y: 52, w: 186) -->
+  <!-- RIGHT: REDUCE & GATHER RESULTS (COLLECTIVE SYNCHRONIZATION)    -->
   <!-- ============================================================== -->
-  <g transform="translate(18, 52)">
-    <!-- Chassis Body -->
-    <rect width="186" height="228" rx="10" fill="#0a1022" stroke="url(#borderViolet)" stroke-width="1.2"/>
+  <g transform="translate(705, 48)">
+    <rect width="150" height="96" rx="8" fill="#21222c" stroke="#ff79c6" stroke-width="1.4"/>
     
-    <!-- Header Banner -->
-    <rect width="186" height="28" rx="9" fill="url(#violetHeader)"/>
-    <rect y="18" width="186" height="10" fill="url(#violetHeader)"/>
-    <text x="93" y="18" text-anchor="middle" class="mono" font-size="10.5" font-weight="800" fill="#ffffff" letter-spacing="0.6">SLURM CONTROL PLANE</text>
+    <!-- Title Pill -->
+    <rect x="10" y="10" width="130" height="22" rx="4" fill="#1e1f29"/>
+    <circle cx="20" cy="21" r="3" fill="#ff79c6"/>
+    <text x="30" y="25" class="mono" font-size="9.5" font-weight="700" fill="#ff79c6">GATHER &amp; REDUCE</text>
+
+    <!-- Details -->
+    <text x="14" y="48" class="mono" font-size="8" fill="#f8f8f2">2. Combine Results</text>
+    <text x="14" y="62" class="mono" font-size="7.5" fill="#6272a4">Global reduction sync</text>
     
-    <!-- Subtitle / Role -->
-    <text x="93" y="42" text-anchor="middle" class="mono" font-size="8" font-weight="600" fill="#a5b4fc" letter-spacing="0.3">ORCHESTRATION &amp; SCHEDULER</text>
-
-    <!-- Workload Manager Module -->
-    <rect x="8" y="50" width="170" height="66" rx="6" fill="#0d152b" stroke="#1e293b" stroke-width="0.8"/>
-    <text x="16" y="66" class="mono" font-size="8" fill="#94a3b8">ENGINE: <tspan fill="#38bdf8" font-weight="700">Slurmctld + Munge</tspan></text>
-    <text x="16" y="80" class="mono" font-size="8" fill="#94a3b8">POLICY: <tspan fill="#a855f7" font-weight="700">Multi-Factor Fairshare</tspan></text>
-    <text x="16" y="94" class="mono" font-size="8" fill="#94a3b8">DISPATCH: <tspan fill="#10b981" font-weight="700">Topology-Aware MPI</tspan></text>
-    <text x="16" y="108" class="mono" font-size="8" fill="#94a3b8">HA MODE: <tspan fill="#f1f5f9">Dual Active-Standby</tspan></text>
-
-    <!-- Cluster Scope Tag -->
-    <g transform="translate(8, 122)">
-      <rect width="170" height="42" rx="5" fill="#0d152b" stroke="#334155" stroke-width="0.8"/>
-      <text x="10" y="16" class="mono" font-size="7.5" fill="#64748b">GLOBAL MANAGED CAPACITY</text>
-      <text x="10" y="32" class="mono" font-size="11.5" font-weight="800" fill="#f1f5f9">1,000+ <tspan font-size="8.5" font-weight="600" fill="#38bdf8">NODES SYNCED</tspan></text>
-    </g>
-
-    <!-- Scheduler Status Live Indicators -->
-    <g transform="translate(8, 170)">
-      <rect width="170" height="50" rx="5" fill="#080e1c" stroke="#1e293b" stroke-width="0.8"/>
-      <!-- Primary Controller -->
-      <circle cx="12" cy="15" r="3.2" fill="#10b981">
-        <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="22" y="18" class="mono" font-size="7.5" fill="#f1f5f9">ctrl-01 [PRIMARY]: <tspan fill="#10b981">ACTIVE</tspan></text>
-
-      <!-- Backup Controller -->
-      <circle cx="12" cy="33" r="3.2" fill="#818cf8">
-        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="22" y="36" class="mono" font-size="7.5" fill="#f1f5f9">ctrl-02 [STANDBY]: <tspan fill="#818cf8">HOT-SYNC</tspan></text>
-    </g>
+    <!-- MPI Action Badge -->
+    <rect x="10" y="70" width="130" height="18" rx="3" fill="#1e1f29" stroke="#ff79c6" stroke-width="0.6"/>
+    <text x="75" y="82.5" text-anchor="middle" class="mono" font-size="7.5" font-weight="700" fill="#50fa7b">MPI_Reduce / Gather</text>
   </g>
 
   <!-- ============================================================== -->
-  <!-- HIGH-SPEED INTERCONNECT: INGRESS DIRECTOR CORE (x: 228, y: 142)-->
+  <!-- ANIMATED FLOW PULSES (DATA SCATTER & GATHER SNAKE)             -->
   <!-- ============================================================== -->
-  <g transform="translate(228, 142)">
-    <rect width="66" height="48" rx="8" fill="#091428" stroke="url(#borderCore)" stroke-width="1.3" filter="url(#glowCyan)"/>
-    <text x="33" y="18" text-anchor="middle" class="mono" font-size="8.5" font-weight="800" fill="#38bdf8">IB FABRIC</text>
-    <text x="33" y="30" text-anchor="middle" class="mono" font-size="7.5" font-weight="700" fill="#ffffff">DIRECTOR</text>
-    <text x="33" y="41" text-anchor="middle" class="mono" font-size="7" fill="#818cf8">800 Gbps</text>
-  </g>
-
-  <!-- Static Optical Traces: Controller to Ingress Director Switch -->
-  <path d="M 204 166 L 228 166" fill="none" stroke="#1e293b" stroke-width="3"/>
-  <path d="M 204 166 L 228 166" fill="none" stroke="#818cf8" stroke-width="1.2" stroke-dasharray="4 2"/>
-
-  <!-- Optical Traces: Ingress Director Fan-out to Compute Partitions -->
-  <!-- Path to CPU Node Row 1 -->
-  <path id="pathCpu1" d="M 294 166 C 308 166, 310 112, 326 112" fill="none" stroke="#1e293b" stroke-width="2.5"/>
-  <path d="M 294 166 C 308 166, 310 112, 326 112" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.6"/>
-
-  <!-- Path to CPU Node Row 2 -->
-  <path id="pathCpu2" d="M 294 166 C 310 166, 312 148, 326 148" fill="none" stroke="#1e293b" stroke-width="2.5"/>
-  <path d="M 294 166 C 310 166, 312 148, 326 148" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.6"/>
-
-  <!-- Path to GPU Node Row 1 -->
-  <path id="pathGpu1" d="M 294 166 C 310 166, 312 208, 326 208" fill="none" stroke="#1e293b" stroke-width="2.5"/>
-  <path d="M 294 166 C 310 166, 312 208, 326 208" fill="none" stroke="#818cf8" stroke-width="1" opacity="0.6"/>
-
-  <!-- Path to GPU Node Row 2 -->
-  <path id="pathGpu2" d="M 294 166 C 308 166, 310 244, 326 244" fill="none" stroke="#1e293b" stroke-width="2.5"/>
-  <path d="M 294 166 C 308 166, 310 244, 326 244" fill="none" stroke="#a855f7" stroke-width="1" opacity="0.6"/>
-
-  <!-- ============================================================== -->
-  <!-- PILLAR 2: MASSIVELY PARALLEL COMPUTE FABRIC (1000+ NODES)     -->
-  <!-- ============================================================== -->
-  <g transform="translate(326, 52)">
-    <!-- Chassis Outer Body -->
-    <rect width="338" height="228" rx="10" fill="#080e1e" stroke="url(#borderCyan)" stroke-width="1.2"/>
-
-    <!-- Header Banner -->
-    <rect width="338" height="28" rx="9" fill="url(#cyanHeader)"/>
-    <rect y="18" width="338" height="10" fill="url(#cyanHeader)"/>
-    <text x="169" y="18" text-anchor="middle" class="mono" font-size="10.5" font-weight="800" fill="#ffffff" letter-spacing="0.8">DISTRIBUTED COMPUTE TIER</text>
-
-    <!-- Subtitle / Capacity -->
-    <text x="169" y="42" text-anchor="middle" class="mono" font-size="8" font-weight="700" fill="#38bdf8" letter-spacing="0.5">1,000+ HETEROGENEOUS CLUSTER NODES</text>
-
-    <!-- ============================================================ -->
-    <!-- SECTION A: DENSE CPU COMPUTE PARTITION (800+ Nodes)         -->
-    <!-- ============================================================ -->
-    <g transform="translate(10, 48)">
-      <rect width="318" height="78" rx="6" fill="#0c152c" stroke="#1e293b" stroke-width="0.8"/>
-      
-      <!-- Partition Header Badge -->
-      <rect width="318" height="18" rx="5" fill="#0f1f40"/>
-      <circle cx="10" cy="9" r="3" fill="#10b981">
-        <animate attributeName="opacity" values="1;0.3;1" dur="1.1s" repeatCount="indefinite"/>
-      </circle>
-      <text x="18" y="12.5" class="mono" font-size="7.5" font-weight="700" fill="#38bdf8">PARTITION A: MASSIVE CPU CLUSTER</text>
-      <text x="310" y="12.5" text-anchor="end" class="mono" font-size="7" font-weight="700" fill="#10b981">800+ NODES · 100K+ CORES</text>
-
-      <!-- Blade Unit 1: High-Density Dual-Socket EPYC / Xeon -->
-      <g transform="translate(8, 24)">
-        <rect width="302" height="22" rx="4" fill="#080e1c" stroke="#1e293b" stroke-width="0.6"/>
-        <circle cx="8" cy="11" r="2.5" fill="#38bdf8"/>
-        <text x="16" y="14" class="mono" font-size="7.5" font-weight="700" fill="#f1f5f9">cn[001-400]</text>
-        <text x="80" y="14" class="mono" font-size="7" fill="#94a3b8">Dual AMD EPYC · 256 Threads/Node</text>
-        <rect x="238" y="4" width="58" height="14" rx="3" fill="#0c1f38"/>
-        <text x="267" y="14" text-anchor="middle" class="mono" font-size="6.5" font-weight="700" fill="#38bdf8">MPI PARALLEL</text>
-      </g>
-
-      <!-- Blade Unit 2: High-Memory & Throughput Compute -->
-      <g transform="translate(8, 50)">
-        <rect width="302" height="22" rx="4" fill="#080e1c" stroke="#1e293b" stroke-width="0.6"/>
-        <circle cx="8" cy="11" r="2.5" fill="#10b981"/>
-        <text x="16" y="14" class="mono" font-size="7.5" font-weight="700" fill="#f1f5f9">cn[401-800]</text>
-        <text x="80" y="14" class="mono" font-size="7" fill="#94a3b8">Dual Intel Xeon · High-Mem NUMA</text>
-        <rect x="238" y="4" width="58" height="14" rx="3" fill="#062e24"/>
-        <text x="267" y="14" text-anchor="middle" class="mono" font-size="6.5" font-weight="700" fill="#10b981">OPENMP / HYBRID</text>
-      </g>
-    </g>
-
-    <!-- ============================================================ -->
-    <!-- SECTION B: ACCELERATED GPU TENSOR FABRIC (200+ Nodes)       -->
-    <!-- ============================================================ -->
-    <g transform="translate(10, 134)">
-      <rect width="318" height="84" rx="6" fill="#0f1530" stroke="#312e81" stroke-width="0.8"/>
-      
-      <!-- Partition Header Badge -->
-      <rect width="318" height="18" rx="5" fill="#1e1b4b"/>
-      <circle cx="10" cy="9" r="3" fill="#a855f7">
-        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.3s" repeatCount="indefinite"/>
-      </circle>
-      <text x="18" y="12.5" class="mono" font-size="7.5" font-weight="700" fill="#c084fc">PARTITION B: ACCELERATED GPU FABRIC</text>
-      <text x="310" y="12.5" text-anchor="end" class="mono" font-size="7" font-weight="700" fill="#a855f7">200+ NODES · 1,600+ GPUs</text>
-
-      <!-- Accelerated Unit 1: Extreme Scale AI & Scientific Tensor -->
-      <g transform="translate(8, 24)">
-        <rect width="302" height="24" rx="4" fill="#080d21" stroke="#4338ca" stroke-width="0.6"/>
-        <circle cx="8" cy="12" r="2.5" fill="#c084fc"/>
-        <text x="16" y="15" class="mono" font-size="7.5" font-weight="700" fill="#f1f5f9">gpu[001-100]</text>
-        <text x="82" y="15" class="mono" font-size="7" fill="#cbd5e1">8x H100 SXM5 · 900 GB/s NVLink</text>
-        <rect x="238" y="5" width="58" height="14" rx="3" fill="#2e1065"/>
-        <text x="267" y="15" text-anchor="middle" class="mono" font-size="6.5" font-weight="700" fill="#c084fc">CUDA / TENSOR</text>
-      </g>
-
-      <!-- Accelerated Unit 2: HPC Simulation & OpenACC Acceleration -->
-      <g transform="translate(8, 53)">
-        <rect width="302" height="24" rx="4" fill="#080d21" stroke="#312e81" stroke-width="0.6"/>
-        <circle cx="8" cy="12" r="2.5" fill="#818cf8"/>
-        <text x="16" y="15" class="mono" font-size="7.5" font-weight="700" fill="#f1f5f9">gpu[101-200]</text>
-        <text x="82" y="15" class="mono" font-size="7" fill="#cbd5e1">4x A100 80GB · NVSwitch Mesh</text>
-        <rect x="238" y="5" width="58" height="14" rx="3" fill="#1e1b4b"/>
-        <text x="267" y="15" text-anchor="middle" class="mono" font-size="6.5" font-weight="700" fill="#818cf8">OPENACC / AI</text>
-      </g>
-    </g>
-  </g>
-
-  <!-- ============================================================== -->
-  <!-- HIGH-SPEED OUTPUT INTERCONNECT & STORAGE ROUTER (x: 684, y: 142)-->
-  <!-- ============================================================== -->
-  <g transform="translate(684, 142)">
-    <rect width="66" height="48" rx="8" fill="#1c0f24" stroke="url(#borderRose)" stroke-width="1.3" filter="url(#glowRose)"/>
-    <text x="33" y="18" text-anchor="middle" class="mono" font-size="8.5" font-weight="800" fill="#fb7185">I/O ROUTER</text>
-    <text x="33" y="30" text-anchor="middle" class="mono" font-size="7.5" font-weight="700" fill="#ffffff">LUSTRE MDS</text>
-    <text x="33" y="41" text-anchor="middle" class="mono" font-size="7" fill="#fb7185">MULTI-TB/s</text>
-  </g>
-
-  <!-- Optical Traces: Compute Partitions Fan-in to Storage Router -->
-  <!-- CPU Row 1 to Storage -->
-  <path id="pathSto1" d="M 664 112 C 676 112, 678 166, 684 166" fill="none" stroke="#1e293b" stroke-width="2.5"/>
-  <path d="M 664 112 C 676 112, 678 166, 684 166" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.6"/>
-
-  <!-- CPU Row 2 to Storage -->
-  <path id="pathSto2" d="M 664 148 C 674 148, 676 166, 684 166" fill="none" stroke="#1e293b" stroke-width="2.5"/>
-  <path d="M 664 148 C 674 148, 676 166, 684 166" fill="none" stroke="#10b981" stroke-width="1" opacity="0.6"/>
-
-  <!-- GPU Row 1 to Storage -->
-  <path id="pathSto3" d="M 664 208 C 674 208, 676 166, 684 166" fill="none" stroke="#1e293b" stroke-width="2.5"/>
-  <path d="M 664 208 C 674 208, 676 166, 684 166" fill="none" stroke="#a855f7" stroke-width="1" opacity="0.6"/>
-
-  <!-- GPU Row 2 to Storage -->
-  <path id="pathSto4" d="M 664 244 C 676 244, 678 166, 684 166" fill="none" stroke="#1e293b" stroke-width="2.5"/>
-  <path d="M 664 244 C 676 244, 678 166, 684 166" fill="none" stroke="#fb7185" stroke-width="1" opacity="0.6"/>
-
-  <!-- Storage Router to Lustre Storage Chassis -->
-  <path d="M 750 166 L 774 166" fill="none" stroke="#1e293b" stroke-width="3"/>
-  <path d="M 750 166 L 774 166" fill="none" stroke="#fb7185" stroke-width="1.2" stroke-dasharray="4 2"/>
-
-  <!-- ============================================================== -->
-  <!-- PILLAR 3: PARALLEL DISTRIBUTED STORAGE TIER (x: 774, y: 52)    -->
-  <!-- ============================================================== -->
-  <g transform="translate(774, 52)">
-    <!-- Chassis Body -->
-    <rect width="168" height="228" rx="10" fill="#130b18" stroke="url(#borderRose)" stroke-width="1.2"/>
-
-    <!-- Header Banner -->
-    <rect width="168" height="28" rx="9" fill="url(#roseHeader)"/>
-    <rect y="18" width="168" height="10" fill="url(#roseHeader)"/>
-    <text x="84" y="18" text-anchor="middle" class="mono" font-size="10" font-weight="800" fill="#ffffff" letter-spacing="0.5">PARALLEL STORAGE</text>
-
-    <!-- Subtitle / Architecture -->
-    <text x="84" y="42" text-anchor="middle" class="mono" font-size="8" font-weight="600" fill="#fda4af">LUSTRE / GPFS TIER</text>
-
-    <!-- Layer 1: NVMe-oF Burst Buffer -->
-    <g transform="translate(8, 50)">
-      <rect width="152" height="40" rx="5" fill="#1f0f22" stroke="#3f192b" stroke-width="0.8"/>
-      <circle cx="8" cy="12" r="2.5" fill="#fb7185"/>
-      <text x="16" y="15" class="mono" font-size="7.5" font-weight="700" fill="#ffffff">NVMe BURST BUFFER</text>
-      <text x="16" y="29" class="mono" font-size="6.8" fill="#fda4af">Ultra-Low Latency Checkpoint</text>
-    </g>
-
-    <!-- Layer 2: Distributed OST Storage Targets -->
-    <g transform="translate(8, 96)">
-      <rect width="152" height="42" rx="5" fill="#1f0f22" stroke="#3f192b" stroke-width="0.8"/>
-      <circle cx="8" cy="12" r="2.5" fill="#38bdf8"/>
-      <text x="16" y="15" class="mono" font-size="7.5" font-weight="700" fill="#ffffff">OST ARRAY POOLS</text>
-      <text x="16" y="28" class="mono" font-size="6.8" fill="#94a3b8">Multi-PB High-Throughput I/O</text>
-      <text x="16" y="38" class="mono" font-size="6.5" fill="#38bdf8">Striped POSIX Storage</text>
-    </g>
-
-    <!-- Layer 3: MDT Metadata Engine -->
-    <g transform="translate(8, 144)">
-      <rect width="152" height="34" rx="5" fill="#1f0f22" stroke="#3f192b" stroke-width="0.8"/>
-      <circle cx="8" cy="12" r="2.5" fill="#a855f7"/>
-      <text x="16" y="15" class="mono" font-size="7.5" font-weight="700" fill="#ffffff">MDT METADATA</text>
-      <text x="16" y="28" class="mono" font-size="6.8" fill="#cbd5e1">Distributed Locking Engine</text>
-    </g>
-
-    <!-- Throughput Metrics Card -->
-    <g transform="translate(8, 184)">
-      <rect width="152" height="36" rx="5" fill="#0a050d" stroke="#4c1d30" stroke-width="0.8"/>
-      <text x="8" y="15" class="mono" font-size="7.5" fill="#fda4af">IOPS: <tspan font-weight="700" fill="#ffffff">3.5M / sec</tspan></text>
-      <text x="8" y="28" class="mono" font-size="7.5" fill="#38bdf8">THROUGHPUT: <tspan font-weight="700" fill="#ffffff">1.2+ TB/s</tspan></text>
-    </g>
-  </g>
-
-  <!-- ============================================================== -->
-  <!-- DYNAMIC ANIMATED DATA FLOW (CONTINUOUS HIGH-SPEED SNAKE PULSES)-->
-  <!-- ============================================================== -->
-
-  <!-- Flow 1: Controller to Ingress Switch (Cyan Snake Pulse) -->
-  <circle r="3.5" fill="#38bdf8" filter="url(#glowCyan)">
-    <animateMotion path="M 204 166 L 228 166" dur="1.1s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2.5" fill="#818cf8" filter="url(#glowViolet)">
-    <animateMotion path="M 204 166 L 228 166" begin="0.55s" dur="1.1s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- Flow 2: Ingress Switch to CPU Partition Blade 1 (Cyan) -->
-  <circle r="3.5" fill="#38bdf8" filter="url(#glowCyan)">
+  <!-- Scatter Pulses (Left to Center) -->
+  <circle r="3" fill="#8be9fd" filter="url(#glowCyan)">
     <animateMotion dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathCpu1"/>
+      <mpath xlink:href="#pathIn1"/>
     </animateMotion>
   </circle>
-  <!-- Trailing Snake Tail Packet -->
-  <circle r="2" fill="#38bdf8" opacity="0.6">
-    <animateMotion begin="0.08s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathCpu1"/>
+  <circle r="3" fill="#50fa7b" filter="url(#glowGreen)">
+    <animateMotion begin="0.3s" dur="1.5s" repeatCount="indefinite">
+      <mpath xlink:href="#pathIn2"/>
     </animateMotion>
   </circle>
-
-  <!-- Flow 3: Ingress Switch to CPU Partition Blade 2 (Emerald) -->
-  <circle r="3.5" fill="#10b981" filter="url(#glowEmerald)">
-    <animateMotion begin="0.4s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathCpu2"/>
+  <circle r="3" fill="#bd93f9" filter="url(#glowCyan)">
+    <animateMotion begin="0.6s" dur="1.5s" repeatCount="indefinite">
+      <mpath xlink:href="#pathIn3"/>
     </animateMotion>
   </circle>
-  <circle r="2" fill="#10b981" opacity="0.6">
-    <animateMotion begin="0.48s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathCpu2"/>
+  <circle r="3" fill="#ff79c6" filter="url(#glowPink)">
+    <animateMotion begin="0.9s" dur="1.5s" repeatCount="indefinite">
+      <mpath xlink:href="#pathIn4"/>
     </animateMotion>
   </circle>
 
-  <!-- Flow 4: Ingress Switch to GPU Partition Blade 1 (Violet) -->
-  <circle r="3.5" fill="#c084fc" filter="url(#glowViolet)">
+  <!-- Gather Pulses (Center to Right) -->
+  <circle r="3" fill="#8be9fd" filter="url(#glowCyan)">
     <animateMotion begin="0.75s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathGpu1"/>
+      <mpath xlink:href="#pathOut1"/>
     </animateMotion>
   </circle>
-  <circle r="2" fill="#c084fc" opacity="0.6">
-    <animateMotion begin="0.83s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathGpu1"/>
+  <circle r="3" fill="#50fa7b" filter="url(#glowGreen)">
+    <animateMotion begin="1.05s" dur="1.5s" repeatCount="indefinite">
+      <mpath xlink:href="#pathOut2"/>
     </animateMotion>
   </circle>
-
-  <!-- Flow 5: Ingress Switch to GPU Partition Blade 2 (Rose/Purple) -->
-  <circle r="3.5" fill="#a855f7" filter="url(#glowViolet)">
-    <animateMotion begin="1.1s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathGpu2"/>
-    </animateMotion>
-  </circle>
-  <circle r="2" fill="#a855f7" opacity="0.6">
-    <animateMotion begin="1.18s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathGpu2"/>
-    </animateMotion>
-  </circle>
-
-  <!-- Flow 6: CPU Blade 1 to Storage Router (Cyan) -->
-  <circle r="3.5" fill="#38bdf8" filter="url(#glowCyan)">
-    <animateMotion begin="0.25s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathSto1"/>
-    </animateMotion>
-  </circle>
-  <circle r="2" fill="#38bdf8" opacity="0.6">
-    <animateMotion begin="0.33s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathSto1"/>
-    </animateMotion>
-  </circle>
-
-  <!-- Flow 7: CPU Blade 2 to Storage Router (Emerald) -->
-  <circle r="3.5" fill="#10b981" filter="url(#glowEmerald)">
-    <animateMotion begin="0.65s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathSto2"/>
-    </animateMotion>
-  </circle>
-  <circle r="2" fill="#10b981" opacity="0.6">
-    <animateMotion begin="0.73s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathSto2"/>
-    </animateMotion>
-  </circle>
-
-  <!-- Flow 8: GPU Blade 1 to Storage Router (Violet) -->
-  <circle r="3.5" fill="#c084fc" filter="url(#glowViolet)">
-    <animateMotion begin="1.0s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathSto3"/>
-    </animateMotion>
-  </circle>
-  <circle r="2" fill="#c084fc" opacity="0.6">
-    <animateMotion begin="1.08s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathSto3"/>
-    </animateMotion>
-  </circle>
-
-  <!-- Flow 9: GPU Blade 2 to Storage Router (Rose) -->
-  <circle r="3.5" fill="#fb7185" filter="url(#glowRose)">
+  <circle r="3" fill="#bd93f9" filter="url(#glowCyan)">
     <animateMotion begin="1.35s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathSto4"/>
+      <mpath xlink:href="#pathOut3"/>
     </animateMotion>
   </circle>
-  <circle r="2" fill="#fb7185" opacity="0.6">
-    <animateMotion begin="1.43s" dur="1.5s" repeatCount="indefinite">
-      <mpath xlink:href="#pathSto4"/>
+  <circle r="3" fill="#ff79c6" filter="url(#glowPink)">
+    <animateMotion begin="0.15s" dur="1.5s" repeatCount="indefinite">
+      <mpath xlink:href="#pathOut4"/>
     </animateMotion>
   </circle>
 
-  <!-- Flow 10: Storage Router to Parallel Storage (Coral/Rose) -->
-  <circle r="3.5" fill="#fb7185" filter="url(#glowRose)">
-    <animateMotion path="M 750 166 L 774 166" dur="0.9s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2.5" fill="#38bdf8" filter="url(#glowCyan)">
-    <animateMotion path="M 750 166 L 774 166" begin="0.45s" dur="0.9s" repeatCount="indefinite"/>
-  </circle>
-
-  <!-- ============================================================== -->
-  <!-- BOTTOM STATUS & ARCHITECTURE TELEMETRY RAIL (y: 290 to 340)     -->
-  <!-- ============================================================== -->
-  <rect x="0" y="290" width="960" height="50" rx="14" fill="url(#footerGrad)"/>
-  <rect x="0" y="290" width="960" height="20" fill="url(#footerGrad)"/>
-  <line x1="0" y1="290" x2="960" y2="290" stroke="#1e293b" stroke-width="1.2"/>
-
-  <!-- Left: Architectural Specification Badges (Balanced & Perfectly Spaced) -->
-  <g transform="translate(20, 320)">
-    <text class="mono" font-size="8" font-weight="700" fill="#38bdf8">SCALE: <tspan fill="#f1f5f9">1,000+ NODES</tspan></text>
-    <text x="125" class="mono" font-size="8" fill="#334155">|</text>
-    <text x="138" class="mono" font-size="8" font-weight="700" fill="#818cf8">TOPOLOGY: <tspan fill="#f1f5f9">FAT-TREE</tspan></text>
-    <text x="252" class="mono" font-size="8" fill="#334155">|</text>
-    <text x="265" class="mono" font-size="8" font-weight="700" fill="#38bdf8">FABRIC: <tspan fill="#f1f5f9">800 Gbps</tspan></text>
-    <text x="366" class="mono" font-size="8" fill="#334155">|</text>
-    <text x="379" class="mono" font-size="8" font-weight="700" fill="#10b981">LATENCY: <tspan fill="#f1f5f9">&lt; 600 ns</tspan></text>
-    <text x="490" class="mono" font-size="8" fill="#334155">|</text>
-    <text x="503" class="mono" font-size="8" font-weight="700" fill="#fb7185">I/O: <tspan fill="#f1f5f9">LUSTRE FS</tspan></text>
-  </g>
-
-  <!-- Center-Right: Heartbeat Oscilloscope Waveform -->
-  <g transform="translate(680, 298)">
-    <rect width="138" height="24" rx="4" fill="#060b17" stroke="#1e293b" stroke-width="0.8"/>
-    <line x1="0" y1="12" x2="138" y2="12" stroke="#1e293b" stroke-width="0.5" stroke-dasharray="2 2"/>
-    <!-- Sine Oscilloscope Path -->
-    <path id="telemetryWave" d="M 2 12 L 28 12 L 34 4 L 40 20 L 46 6 L 52 17 L 58 12 L 86 12 L 92 4 L 98 20 L 104 6 L 110 17 L 116 12 L 136 12"
-          fill="none" stroke="#10b981" stroke-width="1.3" stroke-linejoin="round" filter="url(#glowEmerald)"/>
-    <!-- Sweeping Scan Dot -->
-    <circle r="2.5" fill="#38bdf8" filter="url(#glowCyan)">
-      <animateMotion dur="2.2s" repeatCount="indefinite">
-        <mpath xlink:href="#telemetryWave"/>
-      </animateMotion>
-    </circle>
-  </g>
-
-  <!-- Right: Nominal Health Capsule -->
-  <g transform="translate(830, 298)">
-    <rect width="112" height="24" rx="6" fill="#060b17" stroke="#10b981" stroke-width="0.9"/>
-    <circle cx="12" cy="12" r="3.5" fill="#10b981">
-      <animate attributeName="r" values="2.5;4;2.5" dur="1.8s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-    <text x="22" y="15.5" class="mono" font-size="7.5" font-weight="800" fill="#10b981">ALL SYS NOMINAL</text>
-  </g>
+  <!-- Bottom Workflow Legend Bar -->
+  <text x="450" y="180" text-anchor="middle" class="mono" font-size="8.5" fill="#6272a4">
+    PARALLEL WORKFLOW: <tspan fill="#bd93f9">SCATTER DATA</tspan> ➔ <tspan fill="#50fa7b">CONCURRENT MULTI-NODE COMPUTE</tspan> ➔ <tspan fill="#ff79c6">REDUCE RESULTS</tspan>
+  </text>
 </svg>
