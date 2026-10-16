@@ -29,21 +29,21 @@
   <rect x="42" y="66" width="96" height="18" rx="4" fill="#a78bfa22" stroke="#a78bfa" stroke-width="1"/>
   <text x="90" y="79" class="mono badge" fill="#a78bfa" text-anchor="middle">MEMBER ADDED</text>
   <text x="150" y="79" class="mono desc">Added as team member to spack/spack-packages</text>
-  <text x="836" y="79" class="mono time" text-anchor="end">today</text>
+  <text x="836" y="79" class="mono time" text-anchor="end">3h ago</text>
 
   <!-- Row -->
   <rect x="32" y="98" width="816" height="34" rx="6" fill="#111827" stroke="#1f2937" stroke-width="0.8"/>
   <rect x="42" y="106" width="96" height="18" rx="4" fill="#10b98122" stroke="#10b981" stroke-width="1"/>
   <text x="90" y="119" class="mono badge" fill="#10b981" text-anchor="middle">PR MERGED</text>
-  <text x="150" y="119" class="mono desc">Merged PR #7002 on spack/spack-packages</text>
-  <text x="836" y="119" class="mono time" text-anchor="end">2d ago</text>
+  <text x="150" y="119" class="mono desc">Merged PR #9: </text>
+  <text x="836" y="119" class="mono time" text-anchor="end">9h ago</text>
 
   <!-- Row -->
   <rect x="32" y="138" width="816" height="34" rx="6" fill="#111827" stroke="#1f2937" stroke-width="0.8"/>
-  <rect x="42" y="146" width="96" height="18" rx="4" fill="#10b98122" stroke="#10b981" stroke-width="1"/>
-  <text x="90" y="159" class="mono badge" fill="#10b981" text-anchor="middle">PR MERGED</text>
-  <text x="150" y="159" class="mono desc">Merged PR #9: Develop on CISSSCO/CiscoRamon</text>
-  <text x="836" y="159" class="mono time" text-anchor="end">yesterday</text>
+  <rect x="42" y="146" width="96" height="18" rx="4" fill="#00f2fe22" stroke="#00f2fe" stroke-width="1"/>
+  <text x="90" y="159" class="mono badge" fill="#00f2fe" text-anchor="middle">PR OPENED</text>
+  <text x="150" y="159" class="mono desc">PR #9 on CISSSCO/CiscoRamon: ...</text>
+  <text x="836" y="159" class="mono time" text-anchor="end">9h ago</text>
 
   <!-- Row -->
   <rect x="32" y="178" width="816" height="34" rx="6" fill="#111827" stroke="#1f2937" stroke-width="0.8"/>
@@ -54,9 +54,9 @@
 
   <!-- Row -->
   <rect x="32" y="218" width="816" height="34" rx="6" fill="#111827" stroke="#1f2937" stroke-width="0.8"/>
-  <rect x="42" y="226" width="96" height="18" rx="4" fill="#10b98122" stroke="#10b981" stroke-width="1"/>
-  <text x="90" y="239" class="mono badge" fill="#10b981" text-anchor="middle">PR MERGED</text>
-  <text x="150" y="239" class="mono desc">Merged PR #8: Redesign website on CiscoRamon</text>
-  <text x="836" y="239" class="mono time" text-anchor="end">2d ago</text>
+  <rect x="42" y="226" width="96" height="18" rx="4" fill="#f59e0b22" stroke="#f59e0b" stroke-width="1"/>
+  <text x="90" y="239" class="mono badge" fill="#f59e0b" text-anchor="middle">STARRED</text>
+  <text x="150" y="239" class="mono desc">Starred repository CISSSCO/CISSSCO.github.io</text>
+  <text x="836" y="239" class="mono time" text-anchor="end">22h ago</text>
 
 </svg>
