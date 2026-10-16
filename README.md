@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://ciscoramon.netlify.app"><img src="https://img.shields.io/badge/Portfolio-ff79c6?style=for-the-badge&logo=googlechrome&logoColor=f8f8f2" alt="Portfolio" /></a>
-  <a href="https://github.com/CISSSCO"><img src="https://img.shields.io/badge/GitHub-282a36?style=for-the-badge&logo=github&logoColor=bd93f9" alt="GitHub" /></a>
+  <a href="#contributions"><img src="https://img.shields.io/badge/Contributions-282a36?style=for-the-badge&logo=git&logoColor=bd93f9" alt="Contributions" /></a>
   <a href="https://www.linkedin.com/in/abhi581b"><img src="https://img.shields.io/badge/LinkedIn-bd93f9?style=for-the-badge&logo=linkedin&logoColor=282a36" alt="LinkedIn" /></a>
 </p>
 
@@ -200,6 +200,8 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
   </tr>
 </table>
 
+<span id="contributions"></span>
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=50FA7B&center=true&vCenter=true&width=520&height=42&lines=%24+system.status%28%29" alt="system status" />
 </p>
@@ -211,16 +213,44 @@ I’m a Linux-focused HPC and systems engineer working where **high-performance 
 </p>
 
 <p align="center">
-  <a href="https://github.com/CISSSCO">
+  <a href="#contributions">
     <img src="https://streak-stats.demolab.com?user=CISSSCO&theme=dracula&hide_border=true" alt="CISSSCO's GitHub contribution streak" />
   </a>
 </p>
 
+<!-- 1. All Contributions: 3D Isometric Calendar & Snake Animation -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=FF79C6&center=true&vCenter=true&width=500&height=38&lines=Contribution+Stream" alt="Contribution Stream" />
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/output/github-contribution-grid-snake.svg" alt="Animated snake travelling across CISSSCO's contribution graph" />
+  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/metrics/metrics.isocalendar.svg" alt="3D Isometric Contribution Calendar — Full Year" />
+</p>
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/output/github-contribution-grid-snake.svg" alt="Animated snake travelling across CISSSCO's contribution graph" />
+</p>
+
+<!-- 2. All Pull Requests & Issues Follow-up -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=8BE9FD&center=true&vCenter=true&width=500&height=38&lines=%24+git.pull_requests%28%29" alt="git.pull_requests()" />
+</p>
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/metrics/metrics.followup.svg" alt="Pull Requests &amp; Issues Follow-up" />
+</p>
+
+<!-- 3. All Recent Activities Timeline -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=50FA7B&center=true&vCenter=true&width=500&height=38&lines=%24+git.recent_activity%28%29" alt="git.recent_activity()" />
+</p>
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/metrics/metrics.activity.svg" alt="Recent Activities Timeline" />
+</p>
+
+<!-- 4. Coding Habits & Peak Activity Hours -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=FFB86C&center=true&vCenter=true&width=500&height=38&lines=%24+developer.habits%28%29" alt="developer.habits()" />
+</p>
+<p align="center">
+  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/metrics/metrics.habits.svg" alt="Developer Habits &amp; Commit Schedule" />
 </p>
 
 <p align="center">
