@@ -1,7 +1,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:282a36,50:1e3a8a,100:00f2fe&height=210&section=header&text=Abhishek%20Raj&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=HPC%20Systems%20Engineer%20%C2%B7%20Parallel%20Computing%20%C2%B7%20Linux%20Developer&descAlignY=60&descSize=18&descColor=00f2fe" alt="Abhishek Raj — HPC Systems Engineer, Parallel Computing, Linux Developer" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=00F2FE&center=true&vCenter=true&width=840&lines=HPC+Systems+Engineer+%C2%B7+Scientific+Software+Developer;Parallel+Computing+%C2%B7+GPU+Acceleration+%C2%B7+Distributed+Systems;Spack+Maintainer+%C2%B7+PARAM+Shivay+Supercomputer+(225%2B+Nodes)" alt="Animated Introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=00F2FE&center=true&vCenter=true&width=840&lines=HPC+Systems+Engineer+%C2%B7+Scientific+Software+Developer;Parallel+Computing+%C2%B7+GPU+Acceleration+%C2%B7+Distributed+Systems;Contributing+to+National+Supercomputing+Mission+India;Opensource+Contributor" alt="Animated Introduction" />
 </p>
 
 <p align="center">
@@ -31,6 +31,15 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=CISSSCO&show_icons=true&theme=dracula&hide_border=true&title_color=00f2fe&text_color=f8f8f2&icon_color=00f2fe&bg_color=0a0e17&include_all_commits=true" alt="CISSSCO's GitHub Stats" />
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=CISSSCO&layout=compact&theme=dracula&hide_border=true&title_color=00f2fe&text_color=f8f8f2&bg_color=0a0e17" alt="Most Used Languages" />
+  </a>
+</p>
+
 <!-- 1. 3D Isometric Profile Contribution Calendar -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=FF79C6&center=true&vCenter=true&width=500&height=38&lines=3D+Contribution+Calendar" alt="3D Contribution Calendar" />
@@ -44,7 +53,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=50FA7B&center=true&vCenter=true&width=500&height=38&lines=Contribution+Stream" alt="Contribution Stream" />
 </p>
 <p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/output/github-contribution-grid-snake.svg" alt="Animated snake travelling across CISSSCO's contribution graph" />
+  <img width="100%" src="assets/metrics/github-contribution-grid-snake.svg" alt="Animated snake travelling across CISSSCO's contribution graph" />
 </p>
 
 <!-- 3. Pull Requests & Open-Source Impact -->
@@ -55,7 +64,15 @@
   <img width="100%" src="assets/metrics/pull_requests.svg" alt="Pull Requests &amp; Open-Source Impact" />
 </p>
 
-<!-- 4. Live Real-Time Activity Feed -->
+<!-- 4. Most Used Languages & Codebase Distribution -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=00F2FE&center=true&vCenter=true&width=500&height=38&lines=%24+stack.languages%28%29" alt="stack.languages()" />
+</p>
+<p align="center">
+  <img width="100%" src="assets/metrics/languages.svg" alt="Most Used Languages &amp; Codebase Distribution" />
+</p>
+
+<!-- 5. Live Real-Time Activity Feed -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=BD93F9&center=true&vCenter=true&width=500&height=38&lines=%24+git.recent_activity%28%29" alt="git.recent_activity()" />
 </p>
@@ -63,7 +80,7 @@
   <img width="100%" src="assets/metrics/recent_activity.svg" alt="Live Recent Activity Stream" />
 </p>
 
-<!-- 5. 24-Hour Commit Cadence & Coding Habits -->
+<!-- 6. 24-Hour Commit Cadence & Coding Habits -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=FFB86C&center=true&vCenter=true&width=500&height=38&lines=%24+developer.habits%28%29" alt="developer.habits()" />
 </p>
@@ -144,6 +161,14 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/CISSSCO/OrgSlide"><img src="https://img.shields.io/badge/OrgSlide-00f2fe?style=for-the-badge&logo=gnuemacs&logoColor=0a0e17" alt="OrgSlide" /></a><br /><br />
+      <b>Turn Org-mode files into interactive web presentations.</b><br />
+      A lightweight, zero-dependency client-side presentation engine for Emacs Org-mode with mindmap overviews and syntax highlighting.<br /><br />
+      <img src="https://img.shields.io/badge/Org--mode-282a36?style=flat-square&logo=gnuemacs&logoColor=bd93f9" alt="Org-mode" />
+      <img src="https://img.shields.io/badge/JavaScript-282a36?style=flat-square&logo=javascript&logoColor=f7df1e" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/Presentations-282a36?style=flat-square" alt="Presentations" />
+    </td>
+    <td width="50%" valign="top">
       <a href="https://github.com/CISSSCO/HPCCFS"><img src="https://img.shields.io/badge/HPCCFS-00f2fe?style=for-the-badge&logo=linux&logoColor=0a0e17" alt="HPCCFS" /></a><br /><br />
       <b>Build an HPC cluster from scratch.</b><br />
       A practical path from bare hardware to a production-ready distributed high-performance compute environment.<br /><br />
@@ -151,6 +176,8 @@
       <img src="https://img.shields.io/badge/Linux-282a36?style=flat-square&logo=linux&logoColor=00f2fe" alt="Linux" />
       <img src="https://img.shields.io/badge/Slurm-282a36?style=flat-square" alt="Slurm" />
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/CISSSCO/playlisto"><img src="https://img.shields.io/badge/playlisto-ff79c6?style=for-the-badge&logo=google-drive&logoColor=282a36" alt="playlisto" /></a><br /><br />
       <b>Your Google Drive, turned into a music server.</b><br />
@@ -159,8 +186,6 @@
       <img src="https://img.shields.io/badge/Streaming-282a36?style=flat-square" alt="Streaming" />
       <img src="https://img.shields.io/badge/TypeScript-282a36?style=flat-square&logo=typescript&logoColor=3b82f6" alt="TS" />
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/CISSSCO/cerrfix"><img src="https://img.shields.io/badge/cerrfix-50fa7b?style=for-the-badge&logo=gnubash&logoColor=282a36" alt="cerrfix" /></a><br /><br />
       <b>Make Linux system errors actionable.</b><br />
@@ -169,6 +194,8 @@
       <img src="https://img.shields.io/badge/CLI-282a36?style=flat-square" alt="CLI" />
       <img src="https://img.shields.io/badge/Linux-282a36?style=flat-square&logo=linux&logoColor=00f2fe" alt="Linux" />
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/CISSSCO/GitPush"><img src="https://img.shields.io/badge/GitPush-3b82f6?style=for-the-badge&logo=git&logoColor=ffffff" alt="GitPush" /></a><br /><br />
       <b>Small command line, smoother Git workflow.</b><br />
@@ -176,21 +203,12 @@
       <img src="https://img.shields.io/badge/Git-282a36?style=flat-square&logo=git&logoColor=3b82f6" alt="Git" />
       <img src="https://img.shields.io/badge/DevTools-282a36?style=flat-square" alt="DevTools" />
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/CISSSCO/CiscoRamon"><img src="https://img.shields.io/badge/CiscoRamon-bd93f9?style=for-the-badge&logo=three.js&logoColor=282a36" alt="CiscoRamon portfolio" /></a><br /><br />
       <b>Interactive 3D developer portfolio.</b><br />
       A React and Three.js immersive portfolio for presenting work, experiments, and technical interests.<br /><br />
       <img src="https://img.shields.io/badge/React-282a36?style=flat-square&logo=react&logoColor=00f2fe" alt="React" />
       <img src="https://img.shields.io/badge/Three.js-282a36?style=flat-square&logo=three.js&logoColor=ffffff" alt="Three.js" />
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/dotfiles"><img src="https://img.shields.io/badge/dotfiles-ffb86c?style=for-the-badge&logo=gnome-terminal&logoColor=282a36" alt="dotfiles" /></a><br /><br />
-      <b>Reproducible, performance-minded Linux.</b><br />
-      Shell, editor, and developer environment configuration built for productive daily supercomputing use.<br /><br />
-      <img src="https://img.shields.io/badge/Linux-282a36?style=flat-square&logo=linux&logoColor=00f2fe" alt="Linux" />
-      <img src="https://img.shields.io/badge/Zsh-282a36?style=flat-square" alt="Zsh" />
     </td>
   </tr>
 </table>
@@ -229,4 +247,4 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3600&pause=1500&color=00F2FE&center=true&vCenter=true&width=760&height=46&lines=%E2%9C%A6+Build+simple+tools+that+make+complex+distributed+systems+intuitive.+%E2%9C%A6" alt="Build simple tools that make complex distributed systems intuitive" />
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:282a36,50:1e3a8a,100:00f2fe&height=130&section=footer&text=Abhishek%20Raj%20%C2%B7%20Cisco%20Ramon&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=68" alt="Abhishek Raj Footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:282a36,50:1e3a8a,100:00f2fe&height=130&section=footer&text=Cisco%20Ramon&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=68" alt="Abhishek Raj Footer" />
