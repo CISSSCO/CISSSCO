@@ -45,7 +45,7 @@ def generate_focus_areas_svg(output_path):
         "Clear technical documentation and developer enablement",
     ]
 
-    svg = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="100%" height="100%">
+    svg = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="880" height="340">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0a0e17"/>
@@ -132,7 +132,7 @@ def generate_project_svg(project, output_path):
     head_lines = wrap_text(headline, 44)
     desc_lines = wrap_text(description, 50)
 
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 215" width="100%" height="100%">
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 215" width="420" height="215">
   <defs>
     <linearGradient id="pGrad_{title}" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0a0e17"/>
@@ -207,7 +207,7 @@ def generate_experience_svg(exp, output_path):
 
     desc_lines = wrap_text(desc, 50)
 
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 245" width="100%" height="100%">
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 245" width="420" height="245">
   <defs>
     <linearGradient id="eGrad_{role[:4]}" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0a0e17"/>

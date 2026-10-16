@@ -137,44 +137,18 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=8BE9FD&center=true&vCenter=true&width=460&height=42&lines=~%2Fprojects" alt="projects" />
 </p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/OrgSlide">
-        <img width="100%" src="assets/cards/project-orgslide.svg" alt="OrgSlide — Turn Org-mode files into interactive web presentations" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/HPCCFS">
-        <img width="100%" src="assets/cards/project-hpccfs.svg" alt="HPCCFS — Build an HPC cluster from scratch" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/playlisto">
-        <img width="100%" src="assets/cards/project-playlisto.svg" alt="playlisto — Your Google Drive, turned into a music server" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/cerrfix">
-        <img width="100%" src="assets/cards/project-cerrfix.svg" alt="cerrfix — Make Linux system errors actionable" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/GitPush">
-        <img width="100%" src="assets/cards/project-gitpush.svg" alt="GitPush — Small command line, smoother Git workflow" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/CiscoRamon">
-        <img width="100%" src="assets/cards/project-ciscoramon.svg" alt="CiscoRamon — Interactive 3D developer portfolio" />
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/CISSSCO/OrgSlide"><img width="49%" src="assets/cards/project-orgslide.svg" alt="OrgSlide — Turn Org-mode files into interactive web presentations" /></a>
+  <a href="https://github.com/CISSSCO/HPCCFS"><img width="49%" src="assets/cards/project-hpccfs.svg" alt="HPCCFS — Build an HPC cluster from scratch" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/CISSSCO/playlisto"><img width="49%" src="assets/cards/project-playlisto.svg" alt="playlisto — Your Google Drive, turned into a music server" /></a>
+  <a href="https://github.com/CISSSCO/cerrfix"><img width="49%" src="assets/cards/project-cerrfix.svg" alt="cerrfix — Make Linux system errors actionable" /></a>
+</p>
+<p align="center">
+  <a href="https://github.com/CISSSCO/GitPush"><img width="49%" src="assets/cards/project-gitpush.svg" alt="GitPush — Small command line, smoother Git workflow" /></a>
+  <a href="https://github.com/CISSSCO/CiscoRamon"><img width="49%" src="assets/cards/project-ciscoramon.svg" alt="CiscoRamon — Interactive 3D developer portfolio" /></a>
+</p>
 
 <p align="center">
   <a href="https://github.com/CISSSCO?tab=repositories"><img src="https://img.shields.io/badge/Explore_All_Repositories-1e3a8a?style=for-the-badge&logo=github&logoColor=00f2fe" alt="Explore All Repositories" /></a>
@@ -187,20 +161,10 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=FF79C6&center=true&vCenter=true&width=500&height=42&lines=experience.log" alt="experience" />
 </p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://ciscoramon.netlify.app">
-        <img width="100%" src="assets/cards/experience-iitbhu.svg" alt="HPC Application Engineer — Indian Institute of Technology (BHU), Varanasi" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://ciscoramon.netlify.app">
-        <img width="100%" src="assets/cards/experience-cdac.svg" alt="Project Engineer — Centre for Development of Advanced Computing (C-DAC), India" />
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://ciscoramon.netlify.app"><img width="49%" src="assets/cards/experience-iitbhu.svg" alt="HPC Application Engineer — Indian Institute of Technology (BHU), Varanasi" /></a>
+  <a href="https://ciscoramon.netlify.app"><img width="49%" src="assets/cards/experience-cdac.svg" alt="Project Engineer — Centre for Development of Advanced Computing (C-DAC), India" /></a>
+</p>
 
 ---
 
