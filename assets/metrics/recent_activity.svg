@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 270" width="100%" height="100%">
+  <defs>
+    <linearGradient id="actGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#0a0e17"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'SF Mono', Consolas, Monaco, monospace; }
+    .title { font-size: 13px; font-weight: 700; fill: #00f2fe; letter-spacing: 1px; }
+    .time { font-size: 11px; fill: #6e7681; }
+    .desc { font-size: 12px; font-weight: 500; fill: #e5e7eb; }
+    .badge { font-size: 10px; font-weight: 700; letter-spacing: 0.5px; }
+  </style>
+
+  <!-- Frame -->
+  <rect width="880" height="270" rx="12" fill="url(#actGrad)" stroke="#1e3a8a" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="32" y="34" class="mono title">
+    &gt; TELEMETRY :: LIVE ACTIVITY FEED &amp; REAL-TIME EVENTS
+  </text>
+  <line x1="32" y1="44" x2="848" y2="44" stroke="#1f2937" stroke-width="1"/>
+
+  <!-- Row -->
+  <rect x="32" y="58" width="816" height="34" rx="6" fill="#111827" stroke="#1f2937" stroke-width="0.8"/>
+  <rect x="42" y="66" width="96" height="18" rx="4" fill="#a78bfa22" stroke="#a78bfa" stroke-width="1"/>
+  <text x="90" y="79" class="mono badge" fill="#a78bfa" text-anchor="middle">MEMBER ADDED</text>
+  <text x="150" y="79" class="mono desc">Added as team member to spack/spack-packages</text>
+  <text x="836" y="79" class="mono time" text-anchor="end">today</text>
+
+  <!-- Row -->
+  <rect x="32" y="98" width="816" height="34" rx="6" fill="#111827" stroke="#1f2937" stroke-width="0.8"/>
+  <rect x="42" y="106" width="96" height="18" rx="4" fill="#10b98122" stroke="#10b981" stroke-width="1"/>
+  <text x="90" y="119" class="mono badge" fill="#10b981" text-anchor="middle">PR MERGED</text>
+  <text x="150" y="119" class="mono desc">Merged PR #7002 on spack/spack-packages</text>
+  <text x="836" y="119" class="mono time" text-anchor="end">2d ago</text>
+
+  <!-- Row -->
+  <rect x="32" y="138" width="816" height="34" rx="6" fill="#111827" stroke="#1f2937" stroke-width="0.8"/>
+  <rect x="42" y="146" width="96" height="18" rx="4" fill="#10b98122" stroke="#10b981" stroke-width="1"/>
+  <text x="90" y="159" class="mono badge" fill="#10b981" text-anchor="middle">PR MERGED</text>
+  <text x="150" y="159" class="mono desc">Merged PR #9: Develop on CISSSCO/CiscoRamon</text>
+  <text x="836" y="159" class="mono time" text-anchor="end">yesterday</text>
+
+  <!-- Row -->
+  <rect x="32" y="178" width="816" height="34" rx="6" fill="#111827" stroke="#1f2937" stroke-width="0.8"/>
+  <rect x="42" y="186" width="96" height="18" rx="4" fill="#3b82f622" stroke="#3b82f6" stroke-width="1"/>
+  <text x="90" y="199" class="mono badge" fill="#3b82f6" text-anchor="middle">GIT PUSH</text>
+  <text x="150" y="199" class="mono desc">Pushed updates to CISSSCO/CiscoRamon (master)</text>
+  <text x="836" y="199" class="mono time" text-anchor="end">yesterday</text>
+
+  <!-- Row -->
+  <rect x="32" y="218" width="816" height="34" rx="6" fill="#111827" stroke="#1f2937" stroke-width="0.8"/>
+  <rect x="42" y="226" width="96" height="18" rx="4" fill="#10b98122" stroke="#10b981" stroke-width="1"/>
+  <text x="90" y="239" class="mono badge" fill="#10b981" text-anchor="middle">PR MERGED</text>
+  <text x="150" y="239" class="mono desc">Merged PR #8: Redesign website on CiscoRamon</text>
+  <text x="836" y="239" class="mono time" text-anchor="end">2d ago</text>
+
+</svg>

@@ -1,289 +1,199 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:282a36,50:bd93f9,100:ff79c6&height=190&section=header&text=Abhishek%20Raj&fontSize=48&fontColor=f8f8f2&animation=fadeIn&fontAlignY=38&desc=HPC%20%C2%B7%20Linux%20%C2%B7%20Parallel%20Computing&descAlignY=58&descSize=18&descColor=f8f8f2" alt="Abhishek Raj — HPC, Linux, and Parallel Computing" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,40:0f172a,75:1e3a8a,100:00f2fe&height=220&section=header&text=Abhishek%20Raj&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=HPC%20Systems%20Engineer%20%C2%B7%20Parallel%20Computing%20%C2%B7%20Linux%20Developer&descAlignY=60&descSize=18&descColor=00f2fe" alt="Abhishek Raj — HPC Systems Engineer, Parallel Computing, Linux Developer" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3200&pause=900&color=BD93F9&center=true&vCenter=true&width=820&lines=HPC+Engineer+%C2%B7+Scientific+Programmer+%C2%B7+Linux+Application+Developer.;Parallel+computing+GPU+acceleration+Reproducible+Research+Software;Building+practical+tools+for+complex+compute+environments." alt="Animated professional introduction" />
+  <samp>
+    &gt; <b>cluster.init</b>(&quot;Abhishek Raj&quot;) <span style="color:#00f2fe;">::</span> [SYSTEM STATUS: <b style="color:#10b981;">ONLINE</b>]
+    <br />
+    「 <b>HPC Systems Engineer</b> · <b>Scientific Software Developer</b> · <b>Linux Systems Programmer</b> 」
+  </samp>
 </p>
 
 <p align="center">
-  <a href="https://ciscoramon.netlify.app"><img src="https://img.shields.io/badge/Portfolio-ff79c6?style=for-the-badge&logo=googlechrome&logoColor=f8f8f2" alt="Portfolio" /></a>
-  <a href="#contributions"><img src="https://img.shields.io/badge/Contributions-282a36?style=for-the-badge&logo=git&logoColor=bd93f9" alt="Contributions" /></a>
-  <a href="https://www.linkedin.com/in/abhi581b"><img src="https://img.shields.io/badge/LinkedIn-bd93f9?style=for-the-badge&logo=linkedin&logoColor=282a36" alt="LinkedIn" /></a>
+  <a href="https://ciscoramon.netlify.app"><img src="https://img.shields.io/badge/Portfolio-00f2fe?style=flat-square&logo=googlechrome&logoColor=0a0e17&labelColor=0a0e17" alt="Portfolio" /></a>
+  <a href="#contributions"><img src="https://img.shields.io/badge/Contributions-1e3a8a?style=flat-square&logo=git&logoColor=00f2fe&labelColor=0a0e17" alt="Contributions" /></a>
+  <a href="https://www.linkedin.com/in/abhi581b"><img src="https://img.shields.io/badge/LinkedIn-3b82f6?style=flat-square&logo=linkedin&logoColor=ffffff&labelColor=0a0e17" alt="LinkedIn" /></a>
+  <a href="https://cisssco.github.io"><img src="https://img.shields.io/badge/Terminal_CLI-10b981?style=flat-square&logo=gnometerminal&logoColor=ffffff&labelColor=0a0e17" alt="Terminal CLI" /></a>
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=FF79C6&center=true&vCenter=true&width=420&height=42&lines=%24+whoami" alt="whoami" />
-</p>
+---
 
-I’m a Linux-focused HPC and systems engineer working where **high-performance computing**, **parallel programming**, and **scientific software** meet. I write code for Linux applications, build and tune parallel programs, and turn demanding distributed workloads into systems that are fast, maintainable, and pleasant to use.
+### &gt; sys.telemetry() :: Profile Overview
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="https://img.shields.io/badge/%E2%9A%A1_What_I_Build-bd93f9?style=for-the-badge&logoColor=282a36" alt="⚡ What I build" /><br /><br />
-      <ul>
-        <li>Clusters, schedulers, and reproducible compute environments</li>
-        <li>MPI, OpenMP, CUDA, and OpenACC applications</li>
-        <li>Linux applications, automation, and developer tooling</li>
-        <li>Scientific software deployment, porting, and optimization</li>
-        <li>Training material and practical HPC learning environments</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <img src="https://img.shields.io/badge/%F0%9F%94%AD_What_I_Care_About-ff79c6?style=for-the-badge&logoColor=282a36" alt="🔭 What I care about" /><br /><br />
-      <ul>
-        <li>Scalable scientific and research workloads</li>
-        <li>Clear documentation, mentoring, and technical training</li>
-        <li>Performance, latency, and thoughtful systems design</li>
-        <li>Reliable, reproducible, and usable Linux environments</li>
-        <li>Open source and accessible high-performance computing</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+```yaml
+role: "HPC Application Engineer & Linux Systems Developer"
+infrastructure: "PARAM Shivay Supercomputer (225+ Nodes) · PARAM Rudra"
+focus:
+  - "Distributed Computing & Parallel Software Acceleration"
+  - "Slurm Schedulers, Clusters, and Reproducible Research Environments"
+  - "Spack Upstream Package Maintainer & Linux Automation"
+languages: ["C/C++", "Python", "Bash", "Fortran", "CUDA", "MPI", "OpenMP"]
+location: "Varanasi, India [UTC+5:30]"
+```
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=BD93F9&center=true&vCenter=true&width=500&height=42&lines=%24+stack+--current" alt="stack --current" />
-</p>
+I engineer at the intersection of **supercomputing architecture**, **parallel algorithms**, and **Linux system internals**. I develop and optimize parallel codes, maintain scientific software packages, and build practical tools that transform distributed clusters into fast, reliable, and accessible compute environments.
+
+---
+
+### &gt; architecture.fabric() :: Distributed Execution
 
 <p align="center">
   <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/master/assets/cluster-pulse.svg" alt="Animated HPC Supercomputer Architecture — 1,000+ Distributed Node Fabric" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Linux-282a36?style=for-the-badge&logo=linux&logoColor=ffb86c" alt="Linux" />
-  <img src="https://img.shields.io/badge/Bash-282a36?style=for-the-badge&logo=gnubash&logoColor=50fa7b" alt="Bash" />
-  <img src="https://img.shields.io/badge/Python-282a36?style=for-the-badge&logo=python&logoColor=8be9fd" alt="Python" />
-  <img src="https://img.shields.io/badge/AI%2FML%20Apps-282a36?style=for-the-badge&logo=scikitlearn&logoColor=ffb86c" alt="AI and ML application development" />
-  <img src="https://img.shields.io/badge/C-282a36?style=for-the-badge&logo=c&logoColor=bd93f9" alt="C" />
-  <img src="https://img.shields.io/badge/C%2B%2B-282a36?style=for-the-badge&logo=cplusplus&logoColor=bd93f9" alt="C++" />
-</p>
+---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/MPI-44475a?style=for-the-badge&logoColor=f8f8f2" alt="MPI" />
-  <img src="https://img.shields.io/badge/OpenMP-44475a?style=for-the-badge&logoColor=f8f8f2" alt="OpenMP" />
-  <img src="https://img.shields.io/badge/CUDA-44475a?style=for-the-badge&logo=nvidia&logoColor=50fa7b" alt="CUDA" />
-  <img src="https://img.shields.io/badge/OpenACC-44475a?style=for-the-badge&logoColor=f8f8f2" alt="OpenACC" />
-  <img src="https://img.shields.io/badge/Git-44475a?style=for-the-badge&logo=git&logoColor=ff5555" alt="Git" />
-</p>
+### &gt; technical.arsenal() :: Core Stack
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=FFB86C&center=true&vCenter=true&width=460&height=42&lines=capabilities%5B%5D" alt="capabilities" />
-</p>
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>⚡ Parallel &amp; Scientific</b><br /><br />
+      <img src="https://img.shields.io/badge/MPI-1e3a8a?style=flat-square&logoColor=ffffff" alt="MPI" />
+      <img src="https://img.shields.io/badge/OpenMP-1e3a8a?style=flat-square&logoColor=ffffff" alt="OpenMP" /><br />
+      <img src="https://img.shields.io/badge/CUDA-00f2fe?style=flat-square&logo=nvidia&logoColor=0a0e17" alt="CUDA" />
+      <img src="https://img.shields.io/badge/OpenACC-1e3a8a?style=flat-square&logoColor=ffffff" alt="OpenACC" /><br />
+      <img src="https://img.shields.io/badge/SYCL-1e3a8a?style=flat-square&logoColor=ffffff" alt="SYCL" />
+      <img src="https://img.shields.io/badge/Fortran-1e3a8a?style=flat-square&logoColor=ffffff" alt="Fortran" />
+    </td>
+    <td width="33%" valign="top">
+      <b>🐧 Linux &amp; Systems</b><br /><br />
+      <img src="https://img.shields.io/badge/Linux-00f2fe?style=flat-square&logo=linux&logoColor=0a0e17" alt="Linux" />
+      <img src="https://img.shields.io/badge/C%2FC%2B%2B-1e3a8a?style=flat-square&logo=cplusplus&logoColor=ffffff" alt="C/C++" /><br />
+      <img src="https://img.shields.io/badge/Python-3b82f6?style=flat-square&logo=python&logoColor=ffffff" alt="Python" />
+      <img src="https://img.shields.io/badge/Bash-10b981?style=flat-square&logo=gnubash&logoColor=ffffff" alt="Bash" /><br />
+      <img src="https://img.shields.io/badge/CMake-1e3a8a?style=flat-square&logo=cmake&logoColor=ffffff" alt="CMake" />
+      <img src="https://img.shields.io/badge/Apptainer-1e3a8a?style=flat-square&logoColor=ffffff" alt="Apptainer" />
+    </td>
+    <td width="34%" valign="top">
+      <b>🛠️ HPC Tooling &amp; Ops</b><br /><br />
+      <img src="https://img.shields.io/badge/Spack-00f2fe?style=flat-square&logoColor=0a0e17" alt="Spack" />
+      <img src="https://img.shields.io/badge/Slurm-1e3a8a?style=flat-square&logoColor=ffffff" alt="Slurm" /><br />
+      <img src="https://img.shields.io/badge/Git-3b82f6?style=flat-square&logo=git&logoColor=ffffff" alt="Git" />
+      <img src="https://img.shields.io/badge/Docker-3b82f6?style=flat-square&logo=docker&logoColor=ffffff" alt="Docker" /><br />
+      <img src="https://img.shields.io/badge/JupyterHub-10b981?style=flat-square&logo=jupyter&logoColor=ffffff" alt="JupyterHub" />
+      <img src="https://img.shields.io/badge/oneAPI-1e3a8a?style=flat-square&logo=intel&logoColor=ffffff" alt="oneAPI" />
+    </td>
+  </tr>
+</table>
+
+---
+
+### &gt; projects.featured() :: Selected Works
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <img src="https://img.shields.io/badge/%E2%9A%A1_Parallel_%26_Scientific-bd93f9?style=for-the-badge&logo=nvidia&logoColor=282a36" alt="Parallel &amp; Scientific" /><br /><br />
-      <b>Parallel &amp; scientific computing</b><br /><br />
-      <img src="https://img.shields.io/badge/MPI-44475a?style=flat-square" alt="MPI" />
-      <img src="https://img.shields.io/badge/OpenMP-44475a?style=flat-square" alt="OpenMP" />
-      <img src="https://img.shields.io/badge/CUDA-44475a?style=flat-square&logo=nvidia&logoColor=50fa7b" alt="CUDA" />
-      <img src="https://img.shields.io/badge/OpenACC-44475a?style=flat-square" alt="OpenACC" />
-      <img src="https://img.shields.io/badge/Fortran-44475a?style=flat-square" alt="Fortran" />
-      <img src="https://img.shields.io/badge/Pthreads-44475a?style=flat-square" alt="Pthreads" />
-      <img src="https://img.shields.io/badge/Performance_Analysis-44475a?style=flat-square" alt="Performance Analysis" />
+      <a href="https://github.com/CISSSCO/HPCCFS"><b>HPCCFS</b></a> <img src="https://img.shields.io/badge/HPC-Cluster-00f2fe?style=flat-square" alt="HPC" /><br />
+      <b>Build an HPC cluster from scratch.</b> A step-by-step practical architecture path from bare hardware to a production-ready distributed compute environment.<br /><br />
+      <img src="https://img.shields.io/badge/Linux-0a0e17?style=flat-square&logo=linux&logoColor=00f2fe" alt="Linux" />
+      <img src="https://img.shields.io/badge/Slurm-0a0e17?style=flat-square&logoColor=ffffff" alt="Slurm" />
+      <img src="https://img.shields.io/badge/MPI-0a0e17?style=flat-square&logoColor=ffffff" alt="MPI" />
     </td>
     <td width="50%" valign="top">
-      <img src="https://img.shields.io/badge/%F0%9F%90%A7_Linux_Development-8be9fd?style=for-the-badge&logo=linux&logoColor=282a36" alt="Linux Development" /><br /><br />
-      <b>Linux application development</b><br /><br />
-      <img src="https://img.shields.io/badge/C%2FC%2B%2B-44475a?style=flat-square&logo=cplusplus&logoColor=bd93f9" alt="C/C++" />
-      <img src="https://img.shields.io/badge/Python-44475a?style=flat-square&logo=python&logoColor=8be9fd" alt="Python" />
-      <img src="https://img.shields.io/badge/Bash-44475a?style=flat-square&logo=gnubash&logoColor=50fa7b" alt="Bash" />
-      <img src="https://img.shields.io/badge/CMake-44475a?style=flat-square&logo=cmake&logoColor=ff5555" alt="CMake" />
-      <img src="https://img.shields.io/badge/GNU_Make-44475a?style=flat-square" alt="GNU Make" />
-      <img src="https://img.shields.io/badge/Porting-44475a?style=flat-square" alt="Porting" />
-      <img src="https://img.shields.io/badge/Deployment-44475a?style=flat-square" alt="Deployment" />
+      <a href="https://github.com/CISSSCO/playlisto"><b>playlisto</b></a> <img src="https://img.shields.io/badge/Cloud-Streaming-3b82f6?style=flat-square" alt="Streaming" /><br />
+      <b>Google Drive into a personal streaming server.</b> Transform existing owned cloud storage into an ultra-low latency audio media server.<br /><br />
+      <img src="https://img.shields.io/badge/Self--Hosting-0a0e17?style=flat-square&logoColor=ffffff" alt="Self-hosting" />
+      <img src="https://img.shields.io/badge/TypeScript-0a0e17?style=flat-square&logo=typescript&logoColor=3b82f6" alt="TS" />
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_HPC_Platforms-50fa7b?style=for-the-badge&logo=gnu-bash&logoColor=282a36" alt="HPC Platforms" /><br /><br />
-      <b>HPC platforms &amp; tooling</b><br /><br />
-      <img src="https://img.shields.io/badge/Slurm-44475a?style=flat-square" alt="Slurm" />
-      <img src="https://img.shields.io/badge/Spack-44475a?style=flat-square" alt="Spack" />
-      <img src="https://img.shields.io/badge/Conda-44475a?style=flat-square&logo=anaconda&logoColor=50fa7b" alt="Conda" />
-      <img src="https://img.shields.io/badge/Apptainer-44475a?style=flat-square" alt="Apptainer" />
-      <img src="https://img.shields.io/badge/JupyterHub-44475a?style=flat-square&logo=jupyter&logoColor=ffb86c" alt="JupyterHub" />
-      <img src="https://img.shields.io/badge/oneAPI-44475a?style=flat-square&logo=intel&logoColor=8be9fd" alt="oneAPI" />
-      <img src="https://img.shields.io/badge/OpenMPI-44475a?style=flat-square" alt="OpenMPI" />
+      <a href="https://github.com/CISSSCO/cerrfix"><b>cerrfix</b></a> <img src="https://img.shields.io/badge/CLI-Automation-10b981?style=flat-square" alt="Automation" /><br />
+      <b>Make Linux system errors actionable.</b> Rule-based diagnosis and instant fix suggestions for common operating system and runtime faults.<br /><br />
+      <img src="https://img.shields.io/badge/Linux-0a0e17?style=flat-square&logo=linux&logoColor=00f2fe" alt="Linux" />
+      <img src="https://img.shields.io/badge/Bash-0a0e17?style=flat-square&logo=gnubash&logoColor=10b981" alt="Bash" />
     </td>
     <td width="50%" valign="top">
-      <img src="https://img.shields.io/badge/%F0%9F%8C%90_Systems_%26_Community-ffb86c?style=for-the-badge&logo=gnome-terminal&logoColor=282a36" alt="Systems &amp; Community" /><br /><br />
-      <b>Systems &amp; community</b><br /><br />
-      <img src="https://img.shields.io/badge/Cluster_Admin-44475a?style=flat-square" alt="Cluster Admin" />
-      <img src="https://img.shields.io/badge/Linux_Customization-44475a?style=flat-square&logo=linux&logoColor=ffb86c" alt="Linux Customization" />
-      <img src="https://img.shields.io/badge/Documentation-44475a?style=flat-square" alt="Documentation" />
-      <img src="https://img.shields.io/badge/Training-44475a?style=flat-square" alt="Training" />
-      <img src="https://img.shields.io/badge/Mentoring-44475a?style=flat-square" alt="Mentoring" />
+      <a href="https://github.com/CISSSCO/GitPush"><b>GitPush</b></a> <img src="https://img.shields.io/badge/DevOps-Tooling-00f2fe?style=flat-square" alt="Tooling" /><br />
+      <b>Minimalist Git automation CLI.</b> High-velocity developer workflow utility automating stage, commit, and upstream push sequences.<br /><br />
+      <img src="https://img.shields.io/badge/Git-0a0e17?style=flat-square&logo=git&logoColor=3b82f6" alt="Git" />
+      <img src="https://img.shields.io/badge/CLI-0a0e17?style=flat-square&logoColor=ffffff" alt="CLI" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/CISSSCO/CiscoRamon"><b>CiscoRamon</b></a> <img src="https://img.shields.io/badge/3D-Web-a78bfa?style=flat-square" alt="3D" /><br />
+      <b>Interactive 3D Portfolio.</b> React and Three.js immersive web experience presenting experiments, interactive models, and research.<br /><br />
+      <img src="https://img.shields.io/badge/React-0a0e17?style=flat-square&logo=react&logoColor=00f2fe" alt="React" />
+      <img src="https://img.shields.io/badge/Three.js-0a0e17?style=flat-square&logo=three.js&logoColor=ffffff" alt="Three.js" />
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/CISSSCO/dotfiles"><b>dotfiles</b></a> <img src="https://img.shields.io/badge/DX-Config-00f2fe?style=flat-square" alt="DX" /><br />
+      <b>Reproducible, performance-tuned Linux.</b> Minimalist shell, editor, and system configuration engineered for high-throughput daily development.<br /><br />
+      <img src="https://img.shields.io/badge/Linux-0a0e17?style=flat-square&logo=linux&logoColor=00f2fe" alt="Linux" />
+      <img src="https://img.shields.io/badge/Zsh-0a0e17?style=flat-square&logoColor=ffffff" alt="Zsh" />
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=8BE9FD&center=true&vCenter=true&width=460&height=42&lines=~%2Fprojects" alt="projects" />
+  <a href="https://github.com/CISSSCO?tab=repositories"><img src="https://img.shields.io/badge/Explore_All_Repositories-0a0e17?style=flat-square&logo=github&logoColor=00f2fe&labelColor=0a0e17" alt="Explore All Repositories" /></a>
 </p>
+
+---
+
+### &gt; experience.log() :: Professional Track Record
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/HPCCFS"><img src="https://img.shields.io/badge/HPCCFS-bd93f9?style=for-the-badge&logo=linux&logoColor=282a36" alt="HPCCFS" /></a><br /><br />
-      <b>Build an HPC cluster from scratch.</b><br />
-      A practical path from bare hardware to a working high-performance compute environment.<br /><br />
-      <img src="https://img.shields.io/badge/HPC-44475a?style=flat-square" alt="HPC" />
-      <img src="https://img.shields.io/badge/Linux-44475a?style=flat-square&logo=linux&logoColor=ffb86c" alt="Linux" />
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/playlisto"><img src="https://img.shields.io/badge/playlisto-ff79c6?style=for-the-badge&logo=google-drive&logoColor=282a36" alt="playlisto" /></a><br /><br />
-      <b>Your Google Drive, turned into a music server.</b><br />
-      A personal streaming experience built around storage you already own.<br /><br />
-      <img src="https://img.shields.io/badge/Self--hosting-44475a?style=flat-square" alt="Self-hosting" />
-      <img src="https://img.shields.io/badge/Streaming-44475a?style=flat-square" alt="Streaming" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/cerrfix"><img src="https://img.shields.io/badge/cerrfix-8be9fd?style=for-the-badge&logo=gnubash&logoColor=282a36" alt="cerrfix" /></a><br /><br />
-      <b>Make Linux errors actionable.</b><br />
-      Rule-based analysis and fix suggestions for common system errors and troubleshooting flows.<br /><br />
-      <img src="https://img.shields.io/badge/Automation-44475a?style=flat-square" alt="Automation" />
-      <img src="https://img.shields.io/badge/CLI-44475a?style=flat-square" alt="CLI" />
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/GitPush"><img src="https://img.shields.io/badge/GitPush-50fa7b?style=for-the-badge&logo=git&logoColor=282a36" alt="GitPush" /></a><br /><br />
-      <b>Small command line, smoother Git workflow.</b><br />
-      A minimal CLI that automates the Git operations you perform most often.<br /><br />
-      <img src="https://img.shields.io/badge/Git-44475a?style=flat-square&logo=git&logoColor=ff5555" alt="Git" />
-      <img src="https://img.shields.io/badge/Developer%20tools-44475a?style=flat-square" alt="Developer tools" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/CiscoRamon"><img src="https://img.shields.io/badge/CiscoRamon-bd93f9?style=for-the-badge&logo=three.js&logoColor=282a36" alt="CiscoRamon portfolio" /></a><br /><br />
-      <b>A personal portfolio with depth.</b><br />
-      A React and Three.js site for presenting work, experiments, and technical interests.<br /><br />
-      <img src="https://img.shields.io/badge/React-44475a?style=flat-square&logo=react&logoColor=8be9fd" alt="React" />
-      <img src="https://img.shields.io/badge/Three.js-44475a?style=flat-square&logo=three.js&logoColor=f8f8f2" alt="Three.js" />
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/dotfiles"><img src="https://img.shields.io/badge/dotfiles-ffb86c?style=for-the-badge&logo=gnome-terminal&logoColor=282a36" alt="dotfiles" /></a><br /><br />
-      <b>Reproducible, performance-minded Linux.</b><br />
-      Shell, editor, and development-environment configuration built for productive daily use.<br /><br />
-      <img src="https://img.shields.io/badge/Linux-44475a?style=flat-square&logo=linux&logoColor=ffb86c" alt="Linux" />
-      <img src="https://img.shields.io/badge/DX-44475a?style=flat-square" alt="Developer experience" />
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <a href="https://github.com/CISSSCO?tab=repositories"><img src="https://img.shields.io/badge/Explore_all_repositories-6272a4?style=for-the-badge&logo=github&logoColor=f8f8f2" alt="Explore all repositories" /></a>
-  <a href="https://cisssco.github.io"><img src="https://img.shields.io/badge/Terminal_Portfolio-6272a4?style=for-the-badge&logo=gnome-terminal&logoColor=f8f8f2" alt="Terminal portfolio" /></a>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=8BE9FD&center=true&vCenter=true&width=500&height=42&lines=experience.log" alt="experience" />
-</p>
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://ciscoramon.netlify.app"><img src="https://img.shields.io/badge/HPC_Application_Engineer-bd93f9?style=for-the-badge&logo=linux&logoColor=282a36" alt="HPC Application Engineer" /></a><br /><br />
+      <b>HPC Application Engineer</b><br />
       <b>Indian Institute of Technology (BHU), Varanasi</b><br />
-      Feb 2025 — Aug 2026 &nbsp;|&nbsp; 1.5 years<br /><br />
-      Supporting scientific workloads on the PARAM Shivay supercomputing cluster (225+ nodes): software environments, job workflows, performance troubleshooting, and Linux/HPC operations.
+      <samp>Feb 2025 — Aug 2026 · 1.5 Years</samp><br /><br />
+      Supporting scientific and research workloads on the <b>PARAM Shivay supercomputer</b> (225+ compute nodes): cluster management, parallel job pipelines, performance profiling, and distributed Linux operations.
     </td>
     <td width="50%" valign="top">
-      <a href="https://ciscoramon.netlify.app"><img src="https://img.shields.io/badge/Project_Engineer-ff79c6?style=for-the-badge&logo=codeforces&logoColor=282a36" alt="Project Engineer" /></a><br /><br />
-      <b>Centre for Development of Advanced Computing (C-DAC), India</b><br />
-      Apr 2024 — Present &nbsp;|&nbsp; 2.5 years<br /><br />
-      Contributing to National Supercomputing Mission research, HPC software R&amp;D, parallel-programming education, workshops, and technical mentoring.
+      <b>Project Engineer</b><br />
+      <b>Centre for Development of Advanced Computing (C-DAC)</b><br />
+      <samp>Apr 2024 — Present · 2.5 Years</samp><br /><br />
+      Contributing to the <b>National Supercomputing Mission (NSM)</b>: HPC software R&amp;D, SYCL &amp; MPI case studies, parallel programming workshops, and open-source scientific software deployment.
     </td>
   </tr>
 </table>
+
+---
 
 <span id="contributions"></span>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=50FA7B&center=true&vCenter=true&width=520&height=42&lines=%24+system.status%28%29" alt="system status" />
-</p>
+### &gt; system.analytics() :: Live Contributions &amp; Telemetry
 
 <p align="center">
-  <img src="https://img.shields.io/github/followers/CISSSCO?label=Followers&style=for-the-badge&color=bd93f9&labelColor=282a36&logo=github" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/CISSSCO?affiliations=OWNER&label=Stars&style=for-the-badge&color=ff79c6&labelColor=282a36&logo=github" alt="GitHub stars" />
-  <img src="https://komarev.com/ghpvc/?username=CISSSCO&label=Profile%20Views&style=for-the-badge&color=bd93f9" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/CISSSCO?label=FOLLOWERS&style=flat-square&color=00f2fe&labelColor=0a0e17&logo=github&logoColor=00f2fe" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/CISSSCO?affiliations=OWNER&label=STARS&style=flat-square&color=3b82f6&labelColor=0a0e17&logo=github&logoColor=3b82f6" alt="Stars" />
+  <img src="https://komarev.com/ghpvc/?username=CISSSCO&label=PROFILE%20VIEWS&style=flat-square&color=10b981&labelColor=0a0e17" alt="Profile Views" />
 </p>
 
+#### 1. 3D Isometric Profile Contribution Calendar
 <p align="center">
-  <a href="#contributions">
-    <img src="https://streak-stats.demolab.com?user=CISSSCO&theme=dracula&hide_border=true" alt="CISSSCO's GitHub contribution streak" />
-  </a>
+  <img width="100%" src="profile-3d-contrib/profile-night-view.svg" alt="3D Profile Contribution Calendar" />
 </p>
 
-<!-- 1. All Contributions: 3D Isometric Calendar & Snake Animation -->
+#### 2. Animated Contribution Stream
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=FF79C6&center=true&vCenter=true&width=500&height=38&lines=Contribution+Stream" alt="Contribution Stream" />
-</p>
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/metrics/metrics.isocalendar.svg" alt="3D Isometric Contribution Calendar — Full Year" />
-</p>
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/output/github-contribution-grid-snake.svg" alt="Animated snake travelling across CISSSCO's contribution graph" />
+  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/output/github-contribution-grid-snake.svg" alt="Animated Contribution Stream" />
 </p>
 
-<!-- 2. All Pull Requests & Issues Follow-up -->
+#### 3. Pull Requests &amp; Open-Source Impact
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=8BE9FD&center=true&vCenter=true&width=500&height=38&lines=%24+git.pull_requests%28%29" alt="git.pull_requests()" />
-</p>
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/metrics/metrics.followup.svg" alt="Pull Requests &amp; Issues Follow-up" />
+  <img width="100%" src="assets/metrics/pull_requests.svg" alt="Pull Requests &amp; Open-Source Impact" />
 </p>
 
-<!-- 3. All Recent Activities Timeline -->
+#### 4. Live Real-Time Activity Feed
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=50FA7B&center=true&vCenter=true&width=500&height=38&lines=%24+git.recent_activity%28%29" alt="git.recent_activity()" />
-</p>
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/metrics/metrics.activity.svg" alt="Recent Activities Timeline" />
+  <img width="100%" src="assets/metrics/recent_activity.svg" alt="Live Recent Activity Stream" />
 </p>
 
-<!-- 4. Coding Habits & Peak Activity Hours -->
+#### 5. 24-Hour Commit Cadence &amp; Activity Rhythm
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=20&duration=1800&pause=1100&color=FFB86C&center=true&vCenter=true&width=500&height=38&lines=%24+developer.habits%28%29" alt="developer.habits()" />
-</p>
-<p align="center">
-  <img width="100%" src="https://raw.githubusercontent.com/CISSSCO/CISSSCO/metrics/metrics.habits.svg" alt="Developer Habits &amp; Commit Schedule" />
+  <img width="100%" src="assets/metrics/coding_habits.svg" alt="24-Hour Commit Rhythm and Activity Cadence" />
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1100&color=FFB86C&center=true&vCenter=true&width=460&height=42&lines=interests%5B%5D" alt="interests" />
-</p>
+---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Linux-bd93f9?style=for-the-badge&logo=linux&logoColor=282a36" alt="Linux" />
-  <img src="https://img.shields.io/badge/C%20%2F%20C%2B%2B-bd93f9?style=for-the-badge&logo=cplusplus&logoColor=282a36" alt="C and C++" />
-  <img src="https://img.shields.io/badge/Supercomputing-bd93f9?style=for-the-badge&logoColor=282a36" alt="Supercomputing" />
-  <img src="https://img.shields.io/badge/Shell%20Scripting-bd93f9?style=for-the-badge&logo=gnubash&logoColor=282a36" alt="Shell Scripting" />
-  <img src="https://img.shields.io/badge/Scientific%20Computing-bd93f9?style=for-the-badge&logoColor=282a36" alt="Scientific Computing" />
+  <samp>
+    &gt; <b>quote.fetch()</b> <span style="color:#00f2fe;">::</span> &quot;Build simple tools that make complex distributed systems intuitive.&quot;
+  </samp>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/MPI-ff79c6?style=for-the-badge&logoColor=282a36" alt="MPI" />
-  <img src="https://img.shields.io/badge/OpenMP-ff79c6?style=for-the-badge&logoColor=282a36" alt="OpenMP" />
-  <img src="https://img.shields.io/badge/Slurm-ff79c6?style=for-the-badge&logoColor=282a36" alt="Slurm" />
-  <img src="https://img.shields.io/badge/Spack-ff79c6?style=for-the-badge&logoColor=282a36" alt="Spack" />
-  <img src="https://img.shields.io/badge/Cluster%20Administration-ff79c6?style=for-the-badge&logoColor=282a36" alt="Cluster Administration" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Application%20Porting-8be9fd?style=for-the-badge&logoColor=282a36" alt="Application Porting" />
-  <img src="https://img.shields.io/badge/Software%20Deployment-8be9fd?style=for-the-badge&logoColor=282a36" alt="Software Deployment" />
-  <img src="https://img.shields.io/badge/Performance%20Analysis-8be9fd?style=for-the-badge&logoColor=282a36" alt="Performance Analysis" />
-  <img src="https://img.shields.io/badge/Technical%20Documentation-8be9fd?style=for-the-badge&logoColor=282a36" alt="Technical Documentation" />
-  <img src="https://img.shields.io/badge/Training%20%26%20Mentoring-8be9fd?style=for-the-badge&logoColor=282a36" alt="Training and Mentoring" />
-  <img src="https://img.shields.io/badge/AI%2FML-8be9fd?style=for-the-badge&logo=scikitlearn&logoColor=282a36" alt="AI/ML" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3600&pause=1500&color=FF79C6&center=true&vCenter=true&width=760&height=46&lines=%E2%9C%A6+Build+simple+tools+that+make+complex+systems+easier+to+use.+%E2%9C%A6" alt="Build simple tools that make complex systems easier to use" />
-</p>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:282a36,50:bd93f9,100:ff79c6&height=130&section=footer&text=Cisco%20Ramon&fontSize=22&fontColor=f8f8f2&animation=fadeIn&fontAlignY=68" alt="Cisco Ramon" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e17,40:0f172a,75:1e3a8a,100:00f2fe&height=120&section=footer&text=Abhishek%20Raj%20%C2%B7%20Cisco%20Ramon&fontSize=20&fontColor=ffffff&fontAlignY=68" alt="Abhishek Raj Footer" />
