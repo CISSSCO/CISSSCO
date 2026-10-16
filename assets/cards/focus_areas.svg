@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#0a0e17"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'SF Mono', Consolas, Monaco, monospace; }
+    .title { font-size: 13px; font-weight: 700; fill: #00f2fe; letter-spacing: 1px; }
+    .card-title { font-size: 11px; font-weight: 700; letter-spacing: 0.8px; }
+    .body-text { font-size: 11px; fill: #e5e7eb; }
+  </style>
+
+  <!-- Frame -->
+  <rect width="880" height="340" rx="12" fill="url(#bgGrad)" stroke="#1e3a8a" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="32" y="34" class="mono title">
+    &gt; TELEMETRY :: SPECIALIZATION &amp; CORE FOCUS DOMAINS
+  </text>
+  <line x1="32" y1="44" x2="848" y2="44" stroke="#1f2937" stroke-width="1"/>
+
+  <!-- Left: What I Build -->
+  <rect x="32" y="58" width="396" height="262" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+  <rect x="46" y="70" width="144" height="24" rx="4" fill="#bd93f922" stroke="#bd93f9" stroke-width="1"/>
+  <text x="118" y="86" class="mono card-title" fill="#bd93f9" text-anchor="middle">&#x26A1; WHAT I BUILD</text>
+  <line x1="46" y1="104" x2="414" y2="104" stroke="#1f2937" stroke-width="0.8"/>
+
+  <g transform="translate(46, 124)">
+    <circle cx="6" cy="-4" r="3.5" fill="#00f2fe"/>
+    <text x="18" y="0" class="mono body-text">Distributed clusters, Slurm schedulers, and</text>
+    <text x="18" y="15" class="mono body-text">high-throughput environments</text>
+  </g>
+  <g transform="translate(46, 160)">
+    <circle cx="6" cy="-4" r="3.5" fill="#00f2fe"/>
+    <text x="18" y="0" class="mono body-text">MPI, OpenMP, CUDA, OpenACC, and SYCL parallel</text>
+    <text x="18" y="15" class="mono body-text">applications</text>
+  </g>
+  <g transform="translate(46, 196)">
+    <circle cx="6" cy="-4" r="3.5" fill="#00f2fe"/>
+    <text x="18" y="0" class="mono body-text">Spack upstream packaging and scientific</text>
+    <text x="18" y="15" class="mono body-text">software deployment</text>
+  </g>
+  <g transform="translate(46, 232)">
+    <circle cx="6" cy="-4" r="3.5" fill="#00f2fe"/>
+    <text x="18" y="0" class="mono body-text">Linux kernel &amp; userland systems development,</text>
+    <text x="18" y="15" class="mono body-text">automation, and developer tooling</text>
+  </g>
+  <g transform="translate(46, 268)">
+    <circle cx="6" cy="-4" r="3.5" fill="#00f2fe"/>
+    <text x="18" y="0" class="mono body-text">Training environments and practical HPC</text>
+    <text x="18" y="15" class="mono body-text">benchmark testbeds</text>
+  </g>
+
+  <!-- Right: What I Care About -->
+  <rect x="452" y="58" width="396" height="262" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
+  <rect x="466" y="70" width="176" height="24" rx="4" fill="#00f2fe22" stroke="#00f2fe" stroke-width="1"/>
+  <text x="554" y="86" class="mono card-title" fill="#00f2fe" text-anchor="middle">&#x1F52D; WHAT I CARE ABOUT</text>
+  <line x1="466" y1="104" x2="834" y2="104" stroke="#1f2937" stroke-width="0.8"/>
+
+  <g transform="translate(466, 124)">
+    <circle cx="6" cy="-4" r="3.5" fill="#10b981"/>
+    <text x="18" y="0" class="mono body-text">Scalable distributed research workloads and</text>
+    <text x="18" y="15" class="mono body-text">supercomputing systems</text>
+  </g>
+  <g transform="translate(466, 160)">
+    <circle cx="6" cy="-4" r="3.5" fill="#10b981"/>
+    <text x="18" y="0" class="mono body-text">Performance, latency, memory locality, and</text>
+    <text x="18" y="15" class="mono body-text">thoughtful systems design</text>
+  </g>
+  <g transform="translate(466, 196)">
+    <circle cx="6" cy="-4" r="3.5" fill="#10b981"/>
+    <text x="18" y="0" class="mono body-text">Reliable, reproducible, and automated Linux</text>
+    <text x="18" y="15" class="mono body-text">operating environments</text>
+  </g>
+  <g transform="translate(466, 232)">
+    <circle cx="6" cy="-4" r="3.5" fill="#10b981"/>
+    <text x="18" y="0" class="mono body-text">Active open-source contributions and</text>
+    <text x="18" y="15" class="mono body-text">maintainership</text>
+  </g>
+  <g transform="translate(466, 268)">
+    <circle cx="6" cy="-4" r="3.5" fill="#10b981"/>
+    <text x="18" y="0" class="mono body-text">Clear technical documentation and developer</text>
+    <text x="18" y="15" class="mono body-text">enablement</text>
+  </g>
+</svg>

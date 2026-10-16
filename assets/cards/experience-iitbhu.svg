@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 245" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eGrad_HPC " x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17"/>
+      <stop offset="50%" stop-color="#0d1b2a"/>
+      <stop offset="100%" stop-color="#0a0e17"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Fira Code', 'SF Mono', Consolas, Monaco, monospace; }
+    .badge-text { font-size: 10px; font-weight: 700; letter-spacing: 0.5px; }
+    .org-title { font-size: 12.5px; font-weight: 700; fill: #ffffff; }
+    .duration { font-size: 11px; font-weight: 500; fill: #38bdf8; }
+    .desc { font-size: 11px; fill: #9ca3af; line-height: 15px; }
+    .tag-text { font-size: 9.5px; font-weight: 600; }
+  </style>
+
+  <!-- Frame -->
+  <rect width="420" height="245" rx="10" fill="url(#eGrad_HPC )" stroke="#1e3a8a" stroke-width="1.2"/>
+
+  <!-- Top Bar: Role Badge -->
+  <rect x="18" y="14" width="200.0" height="22" rx="4" fill="#00f2fe18" stroke="#00f2fe" stroke-width="0.8"/>
+  <text x="118.0" y="29" class="mono badge-text" fill="#00f2fe" text-anchor="middle">HPC APPLICATION ENGINEER</text>
+
+  <!-- Right Pill -->
+  <rect x="306" y="14" width="96" height="22" rx="4" fill="#10b98118" stroke="#10b981" stroke-width="0.8"/>
+  <text x="354" y="29" class="mono badge-text" fill="#10b981" text-anchor="middle">EXPERIENCE &#x2197;</text>
+
+  <line x1="18" y1="44" x2="402" y2="44" stroke="#1f2937" stroke-width="1"/>
+
+  <!-- Org & Duration -->
+  <text x="18" y="66" class="mono org-title">Indian Institute of Technology (BHU), Varanasi</text>
+  <text x="18" y="84" class="mono duration">&gt; Feb 2025 — Aug 2026 · 1.5 Years</text>
+
+  <line x1="18" y1="94" x2="402" y2="94" stroke="#1f2937" stroke-width="0.8" stroke-dasharray="3,3"/>
+
+  <!-- Description -->
+  <text x="18" y="112" class="mono desc">Supporting scientific and research workloads on</text>
+  <text x="18" y="128" class="mono desc">the PARAM Shivay supercomputing cluster (225+</text>
+  <text x="18" y="144" class="mono desc">nodes): cluster software stacks, job workflows,</text>
+  <text x="18" y="160" class="mono desc">performance troubleshooting, and distributed Linux</text>
+  <text x="18" y="176" class="mono desc">operations.</text>
+
+  <!-- Highlights -->
+  <g transform="translate(18, 210)">
+    <rect x="0" y="0" width="184.0" height="20" rx="4" fill="#00f2fe18" stroke="#00f2fe" stroke-width="0.8"/>
+    <text x="92.0" y="14" class="mono tag-text" fill="#00f2fe" text-anchor="middle">PARAM Shivay (225+ Nodes)</text>
+    <rect x="192.0" y="0" width="48.0" height="20" rx="4" fill="#3b82f618" stroke="#3b82f6" stroke-width="0.8"/>
+    <text x="216.0" y="14" class="mono tag-text" fill="#3b82f6" text-anchor="middle">Slurm</text>
+    <rect x="248.0" y="0" width="88.8" height="20" rx="4" fill="#10b98118" stroke="#10b981" stroke-width="0.8"/>
+    <text x="292.4" y="14" class="mono tag-text" fill="#10b981" text-anchor="middle">Cluster Ops</text>
+  </g>
+</svg>

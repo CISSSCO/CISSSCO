@@ -41,16 +41,18 @@ jobs:
         with:
           python-version: "3.11"
 
-      # 4. Generate Pull Requests, Live Activity Feed, and Coding Habits SVGs
-      - name: Generate Cyber-HPC Metrics SVGs
+      # 4. Generate Pull Requests, Language, Activity, Habits SVGs & Cyber-HPC Cards
+      - name: Generate Cyber-HPC Metrics SVGs & Cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 .github/scripts/generate_metrics.py
+          python3 .github/scripts/generate_cards.py
 
       # 5. Commit and push all generated assets cleanly
       - name: Commit & Push Visual Assets
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(metrics): update profile visual analytics [skip ci]"
-          file_pattern: "assets/metrics/*.svg profile-3d-contrib/*.svg"
+          file_pattern: "assets/metrics/*.svg assets/cards/*.svg profile-3d-contrib/*.svg"
+

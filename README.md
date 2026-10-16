@@ -98,30 +98,9 @@
   I’m an HPC &amp; Linux systems engineer working where <b>high-performance computing</b>, <b>parallel programming</b>, and <b>scientific software</b> meet. I write scalable Linux applications, tune parallel distributed workloads on supercomputers (PARAM Shivay &amp; PARAM Rudra), and contribute to upstream scientific tooling like Spack.
 </p>
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="https://img.shields.io/badge/%E2%9A%A1_What_I_Build-bd93f9?style=for-the-badge&logoColor=282a36" alt="⚡ What I build" /><br /><br />
-      <ul>
-        <li>Distributed clusters, Slurm schedulers, and high-throughput environments</li>
-        <li>MPI, OpenMP, CUDA, OpenACC, and SYCL parallel applications</li>
-        <li>Spack upstream packaging and scientific software deployment</li>
-        <li>Linux kernel &amp; userland systems development, automation, and developer tooling</li>
-        <li>Training environments and practical HPC benchmark testbeds</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <img src="https://img.shields.io/badge/%F0%9F%94%AD_What_I_Care_About-00f2fe?style=for-the-badge&logoColor=282a36" alt="🔭 What I care about" /><br /><br />
-      <ul>
-        <li>Scalable distributed research workloads and supercomputing systems</li>
-        <li>Performance, latency, memory locality, and thoughtful systems design</li>
-        <li>Reliable, reproducible, and automated Linux operating environments</li>
-        <li>Active open-source contributions and maintainership</li>
-        <li>Clear technical documentation and developer enablement</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img width="100%" src="assets/cards/focus_areas.svg" alt="What I Build &amp; What I Care About — HPC Systems &amp; Parallel Computing" />
+</p>
 
 ---
 
@@ -161,54 +140,38 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/OrgSlide"><img src="https://img.shields.io/badge/OrgSlide-00f2fe?style=for-the-badge&logo=gnuemacs&logoColor=0a0e17" alt="OrgSlide" /></a><br /><br />
-      <b>Turn Org-mode files into interactive web presentations.</b><br />
-      A lightweight, zero-dependency client-side presentation engine for Emacs Org-mode with mindmap overviews and syntax highlighting.<br /><br />
-      <img src="https://img.shields.io/badge/Org--mode-282a36?style=flat-square&logo=gnuemacs&logoColor=bd93f9" alt="Org-mode" />
-      <img src="https://img.shields.io/badge/JavaScript-282a36?style=flat-square&logo=javascript&logoColor=f7df1e" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/Presentations-282a36?style=flat-square" alt="Presentations" />
+      <a href="https://github.com/CISSSCO/OrgSlide">
+        <img width="100%" src="assets/cards/project-orgslide.svg" alt="OrgSlide — Turn Org-mode files into interactive web presentations" />
+      </a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/HPCCFS"><img src="https://img.shields.io/badge/HPCCFS-00f2fe?style=for-the-badge&logo=linux&logoColor=0a0e17" alt="HPCCFS" /></a><br /><br />
-      <b>Build an HPC cluster from scratch.</b><br />
-      A practical path from bare hardware to a production-ready distributed high-performance compute environment.<br /><br />
-      <img src="https://img.shields.io/badge/HPC-282a36?style=flat-square" alt="HPC" />
-      <img src="https://img.shields.io/badge/Linux-282a36?style=flat-square&logo=linux&logoColor=00f2fe" alt="Linux" />
-      <img src="https://img.shields.io/badge/Slurm-282a36?style=flat-square" alt="Slurm" />
+      <a href="https://github.com/CISSSCO/HPCCFS">
+        <img width="100%" src="assets/cards/project-hpccfs.svg" alt="HPCCFS — Build an HPC cluster from scratch" />
+      </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/playlisto"><img src="https://img.shields.io/badge/playlisto-ff79c6?style=for-the-badge&logo=google-drive&logoColor=282a36" alt="playlisto" /></a><br /><br />
-      <b>Your Google Drive, turned into a music server.</b><br />
-      A high-velocity personal streaming experience built around storage you already own.<br /><br />
-      <img src="https://img.shields.io/badge/Self--hosting-282a36?style=flat-square" alt="Self-hosting" />
-      <img src="https://img.shields.io/badge/Streaming-282a36?style=flat-square" alt="Streaming" />
-      <img src="https://img.shields.io/badge/TypeScript-282a36?style=flat-square&logo=typescript&logoColor=3b82f6" alt="TS" />
+      <a href="https://github.com/CISSSCO/playlisto">
+        <img width="100%" src="assets/cards/project-playlisto.svg" alt="playlisto — Your Google Drive, turned into a music server" />
+      </a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/cerrfix"><img src="https://img.shields.io/badge/cerrfix-50fa7b?style=for-the-badge&logo=gnubash&logoColor=282a36" alt="cerrfix" /></a><br /><br />
-      <b>Make Linux system errors actionable.</b><br />
-      Rule-based diagnostics and remediation flows for system administration and runtime faults.<br /><br />
-      <img src="https://img.shields.io/badge/Automation-282a36?style=flat-square" alt="Automation" />
-      <img src="https://img.shields.io/badge/CLI-282a36?style=flat-square" alt="CLI" />
-      <img src="https://img.shields.io/badge/Linux-282a36?style=flat-square&logo=linux&logoColor=00f2fe" alt="Linux" />
+      <a href="https://github.com/CISSSCO/cerrfix">
+        <img width="100%" src="assets/cards/project-cerrfix.svg" alt="cerrfix — Make Linux system errors actionable" />
+      </a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/GitPush"><img src="https://img.shields.io/badge/GitPush-3b82f6?style=for-the-badge&logo=git&logoColor=ffffff" alt="GitPush" /></a><br /><br />
-      <b>Small command line, smoother Git workflow.</b><br />
-      A minimal CLI that automates staging, commits, and upstream push sequences in one command.<br /><br />
-      <img src="https://img.shields.io/badge/Git-282a36?style=flat-square&logo=git&logoColor=3b82f6" alt="Git" />
-      <img src="https://img.shields.io/badge/DevTools-282a36?style=flat-square" alt="DevTools" />
+      <a href="https://github.com/CISSSCO/GitPush">
+        <img width="100%" src="assets/cards/project-gitpush.svg" alt="GitPush — Small command line, smoother Git workflow" />
+      </a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/CISSSCO/CiscoRamon"><img src="https://img.shields.io/badge/CiscoRamon-bd93f9?style=for-the-badge&logo=three.js&logoColor=282a36" alt="CiscoRamon portfolio" /></a><br /><br />
-      <b>Interactive 3D developer portfolio.</b><br />
-      A React and Three.js immersive portfolio for presenting work, experiments, and technical interests.<br /><br />
-      <img src="https://img.shields.io/badge/React-282a36?style=flat-square&logo=react&logoColor=00f2fe" alt="React" />
-      <img src="https://img.shields.io/badge/Three.js-282a36?style=flat-square&logo=three.js&logoColor=ffffff" alt="Three.js" />
+      <a href="https://github.com/CISSSCO/CiscoRamon">
+        <img width="100%" src="assets/cards/project-ciscoramon.svg" alt="CiscoRamon — Interactive 3D developer portfolio" />
+      </a>
     </td>
   </tr>
 </table>
@@ -227,16 +190,14 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://ciscoramon.netlify.app"><img src="https://img.shields.io/badge/HPC_Application_Engineer-00f2fe?style=for-the-badge&logo=linux&logoColor=0a0e17" alt="HPC Application Engineer" /></a><br /><br />
-      <b>Indian Institute of Technology (BHU), Varanasi</b><br />
-      <samp>Feb 2025 — Aug 2026 · 1.5 Years</samp><br /><br />
-      Supporting scientific and research workloads on the <b>PARAM Shivay supercomputing cluster</b> (225+ nodes): cluster software stacks, job workflows, performance troubleshooting, and distributed Linux operations.
+      <a href="https://ciscoramon.netlify.app">
+        <img width="100%" src="assets/cards/experience-iitbhu.svg" alt="HPC Application Engineer — Indian Institute of Technology (BHU), Varanasi" />
+      </a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://ciscoramon.netlify.app"><img src="https://img.shields.io/badge/Project_Engineer-ff79c6?style=for-the-badge&logo=codeforces&logoColor=282a36" alt="Project Engineer" /></a><br /><br />
-      <b>Centre for Development of Advanced Computing (C-DAC), India</b><br />
-      <samp>Apr 2024 — Present · 2.5 Years</samp><br /><br />
-      Contributing to the <b>National Supercomputing Mission (NSM)</b>: HPC software R&amp;D, SYCL &amp; MPI case studies, parallel programming education, workshops, and technical mentoring.
+      <a href="https://ciscoramon.netlify.app">
+        <img width="100%" src="assets/cards/experience-cdac.svg" alt="Project Engineer — Centre for Development of Advanced Computing (C-DAC), India" />
+      </a>
     </td>
   </tr>
 </table>
