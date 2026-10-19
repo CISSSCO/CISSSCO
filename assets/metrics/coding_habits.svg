@@ -55,7 +55,7 @@
   <text x="271.5" y="196" class="mono legend" text-anchor="middle">10</text>
   <rect x="284.5" y="124" width="17" height="54" rx="3" fill="url(#barGrad)"/>
   <text x="293.0" y="196" class="mono legend" text-anchor="middle">11</text>
-  <rect x="306.0" y="130" width="17" height="48" rx="3" fill="url(#barGrad)"/>
+  <rect x="306.0" y="142" width="17" height="36" rx="3" fill="url(#barGrad)"/>
   <text x="314.5" y="196" class="mono legend" text-anchor="middle">12</text>
   <rect x="327.5" y="127" width="17" height="51" rx="3" fill="url(#barGrad)"/>
   <text x="336.0" y="196" class="mono legend" text-anchor="middle">13</text>
@@ -63,9 +63,9 @@
   <text x="357.5" y="196" class="mono legend" text-anchor="middle">14</text>
   <rect x="370.5" y="106" width="17" height="72" rx="3" fill="url(#barGrad)"/>
   <text x="379.0" y="196" class="mono legend" text-anchor="middle">15</text>
-  <rect x="392.0" y="112" width="17" height="66" rx="3" fill="url(#barGrad)"/>
+  <rect x="392.0" y="106" width="17" height="72" rx="3" fill="url(#barGrad)"/>
   <text x="400.5" y="196" class="mono legend" text-anchor="middle">16</text>
-  <rect x="413.5" y="121" width="17" height="57" rx="3" fill="url(#barGrad)"/>
+  <rect x="413.5" y="115" width="17" height="63" rx="3" fill="url(#barGrad)"/>
   <text x="422.0" y="196" class="mono legend" text-anchor="middle">17</text>
   <rect x="435.0" y="103" width="17" height="75" rx="3" fill="url(#barGrad)"/>
   <text x="443.5" y="196" class="mono legend" text-anchor="middle">18</text>
