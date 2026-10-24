@@ -33,7 +33,7 @@
   <text x="46" y="78" class="mono label">HOURLY COMPUTATION &amp; COMMIT DISTRIBUTION</text>
   <rect x="48.0" y="172" width="17" height="6" rx="3" fill="url(#barGrad)"/>
   <text x="56.5" y="196" class="mono legend" text-anchor="middle">00</text>
-  <rect x="69.5" y="166" width="17" height="12" rx="3" fill="url(#barGrad)"/>
+  <rect x="69.5" y="172" width="17" height="6" rx="3" fill="url(#barGrad)"/>
   <text x="78.0" y="196" class="mono legend" text-anchor="middle">01</text>
   <rect x="91.0" y="172" width="17" height="6" rx="3" fill="url(#barGrad)"/>
   <text x="99.5" y="196" class="mono legend" text-anchor="middle">02</text>
@@ -47,7 +47,7 @@
   <text x="185.5" y="196" class="mono legend" text-anchor="middle">06</text>
   <rect x="198.5" y="160" width="17" height="18" rx="3" fill="url(#barGrad)"/>
   <text x="207.0" y="196" class="mono legend" text-anchor="middle">07</text>
-  <rect x="220.0" y="154" width="17" height="24" rx="3" fill="url(#barGrad)"/>
+  <rect x="220.0" y="148" width="17" height="30" rx="3" fill="url(#barGrad)"/>
   <text x="228.5" y="196" class="mono legend" text-anchor="middle">08</text>
   <rect x="241.5" y="124" width="17" height="54" rx="3" fill="url(#barGrad)"/>
   <text x="250.0" y="196" class="mono legend" text-anchor="middle">09</text>
