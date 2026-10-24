@@ -44,26 +44,26 @@
   <!-- Total PRs -->
   <rect x="32" y="62" width="120" height="74" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
   <text x="44" y="82" class="mono label">TOTAL PRs</text>
-  <text x="44" y="118" class="mono stat-val" fill="#00f2fe">34</text>
+  <text x="44" y="118" class="mono stat-val" fill="#00f2fe">35</text>
 
   <!-- Merged PRs -->
   <rect x="164" y="62" width="120" height="74" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
   <text x="176" y="82" class="mono label">MERGED</text>
-  <text x="176" y="118" class="mono stat-val" fill="#10b981">28</text>
+  <text x="176" y="118" class="mono stat-val" fill="#10b981">27</text>
 
   <!-- Open PRs -->
   <rect x="296" y="62" width="120" height="74" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
   <text x="308" y="82" class="mono label">OPEN / REVIEW</text>
-  <text x="308" y="118" class="mono stat-val" fill="#3b82f6">1</text>
+  <text x="308" y="118" class="mono stat-val" fill="#3b82f6">2</text>
 
   <!-- Merge Rate Progress Bar -->
   <rect x="32" y="152" width="384" height="60" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
   <text x="44" y="172" class="mono label">MERGE VELOCITY RATIO</text>
-  <text x="380" y="172" class="mono" font-size="12" font-weight="700" fill="#10b981" text-anchor="end">82%</text>
+  <text x="380" y="172" class="mono" font-size="12" font-weight="700" fill="#10b981" text-anchor="end">77%</text>
   <!-- Background bar -->
   <rect x="44" y="184" width="360" height="12" rx="6" fill="#1f2937"/>
   <!-- Active bar -->
-  <rect x="44" y="184" width="295" height="12" rx="6" fill="url(#cyanGrad)" filter="url(#cyanGlow)"/>
+  <rect x="44" y="184" width="277" height="12" rx="6" fill="url(#cyanGrad)" filter="url(#cyanGlow)"/>
 
   <!-- Right Block: Key Target Repositories -->
   <rect x="432" y="62" width="416" height="150" rx="8" fill="#111827" stroke="#1f2937" stroke-width="1"/>
