@@ -36,14 +36,14 @@
   <rect x="42" y="106" width="96" height="18" rx="4" fill="#00f2fe22" stroke="#00f2fe" stroke-width="1"/>
   <text x="90" y="119" class="mono badge" fill="#00f2fe" text-anchor="middle">PR OPENED</text>
   <text x="150" y="119" class="mono desc">PR #7241 on spack/spack-packages: ...</text>
-  <text x="836" y="119" class="mono time" text-anchor="end">17h ago</text>
+  <text x="836" y="119" class="mono time" text-anchor="end">yesterday</text>
 
   <!-- Row -->
   <rect x="32" y="138" width="816" height="34" rx="6" fill="#111827" stroke="#1f2937" stroke-width="0.8"/>
   <rect x="42" y="146" width="96" height="18" rx="4" fill="#8b949e22" stroke="#8b949e" stroke-width="1"/>
   <text x="90" y="159" class="mono badge" fill="#8b949e" text-anchor="middle">CREATE</text>
   <text x="150" y="159" class="mono desc">Action on CISSSCO/spack-packages</text>
-  <text x="836" y="159" class="mono time" text-anchor="end">17h ago</text>
+  <text x="836" y="159" class="mono time" text-anchor="end">yesterday</text>
 
   <!-- Row -->
   <rect x="32" y="178" width="816" height="34" rx="6" fill="#111827" stroke="#1f2937" stroke-width="0.8"/>
@@ -57,6 +57,6 @@
   <rect x="42" y="226" width="96" height="18" rx="4" fill="#8b949e22" stroke="#8b949e" stroke-width="1"/>
   <text x="90" y="239" class="mono badge" fill="#8b949e" text-anchor="middle">CREATE</text>
   <text x="150" y="239" class="mono desc">Action on CISSSCO/spack-packages</text>
-  <text x="836" y="239" class="mono time" text-anchor="end">yesterday</text>
+  <text x="836" y="239" class="mono time" text-anchor="end">2d ago</text>
 
 </svg>
