@@ -50,7 +50,7 @@
   <rect x="42" y="186" width="96" height="18" rx="4" fill="#8b949e22" stroke="#8b949e" stroke-width="1"/>
   <text x="90" y="199" class="mono badge" fill="#8b949e" text-anchor="middle">ISSUECOMMENT</text>
   <text x="150" y="199" class="mono desc">Action on spack/spack-packages</text>
-  <text x="836" y="199" class="mono time" text-anchor="end">4d ago</text>
+  <text x="836" y="199" class="mono time" text-anchor="end">5d ago</text>
 
   <!-- Row -->
   <rect x="32" y="218" width="816" height="34" rx="6" fill="#111827" stroke="#1f2937" stroke-width="0.8"/>
