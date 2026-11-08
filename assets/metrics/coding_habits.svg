@@ -45,13 +45,13 @@
   <text x="164.0" y="196" class="mono legend" text-anchor="middle">05</text>
   <rect x="177.0" y="172" width="17" height="6" rx="3" fill="url(#barGrad)"/>
   <text x="185.5" y="196" class="mono legend" text-anchor="middle">06</text>
-  <rect x="198.5" y="124" width="17" height="54" rx="3" fill="url(#barGrad)"/>
+  <rect x="198.5" y="118" width="17" height="60" rx="3" fill="url(#barGrad)"/>
   <text x="207.0" y="196" class="mono legend" text-anchor="middle">07</text>
   <rect x="220.0" y="148" width="17" height="30" rx="3" fill="url(#barGrad)"/>
   <text x="228.5" y="196" class="mono legend" text-anchor="middle">08</text>
   <rect x="241.5" y="136" width="17" height="42" rx="3" fill="url(#barGrad)"/>
   <text x="250.0" y="196" class="mono legend" text-anchor="middle">09</text>
-  <rect x="263.0" y="106" width="17" height="72" rx="3" fill="url(#barGrad)"/>
+  <rect x="263.0" y="112" width="17" height="66" rx="3" fill="url(#barGrad)"/>
   <text x="271.5" y="196" class="mono legend" text-anchor="middle">10</text>
   <rect x="284.5" y="130" width="17" height="48" rx="3" fill="url(#barGrad)"/>
   <text x="293.0" y="196" class="mono legend" text-anchor="middle">11</text>
