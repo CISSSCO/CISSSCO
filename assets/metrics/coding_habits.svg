@@ -55,7 +55,7 @@
   <text x="271.5" y="196" class="mono legend" text-anchor="middle">10</text>
   <rect x="284.5" y="130" width="17" height="48" rx="3" fill="url(#barGrad)"/>
   <text x="293.0" y="196" class="mono legend" text-anchor="middle">11</text>
-  <rect x="306.0" y="130" width="17" height="48" rx="3" fill="url(#barGrad)"/>
+  <rect x="306.0" y="124" width="17" height="54" rx="3" fill="url(#barGrad)"/>
   <text x="314.5" y="196" class="mono legend" text-anchor="middle">12</text>
   <rect x="327.5" y="121" width="17" height="57" rx="3" fill="url(#barGrad)"/>
   <text x="336.0" y="196" class="mono legend" text-anchor="middle">13</text>
